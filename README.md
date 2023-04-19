@@ -1,4 +1,4 @@
-# DeepLTK (Deep Learning Toolkit) Examples
+# DeepLTK (Deep Learning Toolkit for LabVIEW) Examples
 
 This repository contains list of examples using [DeepLTK](https://www.ngene.co/deep-learning-toolkit-for-labview) (Deep Learning Toolkit for LabVIEW) for solving different problems.
 
