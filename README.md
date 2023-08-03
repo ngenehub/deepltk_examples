@@ -11,7 +11,7 @@ Demonstrates the usage of DeepLTK (Deep Learning Toolkit for LabVIEW) for solvin
 ### [1.2. Celsisus_to_Fahrenheit_Conversion](./1_Simple_Examples/12_Celsisus_to_Fahrenheit_Conversion/)
 Demonstrates the usage of Deep Learning Toolkit for solving a Celius to Fahrenheit (C2F) convertion problem.
 
-### [1.3. Boolean_Adder_Logistic_Regresion](./1_Simple_Examples/12_Celsisus_to_Fahrenheit_Conversion/)
+### [1.3. Boolean_Adder_Logistic_Regresion](./1_Simple_Examples/13_Boolean_Adder_Logistic_Regresion/)
 Demonstrates the usage of DeepLTK (Deep Learning Toolkit for LabVIEW) for solving a 8-bt Boolean Adder problem.
 
 ### [1.4. Simple_Regression_Sin(x)](./1_Simple_Examples/14_Simple_Regression_Sin(x)/)
