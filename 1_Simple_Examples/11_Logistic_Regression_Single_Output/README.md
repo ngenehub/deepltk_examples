@@ -1,5 +1,5 @@
 # Single Output Logistic Regression
-<br/>
+
 
 #### Detailed articles on this and similar projects can be found on Ngene's [Website](https://www.ngene.co/blog)
 
