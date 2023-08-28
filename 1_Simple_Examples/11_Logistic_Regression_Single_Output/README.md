@@ -26,7 +26,7 @@ The project consist of two main VIs
 
 # Training VI
 
-### Front Panel of the training VI. <br/>
+### Front Panel of Training VI. <br/>
 
 ![1_Boolean_Logic(Training)](https://github.com/ngenehub/deepltk_examples/assets/131282716/25be09bd-b905-4b40-a1c5-06bc1f4fb2cd) <br/> <br/>
 
@@ -40,7 +40,7 @@ The project consist of two main VIs
 
 # Inference VI
 
-### Front Panel of the training VI. <br/>
+### Front Panel of Inference VI. <br/>
 
 ![1_Boolean_Logic(Inference)](https://github.com/ngenehub/deepltk_examples/assets/131282716/e002018a-e5b3-4afd-bd30-ab96dfd494a3)
 
