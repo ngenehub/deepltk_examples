@@ -21,7 +21,7 @@ The project consists of two main VIs
 
 # Training VI
 
-### Front Panel of the training VI. <br/>
+### Front Panel of Training VI. <br/>
 
 ![image](https://github.com/ngenehub/deepltk_examples/assets/131282716/6d7463bb-fe68-43b3-98b8-8beb8efe74af)
 
