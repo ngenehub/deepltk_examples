@@ -1,38 +1,50 @@
-# DeepLTK (Deep Learning Toolkit for LabVIEW) Examples
-
-This repository contains list of examples using [DeepLTK](https://www.ngene.co/deep-learning-toolkit-for-labview) (Deep Learning Toolkit for LabVIEW) for solving different machine learning problems.
-
-## [1. Simple_Examples](./1_Simple_Examples)
-Basic DeepLTK samples for beginners that illustrate key concepts.<br/><br/>
+# Waveform Signal Classification
 
 
-  ### [1.1. Logistic_Regression_Single_Output](./1_Simple_Examples/11_Logistic_Regression_Single_Output/)
-  **Boolean AND**<br/> 
-  Modeling Boolean Logic function.<br/>
+#### Detailed articles on this and similar projects can be found on Ngene's [Website](https://www.ngene.co/blog) <br/> The blog posts guides on developing Deep Neural Networks to solve problems, ranging from basic to advanced, using the [DeepLTK](https://www.ngene.co/deep-learning-toolkit-for-labview) toolkit.
+----
+
+In this example, we will explore how Deep Neural Networks can be employed to model the signal classifier.
+<br/>
+The model takes various signal types as input, including Sine, Triangle, Sawtooth, Square, and Noise, and employs Neural Networks to classify the signal's type accurately.
+<br/>
+
+The project consist of two main VIs
+- [1_Waveform_Signal_Classifier(Training).vi](#training-vi)
+- [2_Waveform_Signal_Classifier(Inference).vi](#inference-vi)
+
+# Training VI
+
+### Front Panel of Training VI. <br/>
+
+![image](https://github.com/ngenehub/deepltk_examples/assets/131282716/f35ec8ab-e94d-4e62-8778-6f39a485564e) <br/> <br/>
+
+### Block Diagram of Training VI. <br/>
+
+![image](https://github.com/ngenehub/deepltk_examples/assets/131282716/c5795bea-0b6e-49a0-85f9-13e24deeb024)
+
+----
+
+<br/>
+
+# Inference VI
+
+### Front Panel of Inference VI. <br/>
+
+![image](https://github.com/ngenehub/deepltk_examples/assets/131282716/92141904-a995-4f6f-972f-0e83c62f5c69)
+
+### Block Diagram of Inference VI <br/>
+
+![image](https://github.com/ngenehub/deepltk_examples/assets/131282716/0ed0e49f-f94b-4879-992b-7d2d20a457e5)
+
+----
+
+<br/>
+
+## More detailes in article on our website:
+
+### [DeepLTK Learning with LabVIEW. Tutorial #2.1: Waveform Signal Classifier](https://www.ngene.co/post/deep-learning-with-labview-tutorial-2-1-waveform-signal-classifier)
+
+![DeepLTK_WF_Class (4)](https://github.com/ngenehub/deepltk_examples/assets/131282716/9def7874-3502-4a9a-a6a4-ef16302cbf7b)
 
 
-  ### [1.2. Logistic_Regresion_Multi_Output](./1_Simple_Examples/12_Logistic_Regresion_Multi_Output/)
-  **8-bit adder** <br/>
-  More complex example for modeling a function with multiple logistic outputs.<br/>
-
-
-  ### [1.3. Linear_Regression](./1_Simple_Examples/13_Linear_Regression/)
-  **Celsius -> Fahrenheit**<br/>
-  Modeling linear conversion function. <br/>
- 
-
-  ### [1.4. Non-Linear_Regression_Single_Output](./1_Simple_Examples/14_Non-Linear_Regression_Single_Output/)
-  **sin(x)**<br/> 
-  Modeling non-liner function. Predict sin(x) based on provided x value. <br/>
-
- 
-  ### [1.5. Non-Linear_Regression_Multi_Output](./1_Simple_Examples/15_Non-Linear_Regression_Multi_Output/)
-   **[sin(x), cos(x)]**<br/>
-   Modeling multiple non-liner functions simultaneously with a single network. Predict sin(x) and cos(x) based on provided x value. <br/><br/>
-
-## [2. Image_Processing](./2_Image_Processing)
-Utilizing DeepLTK to Employ Deep Neural Networks for Image Processing Tasks.<br/><br/>
-
-  ### [2.1. Image_Regression](./2_Image_Processing/21_Image_Regression/)
-  **Analog Meter Recognition**<br/> 
-  Modeling Analog Meter Reader. Predict Analog Meter values based on provided Analog Meter images.<br/>
