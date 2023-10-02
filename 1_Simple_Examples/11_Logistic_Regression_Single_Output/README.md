@@ -54,7 +54,7 @@ The project consist of two main VIs
 
 ## More detailes in article on our website:
 
-### [DeepLTK Learning with LabVIEW. Tutorial #1.3: Linear Regression - Celsius to Fahrenheit Conversion](https://www.ngene.co/post/deep-learning-with-labview-tutorial-1-3-linear-regression-celsius-to-fahrenheit-conversion)
+### [DeepLTK Learning with LabVIEW. Tutorial #1.1: Simple Logistic Regression - Boolean Operations](https://www.ngene.co/post/deeplearning-with-labview-simple-boolean)
 ![DeepLTK_AND](https://github.com/ngenehub/deepltk_examples/assets/131282716/a50c0278-83b4-4e57-838b-772e9b168df6)
 
 
