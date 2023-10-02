@@ -1,27 +1,28 @@
-# Waveform Signal Classification
+# Non-Linear_Regression Single Output
 
 
 #### Detailed articles on this and similar projects can be found on Ngene's [Website](https://www.ngene.co/blog) <br/> The blog posts guides on developing Deep Neural Networks to solve problems, ranging from basic to advanced, using the [DeepLTK](https://www.ngene.co/deep-learning-toolkit-for-labview) toolkit.
+
 ----
 
-In this example, we will explore how Deep Neural Networks can be employed to model the signal classifier.
+In this example we model non-linear regression model.
 <br/>
-The model takes various signal types as input, including Sine, Triangle, Sawtooth, Square, and Noise, and employs Neural Networks to classify the signal's type accurately.
+The model takes 'x' as an input of the model and it's objective is to predict the sine function of 'x'.
 <br/>
 
 The project consist of two main VIs
-- [1_Waveform_Signal_Classifier(Training).vi](#training-vi)
-- [2_Waveform_Signal_Classifier(Inference).vi](#inference-vi)
+- [1_Sin(x)(Training).vi](#training-vi)
+- [2_Sin(x)(Inference).vi](#inference-vi)
 
 # Training VI
 
 ### Front Panel of Training VI. <br/>
 
-![image](https://github.com/ngenehub/deepltk_examples/assets/131282716/f35ec8ab-e94d-4e62-8778-6f39a485564e) <br/> <br/>
+![image](https://github.com/ngenehub/deepltk_examples/assets/131282716/9d4a052c-833d-4ad5-b0e7-2f04a20659c4) <br/> <br/>
 
 ### Block Diagram of Training VI. <br/>
 
-![image](https://github.com/ngenehub/deepltk_examples/assets/131282716/c5795bea-0b6e-49a0-85f9-13e24deeb024)
+![image](https://github.com/ngenehub/deepltk_examples/assets/131282716/c01463a0-67f9-414a-936e-421d9d8d0c06)
 
 ----
 
@@ -31,20 +32,18 @@ The project consist of two main VIs
 
 ### Front Panel of Inference VI. <br/>
 
-![image](https://github.com/ngenehub/deepltk_examples/assets/131282716/92141904-a995-4f6f-972f-0e83c62f5c69)
+![image](https://github.com/ngenehub/deepltk_examples/assets/131282716/6dfe4b14-779c-4a12-a67d-5b91fb440ecf)
+
 
 ### Block Diagram of Inference VI <br/>
 
-![image](https://github.com/ngenehub/deepltk_examples/assets/131282716/0ed0e49f-f94b-4879-992b-7d2d20a457e5)
+![image](https://github.com/ngenehub/deepltk_examples/assets/131282716/fc42cfc8-96e1-4967-a0a3-2c955124918e)
+
 
 ----
 
 <br/>
 
-## More detailes in article on our website:
-
-### [DeepLTK Learning with LabVIEW. Tutorial #2.1: Waveform Signal Classifier](https://www.ngene.co/post/deep-learning-with-labview-tutorial-2-1-waveform-signal-classifier)
-
-![DeepLTK_WF_Class (4)](https://github.com/ngenehub/deepltk_examples/assets/131282716/9def7874-3502-4a9a-a6a4-ef16302cbf7b)
+![DeepLTK_Sin(x) (2)](https://github.com/ngenehub/deepltk_examples/assets/131282716/b878dfc1-e805-4836-8803-d1c159cc5189)
 
 
