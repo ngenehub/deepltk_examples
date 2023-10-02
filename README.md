@@ -30,9 +30,17 @@ Basic DeepLTK samples for beginners that illustrate key concepts.<br/><br/>
    **[sin(x), cos(x)]**<br/>
    Modeling multiple non-liner functions simultaneously with a single network. Predict sin(x) and cos(x) based on provided x value. <br/><br/>
 
-## [2. Image_Processing](./2_Image_Processing)
+
+## [2. Waveform_Processing](./2_Waveform_Processing)
+Leveraging DeepLTK Waveform Analysis using Deep Neural Networks.<br/><br/>
+
+  ### [2.1. Waveform_Signal_Classifier](./2_Waveform_Processing/21_Waveform_Signal_Classifier/)
+  **Waveform Signal Classification**<br/> 
+Utilizing Deep Neural Networks for classification of various time domain waveform signals: Categorizing Sine, Sawtooth, Triangle, Square, and Noise Patterns.<br/>
+
+## [3. Image_Processing](./3_Image_Processing)
 Utilizing DeepLTK to Employ Deep Neural Networks for Image Processing Tasks.<br/><br/>
 
-  ### [2.1. Image_Regression](./2_Image_Processing/21_Image_Regression/)
+  ### [3.1. Image_Regression](./3_Image_Processing/31_Image_Regression/)
   **Analog Meter Recognition**<br/> 
   Modeling Analog Meter Reader. Predict Analog Meter values based on provided Analog Meter images.<br/>
