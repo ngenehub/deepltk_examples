@@ -31,7 +31,8 @@ The project consist of two main VIs
 
 ### Front Panel of Inference VI. <br/>
 
-![image](https://github.com/ngenehub/deepltk_examples/assets/131282716/92141904-a995-4f6f-972f-0e83c62f5c69)
+![image](https://github.com/ngenehub/deepltk_examples/assets/131282716/7c7c4224-7d52-4ca3-82e0-27626db95d2f)
+
 
 ### Block Diagram of Inference VI <br/>
 
