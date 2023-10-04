@@ -1,27 +1,27 @@
-# Waveform Signal Classification
+# Waveform Signal Regression
 
 
 #### Detailed articles on this and similar projects can be found on Ngene's [Website](https://www.ngene.co/blog) <br/> The blog posts guides on developing Deep Neural Networks to solve problems, ranging from basic to advanced, using the [DeepLTK](https://www.ngene.co/deep-learning-toolkit-for-labview) toolkit.
 ----
 
-In this example, we will explore how Deep Neural Networks can be employed to model the signal classifier.
+In this example, we will explore how Deep Neural Networks can be employed to predict signal frequency.
 <br/>
-The model takes various signal types as input, including Sine, Triangle, Sawtooth, Square, and Noise, and employs Neural Networks to classify the signal's type accurately.
+During the training phase, we will provide a requested number of noisy waveforms for each signal type with random parameters. In the inference section, the goal is to predict the frequency of these waveforms.
 <br/>
 
 The project consist of two main VIs
-- [1_Waveform_Signal_Classifier(Training).vi](#training-vi)
-- [2_Waveform_Signal_Classifier(Inference).vi](#inference-vi)
+- [1_Waveform_Signal_Regression(Training).vi](#training-vi)
+- [2_Waveform_Signal_Regression(Inference).vi](#inference-vi)
 
 # Training VI
 
 ### Front Panel of Training VI. <br/>
 
-![image](https://github.com/ngenehub/deepltk_examples/assets/131282716/f35ec8ab-e94d-4e62-8778-6f39a485564e) <br/> <br/>
+![image](https://github.com/ngenehub/deepltk_examples/assets/131282716/05a7ce42-7b59-470d-847e-20525059fb61) <br/> <br/>
 
 ### Block Diagram of Training VI. <br/>
 
-![image](https://github.com/ngenehub/deepltk_examples/assets/131282716/c5795bea-0b6e-49a0-85f9-13e24deeb024)
+![image](https://github.com/ngenehub/deepltk_examples/assets/131282716/409b8a1c-be99-468c-8c9d-0b82bdcb648e)
 
 ----
 
@@ -31,11 +31,11 @@ The project consist of two main VIs
 
 ### Front Panel of Inference VI. <br/>
 
-![image](https://github.com/ngenehub/deepltk_examples/assets/131282716/92141904-a995-4f6f-972f-0e83c62f5c69)
+![image](https://github.com/ngenehub/deepltk_examples/assets/131282716/54a4f9fb-5565-4c9c-a625-73d522729551)
 
 ### Block Diagram of Inference VI <br/>
 
-![image](https://github.com/ngenehub/deepltk_examples/assets/131282716/0ed0e49f-f94b-4879-992b-7d2d20a457e5)
+![image](https://github.com/ngenehub/deepltk_examples/assets/131282716/4f673c87-da33-4251-b200-cd59d2ccbdaa)
 
 ----
 
