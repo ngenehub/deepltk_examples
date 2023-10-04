@@ -93,7 +93,9 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="cudnn64_8.dll" Type="Document" URL="/&lt;resource&gt;/cudnn64_8.dll"/>
-			<Item Name="cudnn_adv_infer64_8.dll" Type="Document" URL="/&lt;resource&gt;/cudnn_adv_infer64_8.dll"/>
+			<Item Name="cudnn_adv_infer64_8.dll" Type="Document" URL="cudnn_adv_infer64_8.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 			<Item Name="cudnn_adv_train64_8.dll" Type="Document" URL="/&lt;resource&gt;/cudnn_adv_train64_8.dll"/>
 			<Item Name="cudnn_cnn_infer64_8.dll" Type="Document" URL="cudnn_cnn_infer64_8.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
