@@ -16,8 +16,8 @@
 		<Item Name="working" Type="Folder" URL="../working">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="1_Waveform_Signal_Classifier(Training).vi" Type="VI" URL="../1_Waveform_Signal_Classifier(Training).vi"/>
-		<Item Name="2_Waveform_Signal_Classifier(Inference).vi" Type="VI" URL="../2_Waveform_Signal_Classifier(Inference).vi"/>
+		<Item Name="1_Waveform_Signal_Classification(Training).vi" Type="VI" URL="../1_Waveform_Signal_Classification(Training).vi"/>
+		<Item Name="2_Waveform_Signal_Classification(Inference).vi" Type="VI" URL="../2_Waveform_Signal_Classification(Inference).vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
@@ -93,7 +93,9 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="cudnn64_8.dll" Type="Document" URL="/&lt;resource&gt;/cudnn64_8.dll"/>
-			<Item Name="cudnn_adv_infer64_8.dll" Type="Document" URL="/&lt;resource&gt;/cudnn_adv_infer64_8.dll"/>
+			<Item Name="cudnn_adv_infer64_8.dll" Type="Document" URL="cudnn_adv_infer64_8.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 			<Item Name="cudnn_adv_train64_8.dll" Type="Document" URL="/&lt;resource&gt;/cudnn_adv_train64_8.dll"/>
 			<Item Name="cudnn_cnn_infer64_8.dll" Type="Document" URL="cudnn_cnn_infer64_8.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
