@@ -43,9 +43,10 @@ The project consist of two main VIs
 
 ## More detailes in article on our website:
 
-### [DeepLTK Learning with LabVIEW. Tutorial #2.1: Waveform Signal Classifier](https://www.ngene.co/post/deep-learning-with-labview-tutorial-2-1-waveform-signal-classifier)
+### [DeepLTK Learning with LabVIEW. Tutorial #2.2: Waveform Signal Regression](https://www.ngene.co/post/deep-learning-with-labview-tutorial-2-2-waveform-signal-regression)
 
-![DeepLTK_WF_Class (3)](https://github.com/ngenehub/deepltk_examples/assets/131282716/d10778ea-c1fd-4241-b3c4-d3b1320e37af)
+![image](https://github.com/ngenehub/deepltk_examples/assets/131282716/1fdd7a40-914d-4148-94e9-bd59bf0205e0)
+
 
 
 
