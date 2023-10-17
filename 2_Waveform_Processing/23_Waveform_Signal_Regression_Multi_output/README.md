@@ -4,18 +4,15 @@
 #### Detailed articles on this and similar projects can be found on Ngene's [Website](https://www.ngene.co/blog) <br/> The blog posts guides on developing Deep Neural Networks to solve problems, ranging from basic to advanced, using the [DeepLTK](https://www.ngene.co/deep-learning-toolkit-for-labview) toolkit.
 ----
 
-In this example, we will explore how Deep Neural Networks can be employed to predict signal frequency.
-<br/>
-During the training phase, we will provide a requested number of noisy waveforms for each signal type with random parameters. In the inference section, the goal is to predict the frequency of these waveforms.
-<br/>
+This is the updated version of 22_Waveform_Signal_Regression example. In this example our goal is to predict the characteristics of the input signal, including frequency, amplitude, phase, and offset. <br/>
+Additionally, we normalize the the ouput dataset of the network, by bringing them in [-1:1] range. We have implemented this normalization because the output values for different parameters tend to have varying scales, and normalizing them to a consistent range improves the model's ability to predict the characteristics of the input waveform signal.
 
 The project consist of two main VIs
 - [1_Waveform_Signal_Regression_Multi_Output(Training).vi](#training-vi)
 - [2_Waveform_Signal_Regression_Multi_Output(Inference).vi](#inference-vi)
 
 # Training VI
-This is the updated version of 22_Waveform_Signal_Regression example. In this example our goal is to predict the characteristics of the input signal, including frequency, amplitude, phase, and offset. <br/>
-Additionally, we normalize the the ouput dataset of the network, by bringing them in [-1:1] range. We have implemented this normalization because the output values for different parameters tend to have varying scales, and normalizing them to a consistent range improves the model's ability to predict the characteristics of the input waveform signal.
+
 ### Front Panel of Training VI. <br/>
 
 ![image](https://github.com/ngenehub/deepltk_examples/assets/131282716/e2989fcd-0ac6-42ba-9181-87e53343d4a8) <br/> <br/>
