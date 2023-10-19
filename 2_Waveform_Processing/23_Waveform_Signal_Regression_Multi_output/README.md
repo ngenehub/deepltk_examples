@@ -15,7 +15,7 @@ The project consist of two main VIs
 
 ### Front Panel of Training VI. <br/>
 
-![image](https://github.com/ngenehub/deepltk_examples/assets/131282716/e2989fcd-0ac6-42ba-9181-87e53343d4a8) <br/> <br/>
+![image](https://github.com/ngenehub/deepltk_examples/assets/131282716/e4673a3f-a0dd-49d6-9a4b-5c5202ab9ed0) <br/> <br/>
 
 ### Block Diagram of Training VI. <br/>
 
@@ -29,11 +29,11 @@ The project consist of two main VIs
 
 ### Front Panel of Inference VI. <br/>
 
-![image](https://github.com/ngenehub/deepltk_examples/assets/131282716/7170628c-5bfd-4183-9316-0840ab52c30a)
+![image](https://github.com/ngenehub/deepltk_examples/assets/131282716/b8731c41-20b5-4717-814b-89b54f822ec3)
 
 ### Block Diagram of Inference VI <br/>
 
-![image](https://github.com/ngenehub/deepltk_examples/assets/131282716/e8dbcd9f-4db7-4e76-8cf5-54d52ea2a4f9)
+![image](https://github.com/ngenehub/deepltk_examples/assets/131282716/ea104d15-5431-4c93-8d50-f1f1605a8ad7)
 
 ----
 
