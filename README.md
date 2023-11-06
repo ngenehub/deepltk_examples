@@ -38,9 +38,13 @@ Leveraging DeepLTK Waveform Analysis using Deep Neural Networks.<br/><br/>
   **Waveform Signal Classification**<br/> 
 Utilizing Deep Neural Networks for classification of various time domain waveform signals: Categorizing Sine, Sawtooth, Triangle, Square, and Noise Patterns.<br/>
 
- ### [2.2.1 Waveform_Signal_Regression](./2_Waveform_Processing/221_Waveform_Signal_Regression/)
+ ### [2.2.1. Waveform_Signal_Regression](./2_Waveform_Processing/221_Waveform_Signal_Regression/)
   **Waveform Signal Regression**<br/> 
 The example illustrates the application of the DeepLTK toolkit for waveform regression. In this case, we are training a model to forecast the frequency of periodic signals under various conditions.<br/>
+
+### [2.2.2. Waveform_Signal_Regression_Multi_Output](./2_Waveform_Processing/222_Waveform_Signal_Regression_Multi_output/)
+  **Multiple Output Waveform Signal Regression**<br/> 
+The updated version of Waveform_Signal_Regression project, to demonstrates how, besides frequency, also predict amplitude, phase and DC offset of the signal.<br/>
 
 ## [3. Image_Processing](./3_Image_Processing)
 Utilizing DeepLTK to Employ Deep Neural Networks for Image Processing Tasks.<br/><br/>
