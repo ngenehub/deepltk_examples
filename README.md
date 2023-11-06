@@ -34,9 +34,13 @@ Basic DeepLTK samples for beginners that illustrate key concepts.<br/><br/>
 ## [2. Waveform_Processing](./2_Waveform_Processing)
 Leveraging DeepLTK Waveform Analysis using Deep Neural Networks.<br/><br/>
 
-  ### [2.1. Waveform_Signal_Classifier](./2_Waveform_Processing/21_Waveform_Signal_Classifier/)
+  ### [2.1. Waveform_Signal_Classification](./2_Waveform_Processing/21_Waveform_Signal_Classification/)
   **Waveform Signal Classification**<br/> 
 Utilizing Deep Neural Networks for classification of various time domain waveform signals: Categorizing Sine, Sawtooth, Triangle, Square, and Noise Patterns.<br/>
+
+ ### [2.2.1 Waveform_Signal_Regression](./2_Waveform_Processing/221_Waveform_Signal_Regression/)
+  **Waveform Signal Regression**<br/> 
+The example illustrates the application of the DeepLTK toolkit for waveform regression. In this case, we are training a model to forecast the frequency of periodic signals under various conditions.<br/>
 
 ## [3. Image_Processing](./3_Image_Processing)
 Utilizing DeepLTK to Employ Deep Neural Networks for Image Processing Tasks.<br/><br/>
