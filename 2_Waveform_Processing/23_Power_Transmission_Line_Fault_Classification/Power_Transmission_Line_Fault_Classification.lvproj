@@ -13,9 +13,7 @@
 		<Item Name="SubVIs" Type="Folder" URL="../SubVIs">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="working" Type="Folder" URL="../working">
-			<Property Name="NI.DISK" Type="Bool">true</Property>
-		</Item>
+		<Item Name="working" Type="Folder"/>
 		<Item Name="0_Power_Transmission_Line_Fault_Classification(Dataset_Generation).vi" Type="VI" URL="../0_Power_Transmission_Line_Fault_Classification(Dataset_Generation).vi"/>
 		<Item Name="1_Power_Transmission_Line_Fault_Classification(Training).vi" Type="VI" URL="../1_Power_Transmission_Line_Fault_Classification(Training).vi"/>
 		<Item Name="2_Power_Transmission_Line_Fault_Classification(Inference).vi" Type="VI" URL="../2_Power_Transmission_Line_Fault_Classification(Inference).vi"/>
