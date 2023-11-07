@@ -1,27 +1,46 @@
-# Waveform Signal Classification
+# Power Transmission Line Fault Classification
 
 
 #### Detailed articles on this and similar projects can be found on Ngene's [Website](https://www.ngene.co/blog) <br/> The blog posts guides on developing Deep Neural Networks to solve problems, ranging from basic to advanced, using the [DeepLTK](https://www.ngene.co/deep-learning-toolkit-for-labview) toolkit.
 ----
 
-In this example, we will explore how Deep Neural Networks can be employed to model the signal classifier.
+In this example, we'll use deep neural networks to classify  faults like sags, swells, interruptions and oscillatory transients.
 <br/>
-The model takes various signal types as input, including Sine, Triangle, Sawtooth, Square, and Noise, and employs Neural Networks to classify the signal's type accurately.
+The model takes normal and fault signals as input and employs Neural Networks to classify the fault type accurately.
 <br/>
 
-The project consist of two main VIs
-- [1_Waveform_Signal_Classifier(Training).vi](#training-vi)
-- [2_Waveform_Signal_Classifier(Inference).vi](#inference-vi)
+The project consist of three main VIs
+- [0_Power_Transmission_Line_Fault_Classification(Dataset_Generation).vi](#dataset-generation-vi)
+- [1_Power_Transmission_Line_Fault_Classification(Training).vi](#training-vi)
+- [1_Power_Transmission_Line_Fault_Classification(Inference).vi](#inference-vi)
+
+# Dataset Generation VI
+
+### Front Panel of Dataset Generation VI. <br/>
+
+![image](https://github.com/ngenehub/deepltk_examples/assets/131282716/1cec229b-5d26-4747-aece-338b2dff9735) <br/>
+
+### Block Diagram of Dataset Generation VI. <br/>
+
+![image](https://github.com/ngenehub/deepltk_examples/assets/131282716/1061c4b2-f887-4e49-bd70-3933a4d3426b) <br/>
+
+### Block Diagram of Generate Fault Dataset VI. <br/>
+
+![image](https://github.com/ngenehub/deepltk_examples/assets/131282716/6c615d80-5f60-476c-a10c-7e2b85f1aa2f) 
+
+----
+
+<br/>
 
 # Training VI
 
 ### Front Panel of Training VI. <br/>
 
-![image](https://github.com/ngenehub/deepltk_examples/assets/131282716/f35ec8ab-e94d-4e62-8778-6f39a485564e) <br/> <br/>
+![image](https://github.com/ngenehub/deepltk_examples/assets/131282716/809b38d7-b0ee-4d6c-bb67-dc692fc4b753) <br/>
 
 ### Block Diagram of Training VI. <br/>
 
-![image](https://github.com/ngenehub/deepltk_examples/assets/131282716/c5795bea-0b6e-49a0-85f9-13e24deeb024)
+![image](https://github.com/ngenehub/deepltk_examples/assets/131282716/9567f253-72b3-44b2-b678-1bc0d3e9be52)
 
 ----
 
@@ -31,12 +50,11 @@ The project consist of two main VIs
 
 ### Front Panel of Inference VI. <br/>
 
-![image](https://github.com/ngenehub/deepltk_examples/assets/131282716/7c7c4224-7d52-4ca3-82e0-27626db95d2f)
-
+![image](https://github.com/ngenehub/deepltk_examples/assets/131282716/1b289ff2-b225-41ab-b2d6-3c9a1cbc52b8) <br/>
 
 ### Block Diagram of Inference VI <br/>
 
-![image](https://github.com/ngenehub/deepltk_examples/assets/131282716/0ed0e49f-f94b-4879-992b-7d2d20a457e5)
+![image](https://github.com/ngenehub/deepltk_examples/assets/131282716/3baebb63-6c43-4ab4-bbb0-232fb9872dbc)
 
 ----
 
