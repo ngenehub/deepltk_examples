@@ -18,7 +18,7 @@ The project consist of three main VIs
 
 ### Front Panel of Dataset Generation VI. <br/>
 
-![image](https://github.com/ngenehub/deepltk_examples/assets/131282716/1cec229b-5d26-4747-aece-338b2dff9735) <br/>
+![image](https://github.com/ngenehub/deepltk_examples/assets/131282716/49ab53bf-584c-41ea-819b-8f6082c84ec7) <br/>
 
 ### Block Diagram of Dataset Generation VI. <br/>
 
