@@ -1,12 +1,12 @@
-# Power Transmission Line Fault Classification
+# Waveform Anomaly Detection
 
 
 #### Detailed articles on this and similar projects can be found on Ngene's [Website](https://www.ngene.co/blog) <br/> The blog posts guides on developing Deep Neural Networks to solve problems, ranging from basic to advanced, using the [DeepLTK](https://www.ngene.co/deep-learning-toolkit-for-labview) toolkit.
 ----
 
-In this example, we'll use deep neural networks to classify  faults like sags, swells, interruptions and oscillatory transients.
+In thus example, we tried to solve anomaly detection problem using autoencoder architecture.
 <br/>
-The model takes normal and fault signals as input and employs Neural Networks to classify the fault type accurately.
+The model takes normal samples as input and employs Neural Networks to detect anomalies.
 <br/>
 
 The project consist of three main VIs
