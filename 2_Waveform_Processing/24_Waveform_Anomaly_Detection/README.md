@@ -4,13 +4,12 @@
 #### Detailed articles on this and similar projects can be found on Ngene's [Website](https://www.ngene.co/blog) <br/> The blog posts guides on developing Deep Neural Networks to solve problems, ranging from basic to advanced, using the [DeepLTK](https://www.ngene.co/deep-learning-toolkit-for-labview) toolkit.
 ----
 
-In thus example, we tried to solve anomaly detection problem using autoencoder architecture.
+In this example, we addressed the anomaly detection problem using an autoencoder architecture.
 <br/>
-The model takes normal samples as input and employs Neural Networks to detect anomalies.
+The model takes normal samples as input and utilizes Neural Networks to identify anomalies.
 <br/>
 
 The project consist of three main VIs
-- [0_Power_Transmission_Line_Fault_Classification(Dataset_Generation).vi](#dataset-generation-vi)
 - [1_Power_Transmission_Line_Fault_Classification(Training).vi](#training-vi)
 - [1_Power_Transmission_Line_Fault_Classification(Inference).vi](#inference-vi)
 
