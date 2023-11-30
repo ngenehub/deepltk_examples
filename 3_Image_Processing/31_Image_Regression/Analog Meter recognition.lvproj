@@ -20,10 +20,10 @@
 		<Item Name="working" Type="Folder" URL="../working">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="1_Dataset_Generation.vi" Type="VI" URL="../1_Dataset_Generation.vi"/>
-		<Item Name="2_Analog_Meter_Reader(Training).vi" Type="VI" URL="../2_Analog_Meter_Reader(Training).vi"/>
+		<Item Name="0_Dataset_Generation.vi" Type="VI" URL="../0_Dataset_Generation.vi"/>
+		<Item Name="1_Analog_Meter_Reader(Training).vi" Type="VI" URL="../1_Analog_Meter_Reader(Training).vi"/>
+		<Item Name="2_Analog_Meter_Reader(Evaluation).vi" Type="VI" URL="../2_Analog_Meter_Reader(Evaluation).vi"/>
 		<Item Name="3_Analog_Meter_Reader(Inference).vi" Type="VI" URL="../3_Analog_Meter_Reader(Inference).vi"/>
-		<Item Name="4_Analog_Meter_Reader(Evaluation).vi" Type="VI" URL="../4_Analog_Meter_Reader(Evaluation).vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
@@ -85,7 +85,6 @@
 				<Item Name="IMAQ Write JPEG2000 File 2" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write JPEG2000 File 2"/>
 				<Item Name="IMAQ Write PNG File 2" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write PNG File 2"/>
 				<Item Name="IMAQ Write TIFF File 2" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write TIFF File 2"/>
-				<Item Name="Is Value Changed.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/Is Value Changed.vim"/>
 				<Item Name="List Directory and LLBs.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/List Directory and LLBs.vi"/>
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
