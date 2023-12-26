@@ -86,9 +86,14 @@
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
+				<Item Name="cublas64_12.dll" Type="Document" URL="/&lt;vilib&gt;/Ngene/DeepLTK/DLLs/cublas64_12.dll"/>
+				<Item Name="cublasLt64_12.dll" Type="Document" URL="/&lt;vilib&gt;/Ngene/DeepLTK/DLLs/cublasLt64_12.dll"/>
+				<Item Name="cudart64_12.dll" Type="Document" URL="/&lt;vilib&gt;/Ngene/DeepLTK/DLLs/cudart64_12.dll"/>
 				<Item Name="Deep_Learning_Toolkit_by_Ngene.lvlib" Type="Library" URL="/&lt;vilib&gt;/Ngene/DeepLTK/Toolkit/Deep_Learning_Toolkit_by_Ngene.lvlib"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Escape Characters for HTTP.vi" Type="VI" URL="/&lt;vilib&gt;/printing/PathToURL.llb/Escape Characters for HTTP.vi"/>
+				<Item Name="ex_BuildTextVarProps.ctl" Type="VI" URL="/&lt;vilib&gt;/express/express output/BuildTextBlock.llb/ex_BuildTextVarProps.ctl"/>
+				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_CorrectErrorChain.vi"/>
 				<Item Name="Get File Extension.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Get File Extension.vi"/>
 				<Item Name="Get System Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/Get System Directory.vi"/>
 				<Item Name="High Resolution Relative Seconds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/High Resolution Relative Seconds.vi"/>
@@ -103,6 +108,12 @@
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="NI_PtbyPt.lvlib" Type="Library" URL="/&lt;vilib&gt;/ptbypt/NI_PtbyPt.lvlib"/>
 				<Item Name="nisyscfg.lvlib" Type="Library" URL="/&lt;vilib&gt;/nisyscfg/nisyscfg.lvlib"/>
+				<Item Name="nng64_7_1.dll" Type="Document" URL="/&lt;vilib&gt;/Ngene/DeepLTK/DLLs/nng64_7_1.dll"/>
+				<Item Name="nppc64_12.dll" Type="Document" URL="/&lt;vilib&gt;/Ngene/DeepLTK/DLLs/nppc64_12.dll"/>
+				<Item Name="nppif64_12.dll" Type="Document" URL="/&lt;vilib&gt;/Ngene/DeepLTK/DLLs/nppif64_12.dll"/>
+				<Item Name="nppig64_12.dll" Type="Document" URL="/&lt;vilib&gt;/Ngene/DeepLTK/DLLs/nppig64_12.dll"/>
+				<Item Name="nppitc64_12.dll" Type="Document" URL="/&lt;vilib&gt;/Ngene/DeepLTK/DLLs/nppitc64_12.dll"/>
+				<Item Name="npps64_12.dll" Type="Document" URL="/&lt;vilib&gt;/Ngene/DeepLTK/DLLs/npps64_12.dll"/>
 				<Item Name="Open URL in Default Browser (path).vi" Type="VI" URL="/&lt;vilib&gt;/Platform/browser.llb/Open URL in Default Browser (path).vi"/>
 				<Item Name="Open URL in Default Browser (string).vi" Type="VI" URL="/&lt;vilib&gt;/Platform/browser.llb/Open URL in Default Browser (string).vi"/>
 				<Item Name="Open URL in Default Browser core.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/browser.llb/Open URL in Default Browser core.vi"/>
@@ -120,30 +131,14 @@
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="cublas64_11.dll" Type="Document" URL="cublas64_11.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="cudart64_110.dll" Type="Document" URL="cudart64_110.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
 			<Item Name="cudnn64_8.dll" Type="Document" URL="/&lt;resource&gt;/cudnn64_8.dll"/>
 			<Item Name="cudnn_adv_infer64_8.dll" Type="Document" URL="/&lt;resource&gt;/cudnn_adv_infer64_8.dll"/>
 			<Item Name="cudnn_adv_train64_8.dll" Type="Document" URL="/&lt;resource&gt;/cudnn_adv_train64_8.dll"/>
-			<Item Name="cudnn_cnn_infer64_8.dll" Type="Document" URL="cudnn_cnn_infer64_8.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="cudnn_cnn_train64_8.dll" Type="Document" URL="cudnn_cnn_train64_8.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="cudnn_ops_infer64_8.dll" Type="Document" URL="cudnn_ops_infer64_8.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="cudnn_ops_train64_8.dll" Type="Document" URL="cudnn_ops_train64_8.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="curand64_10.dll" Type="Document" URL="curand64_10.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
+			<Item Name="cudnn_cnn_infer64_8.dll" Type="Document" URL="/&lt;resource&gt;/cudnn_cnn_infer64_8.dll"/>
+			<Item Name="cudnn_cnn_train64_8.dll" Type="Document" URL="/&lt;resource&gt;/cudnn_cnn_train64_8.dll"/>
+			<Item Name="cudnn_ops_infer64_8.dll" Type="Document" URL="/&lt;resource&gt;/cudnn_ops_infer64_8.dll"/>
+			<Item Name="cudnn_ops_train64_8.dll" Type="Document" URL="/&lt;resource&gt;/cudnn_ops_train64_8.dll"/>
+			<Item Name="curand64_10.dll" Type="Document" URL="/&lt;resource&gt;/curand64_10.dll"/>
 			<Item Name="DEEPLTK_KEYLIB64.dll" Type="Document" URL="/&lt;resource&gt;/DEEPLTK_KEYLIB64.dll"/>
 			<Item Name="DEEPLTK_SKCA64.dll" Type="Document" URL="/&lt;resource&gt;/DEEPLTK_SKCA64.dll"/>
 			<Item Name="libiomp5md.dll" Type="Document" URL="/&lt;resource&gt;/libiomp5md.dll"/>
@@ -153,21 +148,6 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="nnb_mkl64.dll" Type="Document" URL="/&lt;resource&gt;/nnb_mkl64.dll"/>
-			<Item Name="nng64_6_1.dll" Type="Document" URL="nng64_6_1.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="nppif64_11.dll" Type="Document" URL="nppif64_11.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="nppig64_11.dll" Type="Document" URL="nppig64_11.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="nppitc64_11.dll" Type="Document" URL="nppitc64_11.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="npps64_11.dll" Type="Document" URL="npps64_11.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
