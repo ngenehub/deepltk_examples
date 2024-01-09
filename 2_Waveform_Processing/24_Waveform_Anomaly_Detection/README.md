@@ -6,26 +6,25 @@
 
 In this example, we addressed the anomaly detection problem using an autoencoder architecture.
 <br/>
-The model takes normal samples as input and utilizes Neural Networks to identify anomalies.
+The model takes normal samples as input and utilizes Neural Networks to find anomalies in the input waveforms.
 <br/>
 
-The project consist of three main VIs
-- [1_Power_Transmission_Line_Fault_Classification(Training).vi](#training-vi)
-- [1_Power_Transmission_Line_Fault_Classification(Inference).vi](#inference-vi)
+The project consist of four main VIs
+- [0_Waveform_Anomaly_Detection(Dataset_Generation).vi](#dataset-generation-vi)
+- [1_Waveform_Anomaly_Detection(Training).vi](#training-vi)
+- [2_Anomaly_Threshold(Evaluation).vi](#optimal-threshold-evaluation-vi)
+- [3_Waveform_Anomaly_Detection(Inference).vi](#inference-vi)
 
 # Dataset Generation VI
-
+In dataset generation VI, we generate three sythetic datasets: <br/>
+Train - only normal waveforms, oscillating from 200 to 240 volts. <br/>
+Test - only waveforms with anomalies. Generating anomalies like sag, swell, transient, etc., on random places in the waveforms. <br/>
+Validation - portion (5%) of the train dataset.
 ### Front Panel of Dataset Generation VI. <br/>
-
-![image](https://github.com/ngenehub/deepltk_examples/assets/131282716/49ab53bf-584c-41ea-819b-8f6082c84ec7) <br/>
+![image](https://github.com/ngenehub/deepltk_examples/assets/131282716/04d2ff64-8059-49ff-951c-debe27cf18db) <br/>
 
 ### Block Diagram of Dataset Generation VI. <br/>
-
-![image](https://github.com/ngenehub/deepltk_examples/assets/131282716/1061c4b2-f887-4e49-bd70-3933a4d3426b) <br/>
-
-### Block Diagram of Generate Fault Dataset VI. <br/>
-
-![image](https://github.com/ngenehub/deepltk_examples/assets/131282716/6c615d80-5f60-476c-a10c-7e2b85f1aa2f) 
+![image](https://github.com/ngenehub/deepltk_examples/assets/131282716/ca2c4058-1cd6-4381-98ae-3523a857b118) <br/>
 
 ----
 
@@ -34,12 +33,22 @@ The project consist of three main VIs
 # Training VI
 
 ### Front Panel of Training VI. <br/>
-
-![image](https://github.com/ngenehub/deepltk_examples/assets/131282716/809b38d7-b0ee-4d6c-bb67-dc692fc4b753) <br/>
+![image](https://github.com/ngenehub/deepltk_examples/assets/131282716/8ebdfbb0-2315-4d4e-90b6-2866feea18af) <br/>
 
 ### Block Diagram of Training VI. <br/>
+![image](https://github.com/ngenehub/deepltk_examples/assets/131282716/f33aa70d-b4f9-4b48-8efe-2abb6b0b934c)
 
-![image](https://github.com/ngenehub/deepltk_examples/assets/131282716/9567f253-72b3-44b2-b678-1bc0d3e9be52)
+----
+
+<br/>
+
+# Optimal Threshold Evaluation VI
+
+### Front Panel of Threshold Evaluation VI <br/>
+![image](https://github.com/ngenehub/deepltk_examples/assets/131282716/db9a193a-61b7-4f96-b4f0-8b9e1d889301) <br/>
+
+### Block Diagram of Threshold Evaluation VI <br/>
+![image](https://github.com/ngenehub/deepltk_examples/assets/131282716/d070f013-db8b-4e87-b510-cfded761c13e)
 
 ----
 
@@ -48,12 +57,11 @@ The project consist of three main VIs
 # Inference VI
 
 ### Front Panel of Inference VI. <br/>
-
-![image](https://github.com/ngenehub/deepltk_examples/assets/131282716/1b289ff2-b225-41ab-b2d6-3c9a1cbc52b8) <br/>
+![image](https://github.com/ngenehub/deepltk_examples/assets/131282716/ce834c64-d624-4d3c-9971-9e631353d7c1) <br/>
 
 ### Block Diagram of Inference VI <br/>
 
-![image](https://github.com/ngenehub/deepltk_examples/assets/131282716/3baebb63-6c43-4ab4-bbb0-232fb9872dbc)
+![image](https://github.com/ngenehub/deepltk_examples/assets/131282716/4cbb8e7f-4032-41a6-a9e9-3e26d56b4e4d)
 
 ----
 
