@@ -80,7 +80,7 @@
 		<Item Name="0_WF_Anomaly_Detection(Dataset_Generation).vi" Type="VI" URL="../0_WF_Anomaly_Detection(Dataset_Generation).vi"/>
 		<Item Name="1_WF_Anomaly_Detection(Training).vi" Type="VI" URL="../1_WF_Anomaly_Detection(Training).vi"/>
 		<Item Name="2_WF_Anomaly_Detection(Threshold_Evaluation).vi" Type="VI" URL="../2_WF_Anomaly_Detection(Threshold_Evaluation).vi"/>
-		<Item Name="3_WF_Anomaly_Detection(Accuracy_Evaluation).vi" Type="VI" URL="../3_WF_Anomaly_Detection(Accuracy_Evaluation).vi"/>
+		<Item Name="3_WF_Anomaly_Detection(Accuracy_Evaluation).vi" Type="VI" URL="/C/Users/Ishkhan/Desktop/3_WF_Anomaly_Detection(Accuracy_Evaluation).vi"/>
 		<Item Name="4_WF_Anomaly_Detection(Inference).vi" Type="VI" URL="../4_WF_Anomaly_Detection(Inference).vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
