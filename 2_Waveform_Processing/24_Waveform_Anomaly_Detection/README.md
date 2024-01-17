@@ -2,6 +2,7 @@
 
 
 #### Detailed articles on this and similar projects can be found on Ngene's [Website](https://www.ngene.co/blog) <br/> The blog posts guides on developing Deep Neural Networks to solve problems, ranging from basic to advanced, using the [DeepLTK](https://www.ngene.co/deep-learning-toolkit-for-labview) toolkit.
+#### This particular project requires the last version of the toolkit.
 ----
 
 In this example, we addressed the anomaly detection problem using an autoencoder architecture.
@@ -10,10 +11,11 @@ The model takes normal samples as input and utilizes Neural Networks to find ano
 <br/>
 
 The project consist of four main VIs
-- [0_Waveform_Anomaly_Detection(Dataset_Generation).vi](#dataset-generation-vi)
-- [1_Waveform_Anomaly_Detection(Training).vi](#training-vi)
-- [2_Anomaly_Threshold(Evaluation).vi](#optimal-threshold-evaluation-vi)
-- [3_Waveform_Anomaly_Detection(Inference).vi](#inference-vi)
+- [0_WF_Anomaly_Detection(Dataset_Generation).vi](#dataset-generation-vi)
+- [1_WF_Anomaly_Detection(Training).vi](#training-vi)
+- [2_WF_Anomaly_Detection(Threshold_Evaluation).vi](#optimal-threshold-evaluation-vi)
+- [3_WF_Anomaly_Detection(Accuracy_Evaluation).vi](#model-accuracy-evaluation-vi)
+- [4_WF_Anomaly_Detection(Inference).vi](#inference-vi)
 
 # Dataset Generation VI
 In dataset generation VI, we generate three sythetic datasets: <br/>
@@ -21,10 +23,10 @@ Train - only normal waveforms, oscillating from 200 to 240 volts. <br/>
 Test - only waveforms with anomalies. Generating anomalies like sag, swell, transient, etc., on random places in the waveforms. <br/>
 Validation - portion (5%) of the train dataset.
 ### Front Panel of Dataset Generation VI. <br/>
-![image](https://github.com/ngenehub/deepltk_examples/assets/131282716/04d2ff64-8059-49ff-951c-debe27cf18db) <br/>
+![image](https://github.com/ngenehub/deepltk_examples/assets/131282716/c6ba3c4c-c061-4079-853b-ed99a801468e) <br/>
 
 ### Block Diagram of Dataset Generation VI. <br/>
-![image](https://github.com/ngenehub/deepltk_examples/assets/131282716/ca2c4058-1cd6-4381-98ae-3523a857b118) <br/>
+![image](https://github.com/ngenehub/deepltk_examples/assets/131282716/eb1edeb0-4415-41d6-99d0-5e25dd13a3cb) <br/>
 
 ----
 
@@ -45,10 +47,22 @@ Validation - portion (5%) of the train dataset.
 # Optimal Threshold Evaluation VI
 
 ### Front Panel of Threshold Evaluation VI <br/>
-![image](https://github.com/ngenehub/deepltk_examples/assets/131282716/db9a193a-61b7-4f96-b4f0-8b9e1d889301) <br/>
+![image](https://github.com/ngenehub/deepltk_examples/assets/131282716/b328b546-0113-4d44-8c60-c02deaaebb63) <br/>
 
 ### Block Diagram of Threshold Evaluation VI <br/>
-![image](https://github.com/ngenehub/deepltk_examples/assets/131282716/d070f013-db8b-4e87-b510-cfded761c13e)
+![image](https://github.com/ngenehub/deepltk_examples/assets/131282716/d276ce18-9f69-4d36-865f-8a294f2b66e4)
+
+----
+
+<br/>
+
+# Model Accuracy Evaluation VI
+
+### Front Panel of Accuracy Evaluation VI <br/>
+![image](https://github.com/ngenehub/deepltk_examples/assets/131282716/54d76d36-0c5b-460c-a821-fefa9ae94e10) <br/>
+
+### Block Diagram of Accuracy Evaluation VI <br/>
+![image](https://github.com/ngenehub/deepltk_examples/assets/131282716/b973501c-947a-4177-8aa4-8429c8654e0c)
 
 ----
 
