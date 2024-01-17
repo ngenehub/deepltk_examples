@@ -46,6 +46,10 @@ The example illustrates the application of the DeepLTK toolkit for waveform regr
   **Multiple Output Waveform Signal Regression**<br/> 
 The updated version of Waveform_Signal_Regression project, to demonstrates how, besides frequency, also predict amplitude, phase and DC offset of the signal.<br/>
 
+### [2.3. Power_Transmission_Line_Fault_Classification](./2_Waveform_Processing/23_Power_Transmission_Line_Fault_Classification/)
+  **Multiple Output Waveform Signal Regression**<br/> 
+The updated version of Waveform_Signal_Regression project, to demonstrates how, besides frequency, also predict amplitude, phase and DC offset of the signal.<br/>
+
 ## [3. Image_Processing](./3_Image_Processing)
 Utilizing DeepLTK to Employ Deep Neural Networks for Image Processing Tasks.<br/><br/>
 
