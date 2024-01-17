@@ -64,15 +64,15 @@ viewBox="0 0 viewboxx viewboxy"
    <rect class="fil_d str0" x="336" y="110" width="292" height="34"/>
    <g transform="matrix(1 0 0 1 -150.02 -706.919)">
     <text x="500" y="773"  class="fil3 fnt0">Total Params - </text>
-    <text x="646" y="773"  class="fil3 fnt0">383.6k</text>
+    <text x="646" y="773"  class="fil3 fnt0">364.3k</text>
    </g>
    <g transform="matrix(1 0 0 1 -150.02 -675.669)">
     <text x="500" y="773"  class="fil3 fnt0">Total Ops      - </text>
-    <text x="645" y="773"  class="fil3 fnt0">30.36M</text>
+    <text x="645" y="773"  class="fil3 fnt0">26.12M</text>
    </g>
    <g transform="matrix(1 0 0 1 -149.074 -639.684)">
     <text x="500" y="773"  class="fil3 fnt0">Total Data      - </text>
-    <text x="646" y="773"  class="fil3 fnt0">314.1k</text>
+    <text x="646" y="773"  class="fil3 fnt0">311.4k</text>
    </g>
   </g>
 
@@ -103,8 +103,8 @@ viewBox="0 0 viewboxx viewboxy"
    <polygon class="Fill_Middle str1" points="96,399 305,399 305,370 96,370 "/>
    <polygon class="Fill_Middle str1" points="96,428 305,428 305,399 96,399 "/>
    <path class="Fill_Last str1" d="M96 428l209 0 0 23c0,3 -3,6 -7,6l-195 0c-4,0 -7,-3 -7,-6l0 -23 0 0z"/>
-   <text text-anchor="middle" x="200" y="360" class="fil3 fnt0">Conv - 4x5x5 / 2|0</text>
-   <text text-anchor="middle" x="200" y="389" class="fil3 fnt0">BN/LReLU</text>
+   <text text-anchor="middle" x="200" y="360" class="fil3 fnt0">Conv2D -  c4,k5,s2,p0</text>
+   <text text-anchor="middle" x="200" y="389" class="fil3 fnt0">BN=T, HB=F, LReLU</text>
    <text text-anchor="middle" x="200" y="418" class="fil3 fnt0">RF - 5x5</text>
    <text text-anchor="middle" x="200" y="447" class="fil3 fnt0">Dims - 4x126x126</text>
  
@@ -126,8 +126,8 @@ viewBox="0 0 viewboxx viewboxy"
    <polygon class="Fill_Middle str1" points="96,399 305,399 305,370 96,370 "/>
    <polygon class="Fill_Middle str1" points="96,428 305,428 305,399 96,399 "/>
    <path class="Fill_Last str1" d="M96 428l209 0 0 23c0,3 -3,6 -7,6l-195 0c-4,0 -7,-3 -7,-6l0 -23 0 0z"/>
-   <text text-anchor="middle" x="200" y="360" class="fil3 fnt0">Conv - 8x5x5 / 2|0</text>
-   <text text-anchor="middle" x="200" y="389" class="fil3 fnt0">BN/LReLU</text>
+   <text text-anchor="middle" x="200" y="360" class="fil3 fnt0">Conv2D -  c8,k5,s2,p0</text>
+   <text text-anchor="middle" x="200" y="389" class="fil3 fnt0">BN=T, HB=F, LReLU</text>
    <text text-anchor="middle" x="200" y="418" class="fil3 fnt0">RF - 13x13</text>
    <text text-anchor="middle" x="200" y="447" class="fil3 fnt0">Dims - 8x61x61</text>
  
@@ -149,8 +149,8 @@ viewBox="0 0 viewboxx viewboxy"
    <polygon class="Fill_Middle str1" points="96,399 305,399 305,370 96,370 "/>
    <polygon class="Fill_Middle str1" points="96,428 305,428 305,399 96,399 "/>
    <path class="Fill_Last str1" d="M96 428l209 0 0 23c0,3 -3,6 -7,6l-195 0c-4,0 -7,-3 -7,-6l0 -23 0 0z"/>
-   <text text-anchor="middle" x="200" y="360" class="fil3 fnt0">Conv - 16x5x5 / 2|0</text>
-   <text text-anchor="middle" x="200" y="389" class="fil3 fnt0">BN/LReLU</text>
+   <text text-anchor="middle" x="200" y="360" class="fil3 fnt0">Conv2D -  c16,k5,s2,p0</text>
+   <text text-anchor="middle" x="200" y="389" class="fil3 fnt0">BN=T, HB=F, LReLU</text>
    <text text-anchor="middle" x="200" y="418" class="fil3 fnt0">RF - 29x29</text>
    <text text-anchor="middle" x="200" y="447" class="fil3 fnt0">Dims - 16x29x29</text>
  
@@ -172,17 +172,17 @@ viewBox="0 0 viewboxx viewboxy"
    <polygon class="Fill_Middle str1" points="96,399 305,399 305,370 96,370 "/>
    <polygon class="Fill_Middle str1" points="96,428 305,428 305,399 96,399 "/>
    <path class="Fill_Last str1" d="M96 428l209 0 0 23c0,3 -3,6 -7,6l-195 0c-4,0 -7,-3 -7,-6l0 -23 0 0z"/>
-   <text text-anchor="middle" x="200" y="360" class="fil3 fnt0">Conv - 32x5x5 / 2|0</text>
-   <text text-anchor="middle" x="200" y="389" class="fil3 fnt0">BN/LReLU</text>
+   <text text-anchor="middle" x="200" y="360" class="fil3 fnt0">Conv2D -  c16,k5,s2,p0</text>
+   <text text-anchor="middle" x="200" y="389" class="fil3 fnt0">BN=T, HB=F, LReLU</text>
    <text text-anchor="middle" x="200" y="418" class="fil3 fnt0">RF - 61x61</text>
-   <text text-anchor="middle" x="200" y="447" class="fil3 fnt0">Dims - 32x13x13</text>
+   <text text-anchor="middle" x="200" y="447" class="fil3 fnt0">Dims - 16x13x13</text>
  
-    <rect class="fil_p str3" x="330" y="351" width="30.846" height="22.7269"/>
-    <rect class="fil_o str3" x="330" y="374" width="355.1" height="22.7269"/>
-    <rect class="fil_d str3" x="330" y="396" width="21.854" height="22.7269"/>
-    <text x="335" y="367" class="fil3 fnt0">12.9k</text>
-    <text x="335" y="390" class="fil3 fnt0">4.343M</text>
-    <text x="335" y="412" class="fil3 fnt0">5.408k</text>
+    <rect class="fil_p str3" x="330" y="351" width="15.423" height="22.7269"/>
+    <rect class="fil_o str3" x="330" y="374" width="177.55" height="22.7269"/>
+    <rect class="fil_d str3" x="330" y="396" width="10.927" height="22.7269"/>
+    <text x="335" y="367" class="fil3 fnt0">6.448k</text>
+    <text x="335" y="390" class="fil3 fnt0">2.171M</text>
+    <text x="335" y="412" class="fil3 fnt0">2.704k</text>
    </g>
   </g><g transform=" translate (0 , 887 )" xmlns="http://www.w3.org/2000/svg" id="Layer_x0020_1_0">
   <path transform=" translate(0,-210)" d="M198 245l0 -35 4 0 0 35 -4 0zm0 3l4 -2 -4 0 10 -16 4 3 -10 15 -4 0zm0 0l4 0 -2 3 -2 -3 0 0zm-8 -17l1 -1 11 16 -4 2 -10 -15 2 -2 0 0z" class="fil10"/>
@@ -195,16 +195,16 @@ viewBox="0 0 viewboxx viewboxy"
    <polygon class="Fill_Middle str1" points="96,399 305,399 305,370 96,370 "/>
    <polygon class="Fill_Middle str1" points="96,428 305,428 305,399 96,399 "/>
    <path class="Fill_Last str1" d="M96 428l209 0 0 23c0,3 -3,6 -7,6l-195 0c-4,0 -7,-3 -7,-6l0 -23 0 0z"/>
-   <text text-anchor="middle" x="200" y="360" class="fil3 fnt0">Conv - 32x5x5 / 1|0</text>
-   <text text-anchor="middle" x="200" y="389" class="fil3 fnt0">BN/LReLU</text>
+   <text text-anchor="middle" x="200" y="360" class="fil3 fnt0">Conv2D -  c32,k5,s1,p0</text>
+   <text text-anchor="middle" x="200" y="389" class="fil3 fnt0">BN=T, HB=F, LReLU</text>
    <text text-anchor="middle" x="200" y="418" class="fil3 fnt0">RF - 125x125</text>
    <text text-anchor="middle" x="200" y="447" class="fil3 fnt0">Dims - 32x9x9</text>
  
-    <rect class="fil_p str3" x="330" y="351" width="61.463" height="22.7269"/>
-    <rect class="fil_o str3" x="330" y="374" width="339.76" height="22.7269"/>
+    <rect class="fil_p str3" x="330" y="351" width="30.846" height="22.7269"/>
+    <rect class="fil_o str3" x="330" y="374" width="170.2" height="22.7269"/>
     <rect class="fil_d str3" x="330" y="396" width="10.474" height="22.7269"/>
-    <text x="335" y="367" class="fil3 fnt0">25.7k</text>
-    <text x="335" y="390" class="fil3 fnt0">4.155M</text>
+    <text x="335" y="367" class="fil3 fnt0">12.9k</text>
+    <text x="335" y="390" class="fil3 fnt0">2.081M</text>
     <text x="335" y="412" class="fil3 fnt0">2.592k</text>
    </g>
   </g><g transform=" translate (0 , 1042 )" xmlns="http://www.w3.org/2000/svg" id="Layer_x0020_1_0">
@@ -239,7 +239,7 @@ viewBox="0 0 viewboxx viewboxy"
    <polygon class="Fill_Middle str2" points="96,399 305,399 305,370 96,370 "/>
    <path class="Fill_Last str1" d="M96 399l209 0 0 23c0,3 -3,6 -7,6l-195 0c-4,0 -7,-3 -7,-6l0 -23 0 0z"/>
    <text text-anchor="middle" x="200" y="361" class="fil3 fnt0">FC - 128</text>
-   <text text-anchor="middle" x="200" y="390" class="fil3 fnt0">BN/LReLU</text>
+   <text text-anchor="middle" x="200" y="390" class="fil3 fnt0">BN=T, HB=F, LReLU</text>
    <text text-anchor="middle" x="200" y="419" class="fil3 fnt0">Dims - 128</text>
  
     <rect class="fil_p str3" x="330" y="351" width="794.5" height="22.7269"/>
@@ -260,7 +260,7 @@ viewBox="0 0 viewboxx viewboxy"
    <polygon class="Fill_Middle str2" points="96,399 305,399 305,370 96,370 "/>
    <path class="Fill_Last str1" d="M96 399l209 0 0 23c0,3 -3,6 -7,6l-195 0c-4,0 -7,-3 -7,-6l0 -23 0 0z"/>
    <text text-anchor="middle" x="200" y="361" class="fil3 fnt0">FC - 64</text>
-   <text text-anchor="middle" x="200" y="390" class="fil3 fnt0">BN/LReLU</text>
+   <text text-anchor="middle" x="200" y="390" class="fil3 fnt0">BN=T, HB=F, LReLU</text>
    <text text-anchor="middle" x="200" y="419" class="fil3 fnt0">Dims - 64</text>
  
     <rect class="fil_p str3" x="330" y="351" width="20.054" height="22.7269"/>
@@ -281,7 +281,7 @@ viewBox="0 0 viewboxx viewboxy"
    <polygon class="Fill_Middle str2" points="96,399 305,399 305,370 96,370 "/>
    <path class="Fill_Last str1" d="M96 399l209 0 0 23c0,3 -3,6 -7,6l-195 0c-4,0 -7,-3 -7,-6l0 -23 0 0z"/>
    <text text-anchor="middle" x="200" y="361" class="fil3 fnt0">FC - 1</text>
-   <text text-anchor="middle" x="200" y="390" class="fil3 fnt0">BN/None</text>
+   <text text-anchor="middle" x="200" y="390" class="fil3 fnt0">BN=T, HB=F, None</text>
    <text text-anchor="middle" x="200" y="419" class="fil3 fnt0">Dims - 1</text>
  
     <rect class="fil_p str3" x="330" y="351" width="0.16026" height="22.7269"/>
