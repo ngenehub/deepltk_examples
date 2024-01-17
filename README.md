@@ -47,8 +47,12 @@ The example illustrates the application of the DeepLTK toolkit for waveform regr
 The updated version of Waveform_Signal_Regression project, to demonstrates how, besides frequency, also predict amplitude, phase and DC offset of the signal.<br/>
 
 ### [2.3. Power_Transmission_Line_Fault_Classification](./2_Waveform_Processing/23_Power_Transmission_Line_Fault_Classification/)
-  **Multiple Output Waveform Signal Regression**<br/> 
-The updated version of Waveform_Signal_Regression project, to demonstrates how, besides frequency, also predict amplitude, phase and DC offset of the signal.<br/>
+  **Power Transmission Line Fault Classification**<br/> 
+This represents one application of waveform classification, focusing on the categorization of various types of waveforms occurring in power transmission lines.<br/>
+
+### [2.4. Waveform_Anomaly_Detection](./2_Waveform_Processing/24_Waveform_Anomaly_Detection/)
+  **Waveform Anomaly Detection**<br/> 
+This example project serves as an illustration of the DeepLTK toolkit for waveform anomaly detection. It involves the analysis of normal waveforms expected in power transmission lines, with the primary objective of detecting any anomalies that may arise.<br/>
 
 ## [3. Image_Processing](./3_Image_Processing)
 Utilizing DeepLTK to Employ Deep Neural Networks for Image Processing Tasks.<br/><br/>
