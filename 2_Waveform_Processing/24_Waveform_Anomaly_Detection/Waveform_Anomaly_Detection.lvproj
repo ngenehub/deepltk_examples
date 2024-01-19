@@ -80,7 +80,7 @@
 		<Item Name="0_WF_Anomaly_Detection(Dataset_Generation).vi" Type="VI" URL="../0_WF_Anomaly_Detection(Dataset_Generation).vi"/>
 		<Item Name="1_WF_Anomaly_Detection(Training).vi" Type="VI" URL="../1_WF_Anomaly_Detection(Training).vi"/>
 		<Item Name="2_WF_Anomaly_Detection(Threshold_Evaluation).vi" Type="VI" URL="../2_WF_Anomaly_Detection(Threshold_Evaluation).vi"/>
-		<Item Name="3_WF_Anomaly_Detection(Accuracy_Evaluation).vi" Type="VI" URL="/C/Users/Ishkhan/Desktop/New folder/3_WF_Anomaly_Detection(Accuracy_Evaluation) Folder/3_WF_Anomaly_Detection(Accuracy_Evaluation).vi"/>
+		<Item Name="3_WF_Anomaly_Detection(Accuracy_Evaluation).vi" Type="VI" URL="../3_WF_Anomaly_Detection(Accuracy_Evaluation).vi"/>
 		<Item Name="4_WF_Anomaly_Detection(Inference).vi" Type="VI" URL="../4_WF_Anomaly_Detection(Inference).vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -163,8 +163,12 @@
 			<Item Name="cudnn_ops_train64_8.dll" Type="Document" URL="/&lt;resource&gt;/cudnn_ops_train64_8.dll"/>
 			<Item Name="curand64_10.dll" Type="Document" URL="/&lt;resource&gt;/curand64_10.dll"/>
 			<Item Name="DEEPLTK_KEYLIB64.dll" Type="Document" URL="/&lt;resource&gt;/DEEPLTK_KEYLIB64.dll"/>
-			<Item Name="DEEPLTK_SKCA64.dll" Type="Document" URL="/&lt;resource&gt;/DEEPLTK_SKCA64.dll"/>
-			<Item Name="libiomp5md.dll" Type="Document" URL="/&lt;resource&gt;/libiomp5md.dll"/>
+			<Item Name="DEEPLTK_SKCA64.dll" Type="Document" URL="DEEPLTK_SKCA64.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="libiomp5md.dll" Type="Document" URL="libiomp5md.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="lvblas.dll" Type="Document" URL="/&lt;resource&gt;/lvblas.dll"/>
 			<Item Name="nisyscfg.dll" Type="Document" URL="nisyscfg.dll">
