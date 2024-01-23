@@ -59,7 +59,7 @@ Validation - portion (5%) of the train dataset.
 # Model Accuracy Evaluation VI
 
 ### Front Panel of Accuracy Evaluation VI <br/>
-![image](https://github.com/ngenehub/deepltk_examples/assets/131282716/54d76d36-0c5b-460c-a821-fefa9ae94e10) <br/>
+![image](https://github.com/ngenehub/deepltk_examples/assets/131282716/54646154-2d9d-4bc0-a3c0-240a133ccc06) <br/>
 
 ### Block Diagram of Accuracy Evaluation VI <br/>
 ![image](https://github.com/ngenehub/deepltk_examples/assets/131282716/b973501c-947a-4177-8aa4-8429c8654e0c)
@@ -83,9 +83,10 @@ Validation - portion (5%) of the train dataset.
 
 ## More detailes in article on our website:
 
-### [DeepLTK Learning with LabVIEW. Tutorial #2.1: Waveform Signal Classifier](https://www.ngene.co/post/deep-learning-with-labview-tutorial-2-1-waveform-signal-classifier)
+### [DeepLTK Learning with LabVIEW. Tutorial #2.4: Waveform Anomaly Detection](https://www.ngene.co/post/deep-learning-with-labview-tutorial-2-3-waveform-anomaly-detection)
 
-![DeepLTK_WF_Class (3)](https://github.com/ngenehub/deepltk_examples/assets/131282716/d10778ea-c1fd-4241-b3c4-d3b1320e37af)
+![DeepLTK_WF_Anomaly_Detection](https://github.com/ngenehub/deepltk_examples/assets/131282716/926dfbfc-a8f5-47aa-80ae-8def3c7f9cb1)
+
 
 
 
