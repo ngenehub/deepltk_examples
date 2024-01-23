@@ -85,7 +85,8 @@ Validation - portion (5%) of the train dataset.
 
 ### [DeepLTK Learning with LabVIEW. Tutorial #2.4: Waveform Anomaly Detection](https://www.ngene.co/post/deep-learning-with-labview-tutorial-2-3-waveform-anomaly-detection)
 
-![DeepLTK_WF_Anomaly_Detection](https://github.com/ngenehub/deepltk_examples/assets/131282716/926dfbfc-a8f5-47aa-80ae-8def3c7f9cb1)
+![DeepLTK_WF_Anomaly_Detection (1)](https://github.com/ngenehub/deepltk_examples/assets/131282716/c6b80d29-9eaf-4ce5-8709-8e9b5f664dbb)
+
 
 
 
