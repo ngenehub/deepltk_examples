@@ -23,7 +23,8 @@
 		<Item Name="0_Analog_Meter_Reader(Dataset_Generation).vi" Type="VI" URL="../0_Analog_Meter_Reader(Dataset_Generation).vi"/>
 		<Item Name="1_Analog_Meter_Reader(Training).vi" Type="VI" URL="../1_Analog_Meter_Reader(Training).vi"/>
 		<Item Name="2_Analog_Meter_Reader(Evaluation).vi" Type="VI" URL="../2_Analog_Meter_Reader(Evaluation).vi"/>
-		<Item Name="3_Analog_Meter_Reader(Inference).vi" Type="VI" URL="../3_Analog_Meter_Reader(Inference).vi"/>
+		<Item Name="3_Analog_Meter_Reader(Inference)_(Input_From_Control).vi" Type="VI" URL="../3_Analog_Meter_Reader(Inference)_(Input_From_Control).vi"/>
+		<Item Name="4_Analog_Meter_Reader(Inference)_(Input_From_File).vi" Type="VI" URL="../4_Analog_Meter_Reader(Inference)_(Input_From_File).vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
