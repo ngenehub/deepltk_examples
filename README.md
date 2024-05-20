@@ -60,3 +60,4 @@ Utilizing DeepLTK to Employ Deep Neural Networks for Image Processing Tasks.<br/
   ### [3.1. Image_Regression](./3_Image_Processing/31_Image_Regression/)
   **Analog Meter Recognition**<br/> 
   Modeling Analog Meter Reader. Predict Analog Meter values based on provided Analog Meter images.<br/>
+  
