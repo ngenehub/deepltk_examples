@@ -218,9 +218,6 @@
 			<Item Name="lvblas.dll" Type="Document" URL="/&lt;resource&gt;/lvblas.dll"/>
 			<Item Name="MASMT_FFT.dll" Type="Document" URL="/&lt;resource&gt;/MASMT_FFT.dll"/>
 			<Item Name="MASMT_LINALG.dll" Type="Document" URL="/&lt;resource&gt;/MASMT_LINALG.dll"/>
-			<Item Name="nisyscfg.dll" Type="Document" URL="nisyscfg.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
 			<Item Name="nivision.dll" Type="Document" URL="nivision.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
