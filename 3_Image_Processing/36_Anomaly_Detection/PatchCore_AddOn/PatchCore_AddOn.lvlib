@@ -8,7 +8,6 @@
 	<Item Name="API" Type="Folder">
 		<Item Name="Controls" Type="Folder">
 			<Item Name="ColorMap.ctl" Type="VI" URL="../API/Controls/ColorMap.ctl"/>
-			<Item Name="Coreset_Params.ctl" Type="VI" URL="../API/Controls/Coreset_Params.ctl"/>
 			<Item Name="Eval_Results.ctl" Type="VI" URL="../API/Controls/Eval_Results.ctl"/>
 			<Item Name="Feature_Scorer_Params.ctl" Type="VI" URL="../API/Controls/Feature_Scorer_Params.ctl"/>
 			<Item Name="Gaussian_Blur.ctl" Type="VI" URL="../API/Controls/Gaussian_Blur.ctl"/>
@@ -16,21 +15,17 @@
 			<Item Name="Image_Stats_RGB.ctl" Type="VI" URL="../API/Controls/Image_Stats_RGB.ctl"/>
 			<Item Name="MemBank_and_Norm_Variants.ctl" Type="VI" URL="../API/Controls/MemBank_and_Norm_Variants.ctl"/>
 			<Item Name="MinMax.ctl" Type="VI" URL="../API/Controls/MinMax.ctl"/>
-			<Item Name="Model_Saving_Params.ctl" Type="VI" URL="../API/Controls/Model_Saving_Params.ctl"/>
 			<Item Name="NN_Paths.ctl" Type="VI" URL="../API/Controls/NN_Paths.ctl"/>
-			<Item Name="PatchCore_BackBone_Selector.ctl" Type="VI" URL="../API/Controls/PatchCore_BackBone_Selector.ctl"/>
-			<Item Name="PatchCore_DS_Stats.ctl" Type="VI" URL="../API/Controls/PatchCore_DS_Stats.ctl"/>
-			<Item Name="PatchCore_Init_CFG.ctl" Type="VI" URL="../API/Controls/PatchCore_Init_CFG.ctl"/>
-			<Item Name="PatchCore_Init_Custom_NN_CFG.ctl" Type="VI" URL="../API/Controls/PatchCore_Init_Custom_NN_CFG.ctl"/>
-			<Item Name="PatchCore_Instance.ctl" Type="VI" URL="../API/Controls/PatchCore_Instance.ctl"/>
-			<Item Name="PCore_Device.ctl" Type="VI" URL="../API/Controls/PCore_Device.ctl"/>
-			<Item Name="Random_Projection_Coreset.ctl" Type="VI" URL="../API/Controls/Random_Projection_Coreset.ctl"/>
-		</Item>
-		<Item Name="Eval" Type="Folder">
-			<Item Name="NNPC_Eval.vi" Type="VI" URL="../API/Eval/NNPC_Eval.vi"/>
-			<Item Name="NNPC_Extract_Bad_Pixel_Scores.vi" Type="VI" URL="../API/Eval/NNPC_Extract_Bad_Pixel_Scores.vi"/>
-			<Item Name="NNPC_Stats(Read).vi" Type="VI" URL="../API/Eval/NNPC_Stats(Read).vi"/>
-			<Item Name="NNPC_Stats(Write).vi" Type="VI" URL="../API/Eval/NNPC_Stats(Write).vi"/>
+			<Item Name="NNPC_BackBone_Selector.ctl" Type="VI" URL="../API/Controls/NNPC_BackBone_Selector.ctl"/>
+			<Item Name="NNPC_Coreset_Params.ctl" Type="VI" URL="../API/Controls/NNPC_Coreset_Params.ctl"/>
+			<Item Name="NNPC_Device.ctl" Type="VI" URL="../API/Controls/NNPC_Device.ctl"/>
+			<Item Name="NNPC_DS_Stats.ctl" Type="VI" URL="../API/Controls/NNPC_DS_Stats.ctl"/>
+			<Item Name="NNPC_Init_CFG.ctl" Type="VI" URL="../API/Controls/NNPC_Init_CFG.ctl"/>
+			<Item Name="NNPC_Init_Custom_NN_CFG.ctl" Type="VI" URL="../API/Controls/NNPC_Init_Custom_NN_CFG.ctl"/>
+			<Item Name="NNPC_Instance.ctl" Type="VI" URL="../API/Controls/NNPC_Instance.ctl"/>
+			<Item Name="NNPC_Random_Projection_CFG.ctl" Type="VI" URL="../API/Controls/NNPC_Random_Projection_CFG.ctl"/>
+			<Item Name="NNPC_Save_CFG.ctl" Type="VI" URL="../API/Controls/NNPC_Save_CFG.ctl"/>
+			<Item Name="NNPC_Trained_Model_Paths.ctl" Type="VI" URL="../API/Controls/NNPC_Trained_Model_Paths.ctl"/>
 		</Item>
 		<Item Name="NNPC_Generate_Embedding" Type="Folder">
 			<Item Name="NNPC_Generate_Embedding(Dataset).vi" Type="VI" URL="../API/NNPC_Generate_Embedding/NNPC_Generate_Embedding(Dataset).vi"/>
@@ -43,17 +38,23 @@
 		</Item>
 		<Item Name="NNPC_Coreset_Subsampler.vi" Type="VI" URL="../API/NNPC_Coreset_Subsampler.vi"/>
 		<Item Name="NNPC_Destroy.vi" Type="VI" URL="../API/NNPC_Destroy.vi"/>
+		<Item Name="NNPC_Eval.vi" Type="VI" URL="../API/Eval/NNPC_Eval.vi"/>
+		<Item Name="NNPC_Extract_Bad_Pixel_Scores.vi" Type="VI" URL="../API/Eval/NNPC_Extract_Bad_Pixel_Scores.vi"/>
 		<Item Name="NNPC_Generate_Embedding.vi" Type="VI" URL="../API/NNPC_Generate_Embedding.vi"/>
 		<Item Name="NNPC_Init(Inference).vi" Type="VI" URL="../API/NNPC_Init(Inference).vi"/>
 		<Item Name="NNPC_Init(Train).vi" Type="VI" URL="../API/NNPC_Init(Train).vi"/>
 		<Item Name="NNPC_Predict.vi" Type="VI" URL="../API/NNPC_Predict.vi"/>
 		<Item Name="NNPC_Save.vi" Type="VI" URL="../API/NNPC_Save.vi"/>
+		<Item Name="NNPC_Stats(Read).vi" Type="VI" URL="../API/Eval/NNPC_Stats(Read).vi"/>
+		<Item Name="NNPC_Stats(Write).vi" Type="VI" URL="../API/Eval/NNPC_Stats(Write).vi"/>
 	</Item>
 	<Item Name="Low_Level" Type="Folder">
 		<Item Name="Common" Type="Folder">
 			<Item Name="Array_2D_Reduce_Sum_Dim=1(CuLab).vi" Type="VI" URL="../Low_Level/Common/Array_2D_Reduce_Sum_Dim=1(CuLab).vi"/>
 			<Item Name="Array_2D_Reduce_Sum_Dim=1.vi" Type="VI" URL="../Low_Level/Common/Array_2D_Reduce_Sum_Dim=1.vi"/>
+			<Item Name="Array_Min_Batch(CuLab).vi" Type="VI" URL="../Low_Level/Common/Array_Min_Batch(CuLab).vi"/>
 			<Item Name="NN_Layer_Get_OutRefs_as3D_Tensor.vi" Type="VI" URL="../Low_Level/Common/NN_Layer_Get_OutRefs_as3D_Tensor.vi"/>
+			<Item Name="NN_Layer_Get_OutRefs_as3D_Tensor_Data.vi" Type="VI" URL="../Low_Level/Common/NN_Layer_Get_OutRefs_as3D_Tensor_Data.vi"/>
 			<Item Name="NN_T4D_to_CuLab_T4D.vi" Type="VI" URL="../Low_Level/Common/NN_T4D_to_CuLab_T4D.vi"/>
 			<Item Name="Permute({b,c,h,w)_to_(bhw,c))(CuLab).vi" Type="VI" URL="../Low_Level/Common/Permute({b,c,h,w)_to_(bhw,c))(CuLab).vi"/>
 			<Item Name="Permute({b,c,h,w)_to_(bhw,c)).vi" Type="VI" URL="../Low_Level/Common/Permute({b,c,h,w)_to_(bhw,c)).vi"/>
@@ -66,44 +67,45 @@
 		<Item Name="Generate_Embedding" Type="Folder">
 			<Item Name="NN_Predict(In3D_Out3D)(CuLab).vi" Type="VI" URL="../Low_Level/Generate_Embedding/NN_Predict(In3D_Out3D)(CuLab).vi"/>
 		</Item>
+		<Item Name="NNPC_Coreset_Subsampler" Type="Folder">
+			<Item Name="Pairwise_Distance(CuLab).vi" Type="VI" URL="../Low_Level/NNPC_Coreset_Subsampler/Pairwise_Distance(CuLab).vi"/>
+			<Item Name="Pairwise_Distance.vi" Type="VI" URL="../Low_Level/NNPC_Coreset_Subsampler/Pairwise_Distance.vi"/>
+			<Item Name="Sample_Coreset(CuLab).vi" Type="VI" URL="../Low_Level/NNPC_Coreset_Subsampler/Sample_Coreset(CuLab).vi"/>
+			<Item Name="Sample_Coreset.vi" Type="VI" URL="../Low_Level/NNPC_Coreset_Subsampler/Sample_Coreset.vi"/>
+			<Item Name="Select_Coreset_Idxs(CuLab).vi" Type="VI" URL="../Low_Level/NNPC_Coreset_Subsampler/Select_Coreset_Idxs(CuLab).vi"/>
+			<Item Name="Select_Coreset_Idxs.vi" Type="VI" URL="../Low_Level/NNPC_Coreset_Subsampler/Select_Coreset_Idxs.vi"/>
+		</Item>
 		<Item Name="NNPC_Init(Inference)" Type="Folder">
 			<Item Name="CFG(Read).vi" Type="VI" URL="../Low_Level/NNPC_Init(Inference)/CFG(Read).vi"/>
 		</Item>
+		<Item Name="NNPC_Init(Train)" Type="Folder">
+			<Item Name="Add_Projection_Layer.vi" Type="VI" URL="../Low_Level/NNPC_Init(Train)/Add_Projection_Layer.vi"/>
+			<Item Name="Custom_BackBone_Parser.vi" Type="VI" URL="../Low_Level/NNPC_Init(Train)/Custom_BackBone_Parser.vi"/>
+			<Item Name="Get_Embed_Dims.vi" Type="VI" URL="../Low_Level/NNPC_Init(Train)/Get_Embed_Dims.vi"/>
+			<Item Name="Johnson_lindenstrauss_min_dim.vi" Type="VI" URL="../Low_Level/NNPC_Init(Train)/Johnson_lindenstrauss_min_dim.vi"/>
+			<Item Name="PatchCore_Set_Custom_Projection_Matrix.vi" Type="VI" URL="../Low_Level/NNPC_Init(Train)/PatchCore_Set_Custom_Projection_Matrix.vi"/>
+		</Item>
+		<Item Name="NNPC_Predict" Type="Folder">
+			<Item Name="Compute_Anomaly_Map(CuLab).vi" Type="VI" URL="../Low_Level/NNPC_Predict/Compute_Anomaly_Map(CuLab).vi"/>
+			<Item Name="Compute_Anomaly_Map.vi" Type="VI" URL="../Low_Level/NNPC_Predict/Compute_Anomaly_Map.vi"/>
+			<Item Name="Compute_Anomaly_Score(CuLab).vi" Type="VI" URL="../Low_Level/NNPC_Predict/Compute_Anomaly_Score(CuLab).vi"/>
+			<Item Name="Compute_Anomaly_Score.vi" Type="VI" URL="../Low_Level/NNPC_Predict/Compute_Anomaly_Score.vi"/>
+			<Item Name="Euclidean_dist.vi" Type="VI" URL="../Low_Level/NNPC_Predict/Euclidean_dist.vi"/>
+			<Item Name="Euclidean_Dist_with_MemBank(CuLab).vi" Type="VI" URL="../Low_Level/NNPC_Predict/Euclidean_Dist_with_MemBank(CuLab).vi"/>
+			<Item Name="Euclidean_dist_with_MemBank.vi" Type="VI" URL="../Low_Level/NNPC_Predict/Euclidean_dist_with_MemBank.vi"/>
+			<Item Name="Feature_Scorer(CuLab).vi" Type="VI" URL="../Low_Level/NNPC_Predict/Feature_Scorer(CuLab).vi"/>
+			<Item Name="Feature_Scorer.vi" Type="VI" URL="../Low_Level/NNPC_Predict/Feature_Scorer.vi"/>
+			<Item Name="Interpolate_Align_Corners=False.vi" Type="VI" URL="../Low_Level/NNPC_Predict/Interpolate_Align_Corners=False.vi"/>
+			<Item Name="Intrplt_Get_Dest_Coords.vi" Type="VI" URL="../Low_Level/NNPC_Predict/Intrplt_Get_Dest_Coords.vi"/>
+			<Item Name="Nearest_neighbors(CuLab).vi" Type="VI" URL="../Low_Level/NNPC_Predict/Nearest_neighbors(CuLab).vi"/>
+			<Item Name="Nearest_neighbors.vi" Type="VI" URL="../Low_Level/NNPC_Predict/Nearest_neighbors.vi"/>
+			<Item Name="Predict(Dataset)(CuLab).vi" Type="VI" URL="../Low_Level/NNPC_Predict/Predict(Dataset)(CuLab).vi"/>
+			<Item Name="Predict(Dataset).vi" Type="VI" URL="../Low_Level/NNPC_Predict/Predict(Dataset).vi"/>
+		</Item>
 		<Item Name="NNPC_Save" Type="Folder">
+			<Item Name="Append_Vals_to_File_Name.vi" Type="VI" URL="../Low_Level/NNPC_Save/Append_Vals_to_File_Name.vi"/>
 			<Item Name="CFG(Write).vi" Type="VI" URL="../Low_Level/NNPC_Save/CFG(Write).vi"/>
 			<Item Name="Generate_File_Name.vi" Type="VI" URL="../Low_Level/NNPC_Save/Generate_File_Name.vi"/>
-		</Item>
-		<Item Name="Patchcore_Coreset_Subsampler" Type="Folder">
-			<Item Name="Pairwise_Distance(CuLab).vi" Type="VI" URL="../Low_Level/Patchcore_Coreset_Subsampler/Pairwise_Distance(CuLab).vi"/>
-			<Item Name="Pairwise_Distance.vi" Type="VI" URL="../Low_Level/Patchcore_Coreset_Subsampler/Pairwise_Distance.vi"/>
-			<Item Name="Sample_Coreset(CuLab).vi" Type="VI" URL="../Low_Level/Patchcore_Coreset_Subsampler/Sample_Coreset(CuLab).vi"/>
-			<Item Name="Sample_Coreset.vi" Type="VI" URL="../Low_Level/Patchcore_Coreset_Subsampler/Sample_Coreset.vi"/>
-			<Item Name="Select_Coreset_Idxs(CuLab).vi" Type="VI" URL="../Low_Level/Patchcore_Coreset_Subsampler/Select_Coreset_Idxs(CuLab).vi"/>
-			<Item Name="Select_Coreset_Idxs.vi" Type="VI" URL="../Low_Level/Patchcore_Coreset_Subsampler/Select_Coreset_Idxs.vi"/>
-		</Item>
-		<Item Name="Patchcore_Init(Train)" Type="Folder">
-			<Item Name="Add_Projection_Layer.vi" Type="VI" URL="../Low_Level/Patchcore_Init(Train)/Add_Projection_Layer.vi"/>
-			<Item Name="Custom_BackBone_Parser.vi" Type="VI" URL="../Low_Level/Patchcore_Init(Train)/Custom_BackBone_Parser.vi"/>
-			<Item Name="Get_Embed_Dims.vi" Type="VI" URL="../Low_Level/Patchcore_Init(Train)/Get_Embed_Dims.vi"/>
-			<Item Name="Johnson_lindenstrauss_min_dim.vi" Type="VI" URL="../Low_Level/Patchcore_Init(Train)/Johnson_lindenstrauss_min_dim.vi"/>
-			<Item Name="PatchCore_Set_Custom_Projection_Matrix.vi" Type="VI" URL="../Low_Level/Patchcore_Init(Train)/PatchCore_Set_Custom_Projection_Matrix.vi"/>
-		</Item>
-		<Item Name="Patchcore_Predict" Type="Folder">
-			<Item Name="Compute_Anomaly_Map(CuLab).vi" Type="VI" URL="../Low_Level/Patchcore_Predict/Compute_Anomaly_Map(CuLab).vi"/>
-			<Item Name="Compute_Anomaly_Map.vi" Type="VI" URL="../Low_Level/Patchcore_Predict/Compute_Anomaly_Map.vi"/>
-			<Item Name="Compute_Anomaly_Score(CuLab).vi" Type="VI" URL="../Low_Level/Patchcore_Predict/Compute_Anomaly_Score(CuLab).vi"/>
-			<Item Name="Compute_Anomaly_Score.vi" Type="VI" URL="../Low_Level/Patchcore_Predict/Compute_Anomaly_Score.vi"/>
-			<Item Name="Euclidean_dist.vi" Type="VI" URL="../Low_Level/Patchcore_Predict/Euclidean_dist.vi"/>
-			<Item Name="Euclidean_Dist_with_MemBank(CuLab).vi" Type="VI" URL="../Low_Level/Patchcore_Predict/Euclidean_Dist_with_MemBank(CuLab).vi"/>
-			<Item Name="Euclidean_dist_with_MemBank.vi" Type="VI" URL="../Low_Level/Patchcore_Predict/Euclidean_dist_with_MemBank.vi"/>
-			<Item Name="Feature_Scorer(CuLab).vi" Type="VI" URL="../Low_Level/Patchcore_Predict/Feature_Scorer(CuLab).vi"/>
-			<Item Name="Feature_Scorer.vi" Type="VI" URL="../Low_Level/Patchcore_Predict/Feature_Scorer.vi"/>
-			<Item Name="Interpolate_Align_Corners=False.vi" Type="VI" URL="../Low_Level/Patchcore_Predict/Interpolate_Align_Corners=False.vi"/>
-			<Item Name="Intrplt_Get_Dest_Coords.vi" Type="VI" URL="../Low_Level/Patchcore_Predict/Intrplt_Get_Dest_Coords.vi"/>
-			<Item Name="Nearest_neighbors(CuLab).vi" Type="VI" URL="../Low_Level/Patchcore_Predict/Nearest_neighbors(CuLab).vi"/>
-			<Item Name="Nearest_neighbors.vi" Type="VI" URL="../Low_Level/Patchcore_Predict/Nearest_neighbors.vi"/>
-			<Item Name="Predict(Dataset)(CuLab).vi" Type="VI" URL="../Low_Level/Patchcore_Predict/Predict(Dataset)(CuLab).vi"/>
-			<Item Name="Predict(Dataset).vi" Type="VI" URL="../Low_Level/Patchcore_Predict/Predict(Dataset).vi"/>
 		</Item>
 		<Item Name="Progress Bar" Type="Folder">
 			<Item Name="API" Type="Folder">
@@ -125,4 +127,4 @@
 		</Item>
 	</Item>
 </Library>
-<?sig 6487A13F38CBF7F82AA24BE86874DFD9?>
+<?sig 0B3750C84196612E3031396336086AB1?>
