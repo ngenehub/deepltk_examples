@@ -4,7 +4,7 @@
 	<Property Name="NI.Lib.Locked" Type="Str">C3F54E51DC6F5D8DBC9EE55207092B83</Property>
 	<Property Name="NI.Lib.SourceVersion" Type="Int">536903680</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
-	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
+	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="API" Type="Folder">
 		<Item Name="Controls" Type="Folder">
 			<Item Name="ColorMap.ctl" Type="VI" URL="../API/Controls/ColorMap.ctl"/>
@@ -128,4 +128,4 @@
 		</Item>
 	</Item>
 </Library>
-<?sig 1DCEB33D0B11D3C42F99796971368EBE?>
+<?sig D4B81D2EB5F7DACC710994677C851197?>
