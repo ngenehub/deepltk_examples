@@ -47,6 +47,7 @@
 		<Item Name="NNPC_Save.vi" Type="VI" URL="../API/NNPC_Save.vi"/>
 		<Item Name="NNPC_Stats(Read).vi" Type="VI" URL="../API/Eval/NNPC_Stats(Read).vi"/>
 		<Item Name="NNPC_Stats(Write).vi" Type="VI" URL="../API/Eval/NNPC_Stats(Write).vi"/>
+		<Item Name="NNPC_Update_MemBank.vi" Type="VI" URL="../API/NNPC_Update_MemBank.vi"/>
 	</Item>
 	<Item Name="Low_Level" Type="Folder">
 		<Item Name="Common" Type="Folder">
@@ -127,4 +128,4 @@
 		</Item>
 	</Item>
 </Library>
-<?sig 0B3750C84196612E3031396336086AB1?>
+<?sig 1DCEB33D0B11D3C42F99796971368EBE?>
