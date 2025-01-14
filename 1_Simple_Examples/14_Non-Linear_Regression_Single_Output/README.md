@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/84139d80-4b42-45a7-9d33-a94af32cb8a9" width="50%" />
+</p>
+
+
 # Single Output Non-Linear Regression 
 
 
@@ -43,7 +48,5 @@ The project consist of two main VIs
 ----
 
 <br/>
-
-![DeepLTK_Sin(x) (2)](https://github.com/ngenehub/deepltk_examples/assets/131282716/b878dfc1-e805-4836-8803-d1c159cc5189)
 
 
