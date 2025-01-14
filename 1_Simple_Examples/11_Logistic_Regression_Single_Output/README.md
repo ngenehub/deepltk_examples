@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/14c3ba20-efb6-41a9-b5ec-bf955d500c90" width="50%" />
+</p>
+
 # Single Output Logistic Regression
 
 
@@ -55,6 +59,5 @@ The project consist of two main VIs
 ## More detailes in article on our website:
 
 ### [DeepLTK Learning with LabVIEW. Tutorial #1.1: Simple Logistic Regression - Boolean Operations](https://www.ngene.co/post/deeplearning-with-labview-simple-boolean)
-![DeepLTK_AND](https://github.com/ngenehub/deepltk_examples/assets/131282716/a50c0278-83b4-4e57-838b-772e9b168df6)
 
 
