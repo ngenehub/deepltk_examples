@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/b1b0e87b-5adc-44fb-86fc-41058d7900bb" width="50%" />
+</p>
+
 # Mulitple Output Non-Linear Regression 
 
 
@@ -47,5 +51,4 @@ The project consist of two main VIs
 ## More detailes in article on our website:
 
 ### [Deep Learning with LabVIEW. Tutorial #1.4: Multi-Output Non-Linear Regression - Sin(x) & Cos(x)](https://www.ngene.co/post/deep-learning-with-labview-tutorial-1-4-multi-output-non-linear-regression-sin-x-cos-x)
-![DeepLTK_Sin(x)_Cos(x) (6)](https://github.com/ngenehub/deepltk_examples/assets/131282716/e9f5d26b-7d54-4945-9f6a-9d4556a95e57)
 
