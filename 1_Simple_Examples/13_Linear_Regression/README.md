@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/3313cfe0-09d2-4873-87d9-91ce66f1d4fc" width="50%" />
+</p>
+
+
 # Linear Regression
 
 
@@ -45,7 +50,6 @@ Block Diagram of Inference VI. <br/>
 ## More detailes in article on our website:
 
 ### [Deep Learning with LabVIEW. Tutorial #1.3: Linear Regression - Celsius to Fahrenheit Conversion](https://www.ngene.co/post/deep-learning-with-labview-tutorial-1-3-linear-regression-celsius-to-fahrenheit-conversion)
-![DeepLTK_C2F](https://github.com/ngenehub/deepltk_examples/assets/131282716/17d519ed-cbbd-46f1-b20b-83c8be4c3428)
 
 
 
