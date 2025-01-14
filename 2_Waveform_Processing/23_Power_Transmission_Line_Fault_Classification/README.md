@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/e9912ad7-a82f-40d6-9e83-4b74f1497045" width="50%" />
+</p>
+
 # Power Transmission Line Fault Classification
 
 
@@ -64,7 +68,6 @@ The project consist of three main VIs
 
 ### [DeepLTK Learning with LabVIEW. Tutorial #2.1: Waveform Signal Classifier](https://www.ngene.co/post/deep-learning-with-labview-tutorial-2-1-waveform-signal-classifier)
 
-![DeepLTK_WF_Class (3)](https://github.com/ngenehub/deepltk_examples/assets/131282716/d10778ea-c1fd-4241-b3c4-d3b1320e37af)
 
 
 
