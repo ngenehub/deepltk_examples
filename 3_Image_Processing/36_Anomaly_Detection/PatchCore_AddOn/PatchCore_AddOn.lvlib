@@ -8,7 +8,9 @@
 	<Item Name="API" Type="Folder">
 		<Item Name="Controls" Type="Folder">
 			<Item Name="ColorMap.ctl" Type="VI" URL="../API/Controls/ColorMap.ctl"/>
+			<Item Name="Eval_Config.ctl" Type="VI" URL="../API/Controls/Eval_Config.ctl"/>
 			<Item Name="Eval_Results.ctl" Type="VI" URL="../API/Controls/Eval_Results.ctl"/>
+			<Item Name="Evaluation_Metrics.ctl" Type="VI" URL="../API/Controls/Evaluation_Metrics.ctl"/>
 			<Item Name="Feature_Scorer_Params.ctl" Type="VI" URL="../API/Controls/Feature_Scorer_Params.ctl"/>
 			<Item Name="Gaussian_Blur.ctl" Type="VI" URL="../API/Controls/Gaussian_Blur.ctl"/>
 			<Item Name="Heatmap_Config.ctl" Type="VI" URL="../API/Controls/Heatmap_Config.ctl"/>
@@ -18,6 +20,7 @@
 			<Item Name="NN_Paths.ctl" Type="VI" URL="../API/Controls/NN_Paths.ctl"/>
 			<Item Name="NNPC_BackBone_Selector.ctl" Type="VI" URL="../API/Controls/NNPC_BackBone_Selector.ctl"/>
 			<Item Name="NNPC_Coreset_Params.ctl" Type="VI" URL="../API/Controls/NNPC_Coreset_Params.ctl"/>
+			<Item Name="NNPC_DataSets_Good_Bad(In3D_Out3D).ctl" Type="VI" URL="../API/Controls/NNPC_DataSets_Good_Bad(In3D_Out3D).ctl"/>
 			<Item Name="NNPC_Device.ctl" Type="VI" URL="../API/Controls/NNPC_Device.ctl"/>
 			<Item Name="NNPC_DS_Stats.ctl" Type="VI" URL="../API/Controls/NNPC_DS_Stats.ctl"/>
 			<Item Name="NNPC_Init_CFG.ctl" Type="VI" URL="../API/Controls/NNPC_Init_CFG.ctl"/>
@@ -38,8 +41,7 @@
 		</Item>
 		<Item Name="NNPC_Coreset_Subsampler.vi" Type="VI" URL="../API/NNPC_Coreset_Subsampler.vi"/>
 		<Item Name="NNPC_Destroy.vi" Type="VI" URL="../API/NNPC_Destroy.vi"/>
-		<Item Name="NNPC_Eval.vi" Type="VI" URL="../API/Eval/NNPC_Eval.vi"/>
-		<Item Name="NNPC_Extract_Bad_Pixel_Scores.vi" Type="VI" URL="../API/Eval/NNPC_Extract_Bad_Pixel_Scores.vi"/>
+		<Item Name="NNPC_Eval.vi" Type="VI" URL="../API/NNPC_Eval.vi"/>
 		<Item Name="NNPC_Generate_Embedding.vi" Type="VI" URL="../API/NNPC_Generate_Embedding.vi"/>
 		<Item Name="NNPC_Init(Inference).vi" Type="VI" URL="../API/NNPC_Init(Inference).vi"/>
 		<Item Name="NNPC_Init(Train).vi" Type="VI" URL="../API/NNPC_Init(Train).vi"/>
@@ -55,7 +57,6 @@
 			<Item Name="Array_2D_Reduce_Sum_Dim=1.vi" Type="VI" URL="../Low_Level/Common/Array_2D_Reduce_Sum_Dim=1.vi"/>
 			<Item Name="Array_Min_Batch(CuLab).vi" Type="VI" URL="../Low_Level/Common/Array_Min_Batch(CuLab).vi"/>
 			<Item Name="NN_Layer_Get_OutRefs_as3D_Tensor.vi" Type="VI" URL="../Low_Level/Common/NN_Layer_Get_OutRefs_as3D_Tensor.vi"/>
-			<Item Name="NN_Layer_Get_OutRefs_as3D_Tensor_Data.vi" Type="VI" URL="../Low_Level/Common/NN_Layer_Get_OutRefs_as3D_Tensor_Data.vi"/>
 			<Item Name="NN_T4D_to_CuLab_T4D.vi" Type="VI" URL="../Low_Level/Common/NN_T4D_to_CuLab_T4D.vi"/>
 			<Item Name="Permute({b,c,h,w)_to_(bhw,c))(CuLab).vi" Type="VI" URL="../Low_Level/Common/Permute({b,c,h,w)_to_(bhw,c))(CuLab).vi"/>
 			<Item Name="Permute({b,c,h,w)_to_(bhw,c)).vi" Type="VI" URL="../Low_Level/Common/Permute({b,c,h,w)_to_(bhw,c)).vi"/>
@@ -65,9 +66,6 @@
 			<Item Name="Anomaly_Detection_Results_Imgs.ctl" Type="VI" URL="../Low_Level/Controls/Anomaly_Detection_Results_Imgs.ctl"/>
 			<Item Name="Normalization_Type.ctl" Type="VI" URL="../Low_Level/Controls/Normalization_Type.ctl"/>
 		</Item>
-		<Item Name="Generate_Embedding" Type="Folder">
-			<Item Name="NN_Predict(In3D_Out3D)(CuLab).vi" Type="VI" URL="../Low_Level/Generate_Embedding/NN_Predict(In3D_Out3D)(CuLab).vi"/>
-		</Item>
 		<Item Name="NNPC_Coreset_Subsampler" Type="Folder">
 			<Item Name="Pairwise_Distance(CuLab).vi" Type="VI" URL="../Low_Level/NNPC_Coreset_Subsampler/Pairwise_Distance(CuLab).vi"/>
 			<Item Name="Pairwise_Distance.vi" Type="VI" URL="../Low_Level/NNPC_Coreset_Subsampler/Pairwise_Distance.vi"/>
@@ -75,6 +73,14 @@
 			<Item Name="Sample_Coreset.vi" Type="VI" URL="../Low_Level/NNPC_Coreset_Subsampler/Sample_Coreset.vi"/>
 			<Item Name="Select_Coreset_Idxs(CuLab).vi" Type="VI" URL="../Low_Level/NNPC_Coreset_Subsampler/Select_Coreset_Idxs(CuLab).vi"/>
 			<Item Name="Select_Coreset_Idxs.vi" Type="VI" URL="../Low_Level/NNPC_Coreset_Subsampler/Select_Coreset_Idxs.vi"/>
+		</Item>
+		<Item Name="NNPC_Eval" Type="Folder">
+			<Item Name="Eval_Scores_Calc_Metrics.vi" Type="VI" URL="../Low_Level/NNPC_Eval/Eval_Scores_Calc_Metrics.vi"/>
+			<Item Name="NNPC_Eval_Scores.vi" Type="VI" URL="../Low_Level/NNPC_Eval/NNPC_Eval_Scores.vi"/>
+			<Item Name="NNPC_Separate_Scores_into_Good_and_Bad.vi" Type="VI" URL="../Low_Level/NNPC_Eval/NNPC_Separate_Scores_into_Good_and_Bad.vi"/>
+		</Item>
+		<Item Name="NNPC_Generate_Embedding" Type="Folder">
+			<Item Name="NN_Predict(In3D_Out3D)(CuLab).vi" Type="VI" URL="../Low_Level/NNPC_Generate_Embedding/NN_Predict(In3D_Out3D)(CuLab).vi"/>
 		</Item>
 		<Item Name="NNPC_Init(Inference)" Type="Folder">
 			<Item Name="CFG(Read).vi" Type="VI" URL="../Low_Level/NNPC_Init(Inference)/CFG(Read).vi"/>
@@ -123,9 +129,6 @@
 				<Item Name="ProgBar_UI.vi" Type="VI" URL="../Low_Level/Progress Bar/subVIs/ProgBar_UI.vi"/>
 			</Item>
 		</Item>
-		<Item Name="Statistics" Type="Folder">
-			<Item Name="Eval_Scores_And_Stats_Core.vi" Type="VI" URL="../Low_Level/Statistics/Eval_Scores_And_Stats_Core.vi"/>
-		</Item>
 	</Item>
 </Library>
-<?sig D4B81D2EB5F7DACC710994677C851197?>
+<?sig F70FB03A46FAB7E8FBAE63F70AFC1181?>
