@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/a53b675b-8000-41f1-a32d-88d554402ac4" width="50%" />
+</p>
+
 # Waveform Signal Regression
 
 
@@ -45,7 +49,6 @@ The project consist of two main VIs
 
 ### [DeepLTK Learning with LabVIEW. Tutorial #2.2: Waveform Signal Regression](https://www.ngene.co/post/deep-learning-with-labview-tutorial-2-2-waveform-signal-regression)
 
-![image](https://github.com/ngenehub/deepltk_examples/assets/131282716/1fdd7a40-914d-4148-94e9-bd59bf0205e0)
 
 
 
