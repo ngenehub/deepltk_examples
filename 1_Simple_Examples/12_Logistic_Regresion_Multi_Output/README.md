@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/89b661bb-f8b3-44b6-b200-ef15601015fd" width="50%" />
+</p> 
+
 # Multiple Output Logistic Regression
 
 
@@ -51,7 +55,6 @@ The project consists of two main VIs
 
 ### [Deep Learning with LabVIEW. Tutorial #1.2: Multi-Output Logistic Regression - 8bit Adder](https://www.ngene.co/post/deepltk-tutorial-1-2-multi-output-logistic-regression-8bit-adder)
 
-![DeepLTK_Adder](https://github.com/ngenehub/deepltk_examples/assets/131282716/53bd29d1-be5c-40a5-9d17-0fc55f7ed1f3)
 
 
 
