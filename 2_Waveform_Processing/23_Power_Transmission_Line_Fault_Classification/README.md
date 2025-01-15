@@ -66,7 +66,7 @@ The project consist of three main VIs
 
 ## More detailes in article on our website:
 
-### [DeepLTK Learning with LabVIEW. Tutorial #2.1: Waveform Signal Classifier](https://www.ngene.co/post/deep-learning-with-labview-tutorial-2-1-waveform-signal-classifier)
+### [DeepLTK Learning with LabVIEW. Tutorial #2.3: Power Line Fault Classification](https://www.ngene.co/post/deep-learning-with-labview-tutorial-2-3-power-line-fault-classification)
 
 
 
