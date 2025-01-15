@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/e9912ad7-a82f-40d6-9e83-4b74f1497045" width="50%" />
+  <img src="https://github.com/user-attachments/assets/b53d6baf-946c-48b2-8446-489a54c0324f" width="50%" />
 </p>
 
 # Power Transmission Line Fault Classification
