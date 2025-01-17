@@ -8,7 +8,7 @@
 # Single Output Logistic Regression
 
 
-#### This example demonstrates the use of [DeepLTK](https://www.ngene.co/deep-learning-toolkit-for-labview) for solving single output logistic regression problems. <br> This is a high-level overview of the project, with snapshots of the main VI. For detailed instructions, please refer to the full [blog post](https://www.ngene.co/post/deeplearning-with-labview-simple-boolean).  
+#### This example demonstrates the use of [DeepLTK](https://www.ngene.co/deep-learning-toolkit-for-labview) for solving single output logistic regression problems. <br> This is a high-level overview of the project, with snapshots of the main VIs. For detailed instructions, please refer to the full [blog post](https://www.ngene.co/post/deeplearning-with-labview-simple-boolean).  
 ----
 
 In this example, we use [DeepLTK](https://www.ngene.co/deep-learning-toolkit-for-labview) to model the logical AND operator.
