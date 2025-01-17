@@ -11,7 +11,7 @@ This example demonstrates non-linear regression with multiple outputs, implement
 
 > *This is a high-level overview of the project, with snapshots of the main VIs. <br>For detailed instructions, please refer to the [blog post].*
 
-## 1_Sin(x)_Cos(x)(Training).vi
+### 1_Sin(x)_Cos(x)(Training).vi
 
 <p align="center">
   <i>Front Panel</i> <br/>
@@ -27,7 +27,7 @@ This example demonstrates non-linear regression with multiple outputs, implement
 
 <br/>
 
-## 2_Sin(x)_Cos(x)(Inference).vi
+### 2_Sin(x)_Cos(x)(Inference).vi
 <p align="center">
   <i>Front Panel</i> <br/>
   <img src="https://github.com/ngenehub/deepltk_examples/assets/131282716/6b0b8af2-64f8-410c-a5e6-6115d4c7571c" alt="image">
