@@ -10,8 +10,8 @@ This example demonstrates linear regression, implemented with the help of **[Dee
 
 ## Project Contents
 
-> *This is a high-level overview of the project, with snapshots of the main VIs. <br>For detailed instructions, please refer to the [blog post].
-> 
+> *This is a high-level overview of the project, with snapshots of the main VIs. <br>For detailed instructions, please refer to the [blog post].*
+
 ### 1_Celsius_To_Fahrenheit(Training).vi
 
 <p align="center">
