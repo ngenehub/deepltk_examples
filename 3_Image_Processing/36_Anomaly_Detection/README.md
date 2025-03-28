@@ -15,12 +15,12 @@
 
 ## Dependencies
 
-| Name           | Version | Requirement        |
-|----------------|---------|--------------------|
-| [DeepLTK](https://www.ngene.co/deep-learning-toolkit-for-labview) | 8.0.1.252   | Required           |
-| [CuLab](https://www.ngene.co/gpu-toolkit-for-labview)     | 4.0.1.73   | Optional*           |
+| Name           | Version | Requirement        | Notes        |
+|----------------|---------|--------------------|--------------------|
+| [DeepLTK](https://www.ngene.co/deep-learning-toolkit-for-labview) | 8.0.2.254   | Required.            | This version resolves an issue preventing CPU-based training.|
+| [CuLab](https://www.ngene.co/gpu-toolkit-for-labview)     | 4.1.1.76   | Optional           | Using CuLab significantly accelerates both training and inference (up to 50x) with GPUs. 
 
-*To boost perfromance, it is highly recommended to use [CuLab (GPU Toolkit for LabVIEW)](https://www.ngene.co/gpu-toolkit-for-labview).
+ 
 
 ----
 
