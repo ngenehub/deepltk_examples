@@ -6,19 +6,25 @@
 ---
 
 # Visual Anomaly Detection
+<div align="center">
+
+[![IMAGE ALT TEXT](https://github.com/user-attachments/assets/aab4c03d-4769-4dd1-9a45-d30104bc95a1)](https://www.youtube.com/watch?v=Ax_g0dsYNlw "Video Title")
+<i>Demo Video.</i>
+
+</div>
+
 
 
 #### This example demonstrates the use of [DeepLTK](https://www.ngene.co/deep-learning-toolkit-for-labview) for solving visual anomaly detection problems. <br> Detailed instructions can be found in the [blog post](https://www.ngene.co/post/deepltk-tutorial-3-6-visual-anomaly-detection).  
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/a9f952c2-9301-4717-8e99-321b64206a34" width="70%" />
-</p>
+
 
 ## Dependencies
 
-| Name           | Version | Requirement        | Notes        |
-|----------------|---------|--------------------|--------------------|
-| [DeepLTK](https://www.ngene.co/deep-learning-toolkit-for-labview) | 8.0.2.254   | Required.            | This version resolves an issue preventing CPU-based training.|
-| [CuLab](https://www.ngene.co/gpu-toolkit-for-labview)     | 4.1.1.76   | Optional           | Using CuLab significantly accelerates both training and inference (up to 50x) with GPUs. 
+| Name                                         | Version | Requirement        | Notes        |
+|----------------------------------------------|---------|--------------------|--------------------|
+| [DeepLTK_Anomaly_Detection_Addon](https://www.vipm.io/package/ngene_deepltk_patchcore_anomaly_detection_addon/) | 2.0.1.18   | Required            | |
+| [DeepLTK](https://www.ngene.co/deep-learning-toolkit-for-labview) | 8.0.2.254   | Required            | |
+| [CuLab](https://www.ngene.co/gpu-toolkit-for-labview)     | 4.1.1.77   | Optional           | Using CuLab significantly accelerates both training and inference (up to 50x) with GPUs. 
 
  
 
@@ -27,71 +33,57 @@
 # Project Contents
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/65e34291-c413-4302-b3fe-b04b065fe653" />
+  <img src="https://github.com/user-attachments/assets/202c8cfa-8a08-44b8-8829-3cfc09261b3d" />
 </p>
 
 <br/>
 
-## 0_PatchCore_Train.vi
-Train the anomaly detection model.
+## 1_VisualAD_Train_Eval.vi
+Train and evaluate the anomaly detection model.
 
-![0_Train_FP](https://github.com/user-attachments/assets/47d89e40-c6c5-41d3-ad77-ee95b19f2bf0)  
-<div align="center"><i>Front Panel of Training VI.</i></div>
+![1_VisualAD_Train_Eval](https://github.com/user-attachments/assets/3b7ec90a-1047-4b91-9d92-dfd96fd118d1)  
+<div align="center"><i>Front Panel of Training  VI.</i></div>
 <br/>
 
-![0_Train_BD](https://github.com/user-attachments/assets/9ce2e466-eafc-4fab-bcac-a8c2f0bb0f2b)
-<div align="center"><i>Block Diagram of Training VI.</i></div>
+
+![1_VisualAD_Train_Eval_BD](https://github.com/user-attachments/assets/409c37cf-c192-4a4d-b7ea-12062792e99e)
+<div align="center"><i>Block Diagram of Training and Evaluation VI.</i></div>
 
 <br/>
 
-## 1_PatchCore_Eval.vi
-
-Evaluate pixel-wise and image-wise detection results, calculate statistics, and determine the optimal threshold.
-
-![1_Eval_FP](https://github.com/user-attachments/assets/5d0fa9ae-33c4-4546-86f6-811bd7b82f0a) <br/>
-<div align="center"><i>Front Panel of Evaluation VI.</i></div>
-<br/>
-
-![1_Eval_BD](https://github.com/user-attachments/assets/cfbc8638-58e4-43a1-81cf-e0cd48692291)
-<div align="center"><i>Block Diagram of Evaluation VI.</i></div>
-<br/>
-
-## 2_0_PatchCore_Inference(Image).vi
+## 2_VisualAD_Inference(Image).vi
 
 Inference for a single image.
 
-![2_0_Inference_FP](https://github.com/user-attachments/assets/4082693c-c246-4e14-b308-eba8d9b08a30) <br/>
+![2_VisusalAD_Inference(Image)_FP](https://github.com/user-attachments/assets/6706ea65-2604-4091-9485-89fef0e8102d) <br/>
 <div align="center"><i>Front Panel of Inference VI.</i></div>
 <br/>
 
-![2_0_Inference_BD](https://github.com/user-attachments/assets/c902d746-a10b-4ee5-a0ac-80e1fe20bb99)
+![2_VisualAD_Inference(Image)_BD](https://github.com/user-attachments/assets/4390263d-ad18-48a5-8012-f8ecc0ae27ea)
 <div align="center"><i>Block Diagram of Inference VI.</i></div>
 <br/>
 
-## 2_1_PatchCore_Inference(Image(Batch)).vi
+## 3_VisualAD_Report(Dataset).vi
+Generate and save detection results for the dataset.
 
-Inference for a batch of images.
-
-![2_1_Inference_FP](https://github.com/user-attachments/assets/f923cbd2-598a-41b9-960a-417c8946d459) <br/>
-<div align="center"><i>Front Panel of Batch Inference VI.</i></div>
-<br/>
-
-![2_1_Inference_BD](https://github.com/user-attachments/assets/c052ff1d-e9fc-41c0-a915-aa6b3464c1ec)
-<div align="center"><i>Block Diagram of Batch Inference VI.</i></div>
-<br/>
-
-## 3_PatchCore_Report(Dataset).vi
-Generat and save detection results for the dataset.
-
-![3_Report_FP](https://github.com/user-attachments/assets/661050ac-065a-4abf-9d89-ef01138c99c3)  <br/>
+![3_VisualAD_Report(Dataset)_FP](https://github.com/user-attachments/assets/ea0c8fa0-2f8b-4792-b99b-18b97b16791e)  <br/>
 <div align="center"><i>Front Panel of Report Dataset VI.</i></div>
 <br/>
 
-![3_Report_BD](https://github.com/user-attachments/assets/1e5affdb-e595-4a3c-9640-4f179da72ca5)
+
+![3_VisualAD_Report(Dataset)_BD](https://github.com/user-attachments/assets/0b0ea904-cb62-4b37-aef3-0204b615dc12)
 <div align="center"><i>Block Diagram of Report Dataset VI.</i></div>
 <br/>
 
 <br/>
+
+<div align="center">
+
+[![IMAGE ALT TEXT](https://github.com/user-attachments/assets/68eaff92-49b3-46c3-94c7-be50d0c3d31a)](https://www.youtube.com/watch?v=7S5Cchkn9LU "Video Title")
+<i>Demo Video.</i>
+
+</div>
+
 
 #### For in-depth instructions and further information, check out the [blog post](https://www.ngene.co/post/deepltk-tutorial-3-6-visual-anomaly-detection).
 
