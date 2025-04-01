@@ -70,7 +70,6 @@
 		<Item Name="Models" Type="Folder" URL="../Models">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="PatchCore_AddOn" Type="Folder"/>
 		<Item Name="subVIs" Type="Folder" URL="../subVIs">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
