@@ -67,7 +67,13 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Dataset" Type="Folder" URL="../Dataset">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="Models" Type="Folder" URL="../Models">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
+		<Item Name="NNFE" Type="Folder" URL="../NNFE">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="subVIs" Type="Folder" URL="../subVIs">
@@ -76,6 +82,7 @@
 		<Item Name="1_VisualAD_Train_Eval.vi" Type="VI" URL="../1_VisualAD_Train_Eval.vi"/>
 		<Item Name="2_VisualAD__Inference(Image).vi" Type="VI" URL="../2_VisualAD__Inference(Image).vi"/>
 		<Item Name="3_VisualAD_Report(Dataset).vi" Type="VI" URL="../3_VisualAD_Report(Dataset).vi"/>
+		<Item Name="Enabling_GPU_Acceleration_v1.1.pdf" Type="Document" URL="../Enabling_GPU_Acceleration_v1.1.pdf"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
