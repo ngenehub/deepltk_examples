@@ -1,0 +1,875 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: Ngene-->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width=" 3656 " height=" 4656 " version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 viewboxx viewboxy"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str2 {stroke:#373435;stroke-width:1.9728}
+    .str3 {stroke:#909090;stroke-width:1}
+    .str0 {stroke:#4B4B4D;stroke-width:1.26235}
+    .str1 {stroke:#373435;stroke-width:1.9728;stroke-linejoin:bevel}
+    .fil4 {fill:#077EAB}
+    .fil8 {fill:#0CFF0C}
+    .fil2 {fill:#2185FF}
+    .fil0 {fill:#21FF21}
+    .fil3 {fill:#282829}
+    .fil6 {fill:#5CE6D0}
+    .fil7 {fill:#91D8F7}
+    .fil9 {fill:#F5874F}
+    .fil1 {fill:#FF3421}
+    .fil10 {fill:#373435;fill-rule:nonzero}
+     
+     
+    .fil5 {fill:#AFC4CD}
+
+    .fil_p {fill:#FF8856}
+    .fil_o {fill:#4295B5}
+    .fil_d {fill:#FFD356}
+
+    .Fill_Input1D {fill:#3DB3A6}
+    .Fill_Input3D {fill:#3DB3A6}
+    .Fill_Last {fill:#FFF5D8}
+    .Fill_ShortCut {fill:#FF8956}
+    .Fill_Middle {fill:#AFC4CD}
+    .Fill_Conv3D {fill:#FF8956}
+    .Fill_Softmax {fill:#FFD356}
+    .Fill_Concat {fill:#FF8956}
+    .Fill_FC {fill:#FFD356}
+    .Fill_AvgPool {fill:#FF8956}
+    .Fill_MaxPool {fill:#FF8956}
+    .Fill_UpSample {fill:#FF8956}
+    .Fill_DropOut3D {fill:#FF8956}
+    .Fill_DropOut {fill:#FFD356}
+    .Fill_Region {fill:#FFD356}
+    .Fill_Flatten {fill:#FFD356}
+    .Fill_Detection {fill:#FFD356}
+    .Fill_Concat_Middle {fill:#ADCCC9}
+    .Fill_Softmax3D {fill:#FFD356}
+    .Fill_Conv2D_Advanced {fill:#FF8956}
+
+
+
+    .fnt0 {font-weight:bold;font-size:14px;font-family:'Arial'}
+   ]]>
+  </style>
+ </defs>
+ <g transform=" scale(0.200000 , 0.200000)translate (40.000000 , 0 )" id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_2188959232976">
+   <rect class="fil_p str0" x="336" y="42" width="292" height="34"/>
+   <rect class="fil_o str0" x="336" y="76" width="292" height="34"/>
+   <rect class="fil_d str0" x="336" y="110" width="292" height="34"/>
+   <g transform="matrix(1 0 0 1 -150.02 -706.919)">
+    <text x="500" y="773"  class="fil3 fnt0">Total Params - </text>
+    <text x="646" y="773"  class="fil3 fnt0">273.1k</text>
+   </g>
+   <g transform="matrix(1 0 0 1 -150.02 -675.669)">
+    <text x="500" y="773"  class="fil3 fnt0">Total Ops      - </text>
+    <text x="645" y="773"  class="fil3 fnt0">82.29M</text>
+   </g>
+   <g transform="matrix(1 0 0 1 -149.074 -639.684)">
+    <text x="500" y="773"  class="fil3 fnt0">Total Data      - </text>
+    <text x="646" y="773"  class="fil3 fnt0">289.9k</text>
+   </g>
+  </g>
+
+<g transform="translate (0 , 180 )" xmlns="http://www.w3.org/2000/svg" id="_2188820419440">
+     <g transform="translate(0,-252)">  
+     <path class="Fill_Input3D str1" d="M103 252l195 0c4,0 7,2 7,6l0 23 -209 0 0 -23c0,-4 4,-6 7,-6l0 0z"/>
+     <polygon class="Fill_Middle str1" points="96,309 305,309 305,280 96,280 "/>
+     <path class="Fill_Last str1" d="M96 309l209 0 0 22c0,4 -4,7 -7,7l-195 0c-3,0 -7,-3 -7,-7l0 -22 0 0z"/>
+     <text text-anchor="middle" x="200" y="271" class="fil3 fnt0">Input3D</text>
+     <text text-anchor="middle" x="200" y="300" class="fil3 fnt0">RF - 1x1</text>
+     <text text-anchor="middle" x="200" y="329" class="fil3 fnt0">Dims - 3x32x32</text>
+
+    <rect class="fil_p str3" x="330" y="247" width="0" height="22.7269"/>
+    <rect class="fil_o str3" x="330" y="270" width="0" height="22.7269"/>
+    <rect class="fil_d str3" x="330" y="292" width="497.91" height="22.7269"/>
+    <text x="335" y="264" class="fil3 fnt0">0</text>
+    <text x="335" y="286" class="fil3 fnt0">0</text>
+    <text x="335" y="309" class="fil3 fnt0">3.072k</text>
+   </g>
+  </g><g transform=" translate (0 , 267 )" xmlns="http://www.w3.org/2000/svg" id="Layer_x0020_1_0">
+  <path transform=" translate(0,-210)" d="M198 245l0 -35 4 0 0 35 -4 0zm0 3l4 -2 -4 0 10 -16 4 3 -10 15 -4 0zm0 0l4 0 -2 3 -2 -3 0 0zm-8 -17l1 -1 11 16 -4 2 -10 -15 2 -2 0 0z" class="fil10"/>
+
+
+ </g>
+<g transform="translate (0 , 308 )" xmlns="http://www.w3.org/2000/svg" id="_2188820445584">
+   <g transform="translate(0,-342)">  
+   <path class="Fill_Conv3D str1" d="M103 342l195 0c4,0 7,2 7,6l0 23 -209 0 0 -23c0,-4 3,-6 7,-6l0 0z"/>
+   <polygon class="Fill_Middle str1" points="96,399 305,399 305,370 96,370 "/>
+   <polygon class="Fill_Middle str1" points="96,428 305,428 305,399 96,399 "/>
+   <path class="Fill_Last str1" d="M96 428l209 0 0 23c0,3 -3,6 -7,6l-195 0c-4,0 -7,-3 -7,-6l0 -23 0 0z"/>
+   <text text-anchor="middle" x="200" y="360" class="fil3 fnt0">Conv2D -  c16,k3,s1,p1</text>
+   <text text-anchor="middle" x="200" y="389" class="fil3 fnt0">BN=T, HB=F, ReLU</text>
+   <text text-anchor="middle" x="200" y="418" class="fil3 fnt0">RF - 3x3</text>
+   <text text-anchor="middle" x="200" y="447" class="fil3 fnt0">Dims - 16x32x32</text>
+ 
+    <rect class="fil_p str3" x="330" y="351" width="34.398" height="22.7269"/>
+    <rect class="fil_o str3" x="330" y="374" width="520.15" height="22.7269"/>
+    <rect class="fil_d str3" x="330" y="396" width="2655.5" height="22.7269"/>
+    <text x="335" y="367" class="fil3 fnt0">480</text>
+    <text x="335" y="390" class="fil3 fnt0">933.9k</text>
+    <text x="335" y="412" class="fil3 fnt0">16.38k</text>
+   </g>
+  </g><g transform=" translate (0 , 422 )" xmlns="http://www.w3.org/2000/svg" id="Layer_x0020_1_0">
+  <path transform=" translate(0,-210)" d="M198 245l0 -35 4 0 0 35 -4 0zm0 3l4 -2 -4 0 10 -16 4 3 -10 15 -4 0zm0 0l4 0 -2 3 -2 -3 0 0zm-8 -17l1 -1 11 16 -4 2 -10 -15 2 -2 0 0z" class="fil10"/>
+
+
+ </g>
+<g transform="translate (0 , 463 )" xmlns="http://www.w3.org/2000/svg" id="_2188820445584">
+   <g transform="translate(0,-342)">  
+   <path class="Fill_Conv3D str1" d="M103 342l195 0c4,0 7,2 7,6l0 23 -209 0 0 -23c0,-4 3,-6 7,-6l0 0z"/>
+   <polygon class="Fill_Middle str1" points="96,399 305,399 305,370 96,370 "/>
+   <polygon class="Fill_Middle str1" points="96,428 305,428 305,399 96,399 "/>
+   <path class="Fill_Last str1" d="M96 428l209 0 0 23c0,3 -3,6 -7,6l-195 0c-4,0 -7,-3 -7,-6l0 -23 0 0z"/>
+   <text text-anchor="middle" x="200" y="360" class="fil3 fnt0">Conv2D -  c16,k3,s1,p1</text>
+   <text text-anchor="middle" x="200" y="389" class="fil3 fnt0">BN=T, HB=F, ReLU</text>
+   <text text-anchor="middle" x="200" y="418" class="fil3 fnt0">RF - 5x5</text>
+   <text text-anchor="middle" x="200" y="447" class="fil3 fnt0">Dims - 16x32x32</text>
+ 
+    <rect class="fil_p str3" x="330" y="351" width="168.55" height="22.7269"/>
+    <rect class="fil_o str3" x="330" y="374" width="2655.5" height="22.7269"/>
+    <rect class="fil_d str3" x="330" y="396" width="2655.5" height="22.7269"/>
+    <text x="335" y="367" class="fil3 fnt0">2.352k</text>
+    <text x="335" y="390" class="fil3 fnt0">4.768M</text>
+    <text x="335" y="412" class="fil3 fnt0">16.38k</text>
+   </g>
+  </g><g transform=" translate (0 , 577 )" xmlns="http://www.w3.org/2000/svg" id="Layer_x0020_1_0">
+  <path transform=" translate(0,-210)" d="M198 245l0 -35 4 0 0 35 -4 0zm0 3l4 -2 -4 0 10 -16 4 3 -10 15 -4 0zm0 0l4 0 -2 3 -2 -3 0 0zm-8 -17l1 -1 11 16 -4 2 -10 -15 2 -2 0 0z" class="fil10"/>
+
+
+ </g>
+<g transform="translate (0 , 618 )" xmlns="http://www.w3.org/2000/svg" id="_2188820445584">
+   <g transform="translate(0,-342)">  
+   <path class="Fill_Conv3D str1" d="M103 342l195 0c4,0 7,2 7,6l0 23 -209 0 0 -23c0,-4 3,-6 7,-6l0 0z"/>
+   <polygon class="Fill_Middle str1" points="96,399 305,399 305,370 96,370 "/>
+   <polygon class="Fill_Middle str1" points="96,428 305,428 305,399 96,399 "/>
+   <path class="Fill_Last str1" d="M96 428l209 0 0 23c0,3 -3,6 -7,6l-195 0c-4,0 -7,-3 -7,-6l0 -23 0 0z"/>
+   <text text-anchor="middle" x="200" y="360" class="fil3 fnt0">Conv2D -  c16,k3,s1,p1</text>
+   <text text-anchor="middle" x="200" y="389" class="fil3 fnt0">BN=T, HB=F, None</text>
+   <text text-anchor="middle" x="200" y="418" class="fil3 fnt0">RF - 7x7</text>
+   <text text-anchor="middle" x="200" y="447" class="fil3 fnt0">Dims - 16x32x32</text>
+ 
+    <rect class="fil_p str3" x="330" y="351" width="168.55" height="22.7269"/>
+    <rect class="fil_o str3" x="330" y="374" width="2655.5" height="22.7269"/>
+    <rect class="fil_d str3" x="330" y="396" width="2655.5" height="22.7269"/>
+    <text x="335" y="367" class="fil3 fnt0">2.352k</text>
+    <text x="335" y="390" class="fil3 fnt0">4.768M</text>
+    <text x="335" y="412" class="fil3 fnt0">16.38k</text>
+   </g>
+  </g><g transform=" translate (0 , 732 )" xmlns="http://www.w3.org/2000/svg" id="Layer_x0020_1_0">
+  <path transform=" translate(0,-210)" d="M198 245l0 -35 4 0 0 35 -4 0zm0 3l4 -2 -4 0 10 -16 4 3 -10 15 -4 0zm0 0l4 0 -2 3 -2 -3 0 0zm-8 -17l1 -1 11 16 -4 2 -10 -15 2 -2 0 0z" class="fil10"/>
+
+
+ </g>
+<g transform="translate (0 , 773 )" xmlns="http://www.w3.org/2000/svg" id="_2188820445584">
+   <g transform="translate(0,-342)">  
+   <path class="Fill_ShortCut str1" d="M103 342l195 0c4,0 7,2 7,6l0 23 -209 0 0 -23c0,-4 3,-6 7,-6l0 0z"/>
+   <polygon class="Fill_Middle str1" points="96,399 305,399 305,370 96,370 "/>
+   <polygon class="Fill_Middle str1" points="96,428 305,428 305,399 96,399 "/>
+   <path class="Fill_Last str1" d="M96 428l209 0 0 23c0,3 -3,6 -7,6l-195 0c-4,0 -7,-3 -7,-6l0 -23 0 0z"/>
+   <text text-anchor="middle" x="200" y="360" class="fil3 fnt0">ShortCut</text>
+   <text text-anchor="middle" x="200" y="389" class="fil3 fnt0">ReLU</text>
+   <text text-anchor="middle" x="200" y="418" class="fil3 fnt0">RF - 7x7</text>
+   <text text-anchor="middle" x="200" y="447" class="fil3 fnt0">Dims - 16x32x32</text>
+ 
+    <rect class="fil_p str3" x="330" y="351" width="0" height="22.7269"/>
+    <rect class="fil_o str3" x="330" y="374" width="9.1254" height="22.7269"/>
+    <rect class="fil_d str3" x="330" y="396" width="2655.5" height="22.7269"/>
+    <text x="335" y="367" class="fil3 fnt0">0</text>
+    <text x="335" y="390" class="fil3 fnt0">16.38k</text>
+    <text x="335" y="412" class="fil3 fnt0">16.38k</text>
+   </g>
+  </g><g transform=" translate (0 , 887 )" xmlns="http://www.w3.org/2000/svg" id="Layer_x0020_1_0">
+  <path transform=" translate(0,-210)" d="M198 245l0 -35 4 0 0 35 -4 0zm0 3l4 -2 -4 0 10 -16 4 3 -10 15 -4 0zm0 0l4 0 -2 3 -2 -3 0 0zm-8 -17l1 -1 11 16 -4 2 -10 -15 2 -2 0 0z" class="fil10"/>
+
+ 
+<path transform=" translate(20,-40) rotate(-90) " d=" M 60 70 l  0 -30   4 0   0 30  -4 0   m0 3l4 -2 -4 0 10 -16 4 3 -10 15 -4 0 z m 0 0l4 0 -2 3 -2 -3 0 0 z m-8 -17l1 -1 11 16 -4 2 -10 -15 2 -2 0 0z" class="fil10" />
+<path transform=" translate(20, -102)"  d="M 	0 	-2  l 0  -349  4 0 0   349 -4 0   M	 4 -347  l	 174  0 0 -4	  -174	 0 0 4 M  0	2   l	 69	 0 0 -4	  -69 0 0 4  M 178 -347  l0 -14 4 0 0 14 -4"  class="fil10" />
+
+ </g>
+<g transform="translate (0 , 928 )" xmlns="http://www.w3.org/2000/svg" id="_2188820445584">
+   <g transform="translate(0,-342)">  
+   <path class="Fill_Conv3D str1" d="M103 342l195 0c4,0 7,2 7,6l0 23 -209 0 0 -23c0,-4 3,-6 7,-6l0 0z"/>
+   <polygon class="Fill_Middle str1" points="96,399 305,399 305,370 96,370 "/>
+   <polygon class="Fill_Middle str1" points="96,428 305,428 305,399 96,399 "/>
+   <path class="Fill_Last str1" d="M96 428l209 0 0 23c0,3 -3,6 -7,6l-195 0c-4,0 -7,-3 -7,-6l0 -23 0 0z"/>
+   <text text-anchor="middle" x="200" y="360" class="fil3 fnt0">Conv2D -  c16,k3,s1,p1</text>
+   <text text-anchor="middle" x="200" y="389" class="fil3 fnt0">BN=T, HB=F, ReLU</text>
+   <text text-anchor="middle" x="200" y="418" class="fil3 fnt0">RF - 9x9</text>
+   <text text-anchor="middle" x="200" y="447" class="fil3 fnt0">Dims - 16x32x32</text>
+ 
+    <rect class="fil_p str3" x="330" y="351" width="168.55" height="22.7269"/>
+    <rect class="fil_o str3" x="330" y="374" width="2655.5" height="22.7269"/>
+    <rect class="fil_d str3" x="330" y="396" width="2655.5" height="22.7269"/>
+    <text x="335" y="367" class="fil3 fnt0">2.352k</text>
+    <text x="335" y="390" class="fil3 fnt0">4.768M</text>
+    <text x="335" y="412" class="fil3 fnt0">16.38k</text>
+   </g>
+  </g><g transform=" translate (0 , 1042 )" xmlns="http://www.w3.org/2000/svg" id="Layer_x0020_1_0">
+  <path transform=" translate(0,-210)" d="M198 245l0 -35 4 0 0 35 -4 0zm0 3l4 -2 -4 0 10 -16 4 3 -10 15 -4 0zm0 0l4 0 -2 3 -2 -3 0 0zm-8 -17l1 -1 11 16 -4 2 -10 -15 2 -2 0 0z" class="fil10"/>
+
+
+ </g>
+<g transform="translate (0 , 1083 )" xmlns="http://www.w3.org/2000/svg" id="_2188820445584">
+   <g transform="translate(0,-342)">  
+   <path class="Fill_Conv3D str1" d="M103 342l195 0c4,0 7,2 7,6l0 23 -209 0 0 -23c0,-4 3,-6 7,-6l0 0z"/>
+   <polygon class="Fill_Middle str1" points="96,399 305,399 305,370 96,370 "/>
+   <polygon class="Fill_Middle str1" points="96,428 305,428 305,399 96,399 "/>
+   <path class="Fill_Last str1" d="M96 428l209 0 0 23c0,3 -3,6 -7,6l-195 0c-4,0 -7,-3 -7,-6l0 -23 0 0z"/>
+   <text text-anchor="middle" x="200" y="360" class="fil3 fnt0">Conv2D -  c16,k3,s1,p1</text>
+   <text text-anchor="middle" x="200" y="389" class="fil3 fnt0">BN=T, HB=F, None</text>
+   <text text-anchor="middle" x="200" y="418" class="fil3 fnt0">RF - 11x11</text>
+   <text text-anchor="middle" x="200" y="447" class="fil3 fnt0">Dims - 16x32x32</text>
+ 
+    <rect class="fil_p str3" x="330" y="351" width="168.55" height="22.7269"/>
+    <rect class="fil_o str3" x="330" y="374" width="2655.5" height="22.7269"/>
+    <rect class="fil_d str3" x="330" y="396" width="2655.5" height="22.7269"/>
+    <text x="335" y="367" class="fil3 fnt0">2.352k</text>
+    <text x="335" y="390" class="fil3 fnt0">4.768M</text>
+    <text x="335" y="412" class="fil3 fnt0">16.38k</text>
+   </g>
+  </g><g transform=" translate (0 , 1197 )" xmlns="http://www.w3.org/2000/svg" id="Layer_x0020_1_0">
+  <path transform=" translate(0,-210)" d="M198 245l0 -35 4 0 0 35 -4 0zm0 3l4 -2 -4 0 10 -16 4 3 -10 15 -4 0zm0 0l4 0 -2 3 -2 -3 0 0zm-8 -17l1 -1 11 16 -4 2 -10 -15 2 -2 0 0z" class="fil10"/>
+
+
+ </g>
+<g transform="translate (0 , 1238 )" xmlns="http://www.w3.org/2000/svg" id="_2188820445584">
+   <g transform="translate(0,-342)">  
+   <path class="Fill_ShortCut str1" d="M103 342l195 0c4,0 7,2 7,6l0 23 -209 0 0 -23c0,-4 3,-6 7,-6l0 0z"/>
+   <polygon class="Fill_Middle str1" points="96,399 305,399 305,370 96,370 "/>
+   <polygon class="Fill_Middle str1" points="96,428 305,428 305,399 96,399 "/>
+   <path class="Fill_Last str1" d="M96 428l209 0 0 23c0,3 -3,6 -7,6l-195 0c-4,0 -7,-3 -7,-6l0 -23 0 0z"/>
+   <text text-anchor="middle" x="200" y="360" class="fil3 fnt0">ShortCut</text>
+   <text text-anchor="middle" x="200" y="389" class="fil3 fnt0">ReLU</text>
+   <text text-anchor="middle" x="200" y="418" class="fil3 fnt0">RF - 11x11</text>
+   <text text-anchor="middle" x="200" y="447" class="fil3 fnt0">Dims - 16x32x32</text>
+ 
+    <rect class="fil_p str3" x="330" y="351" width="0" height="22.7269"/>
+    <rect class="fil_o str3" x="330" y="374" width="9.1254" height="22.7269"/>
+    <rect class="fil_d str3" x="330" y="396" width="2655.5" height="22.7269"/>
+    <text x="335" y="367" class="fil3 fnt0">0</text>
+    <text x="335" y="390" class="fil3 fnt0">16.38k</text>
+    <text x="335" y="412" class="fil3 fnt0">16.38k</text>
+   </g>
+  </g><g transform=" translate (0 , 1352 )" xmlns="http://www.w3.org/2000/svg" id="Layer_x0020_1_0">
+  <path transform=" translate(0,-210)" d="M198 245l0 -35 4 0 0 35 -4 0zm0 3l4 -2 -4 0 10 -16 4 3 -10 15 -4 0zm0 0l4 0 -2 3 -2 -3 0 0zm-8 -17l1 -1 11 16 -4 2 -10 -15 2 -2 0 0z" class="fil10"/>
+
+ 
+<path transform=" translate(20,-40) rotate(-90) " d=" M 60 70 l  0 -30   4 0   0 30  -4 0   m0 3l4 -2 -4 0 10 -16 4 3 -10 15 -4 0 z m 0 0l4 0 -2 3 -2 -3 0 0 z m-8 -17l1 -1 11 16 -4 2 -10 -15 2 -2 0 0z" class="fil10" />
+<path transform=" translate(20, -102)"  d="M 	0 	-2  l 0  -349  4 0 0   349 -4 0   M	 4 -347  l	 174  0 0 -4	  -174	 0 0 4 M  0	2   l	 69	 0 0 -4	  -69 0 0 4  M 178 -347  l0 -14 4 0 0 14 -4"  class="fil10" />
+
+ </g>
+<g transform="translate (0 , 1393 )" xmlns="http://www.w3.org/2000/svg" id="_2188820445584">
+   <g transform="translate(0,-342)">  
+   <path class="Fill_Conv3D str1" d="M103 342l195 0c4,0 7,2 7,6l0 23 -209 0 0 -23c0,-4 3,-6 7,-6l0 0z"/>
+   <polygon class="Fill_Middle str1" points="96,399 305,399 305,370 96,370 "/>
+   <polygon class="Fill_Middle str1" points="96,428 305,428 305,399 96,399 "/>
+   <path class="Fill_Last str1" d="M96 428l209 0 0 23c0,3 -3,6 -7,6l-195 0c-4,0 -7,-3 -7,-6l0 -23 0 0z"/>
+   <text text-anchor="middle" x="200" y="360" class="fil3 fnt0">Conv2D -  c16,k3,s1,p1</text>
+   <text text-anchor="middle" x="200" y="389" class="fil3 fnt0">BN=T, HB=F, ReLU</text>
+   <text text-anchor="middle" x="200" y="418" class="fil3 fnt0">RF - 13x13</text>
+   <text text-anchor="middle" x="200" y="447" class="fil3 fnt0">Dims - 16x32x32</text>
+ 
+    <rect class="fil_p str3" x="330" y="351" width="168.55" height="22.7269"/>
+    <rect class="fil_o str3" x="330" y="374" width="2655.5" height="22.7269"/>
+    <rect class="fil_d str3" x="330" y="396" width="2655.5" height="22.7269"/>
+    <text x="335" y="367" class="fil3 fnt0">2.352k</text>
+    <text x="335" y="390" class="fil3 fnt0">4.768M</text>
+    <text x="335" y="412" class="fil3 fnt0">16.38k</text>
+   </g>
+  </g><g transform=" translate (0 , 1507 )" xmlns="http://www.w3.org/2000/svg" id="Layer_x0020_1_0">
+  <path transform=" translate(0,-210)" d="M198 245l0 -35 4 0 0 35 -4 0zm0 3l4 -2 -4 0 10 -16 4 3 -10 15 -4 0zm0 0l4 0 -2 3 -2 -3 0 0zm-8 -17l1 -1 11 16 -4 2 -10 -15 2 -2 0 0z" class="fil10"/>
+
+
+ </g>
+<g transform="translate (0 , 1548 )" xmlns="http://www.w3.org/2000/svg" id="_2188820445584">
+   <g transform="translate(0,-342)">  
+   <path class="Fill_Conv3D str1" d="M103 342l195 0c4,0 7,2 7,6l0 23 -209 0 0 -23c0,-4 3,-6 7,-6l0 0z"/>
+   <polygon class="Fill_Middle str1" points="96,399 305,399 305,370 96,370 "/>
+   <polygon class="Fill_Middle str1" points="96,428 305,428 305,399 96,399 "/>
+   <path class="Fill_Last str1" d="M96 428l209 0 0 23c0,3 -3,6 -7,6l-195 0c-4,0 -7,-3 -7,-6l0 -23 0 0z"/>
+   <text text-anchor="middle" x="200" y="360" class="fil3 fnt0">Conv2D -  c16,k3,s1,p1</text>
+   <text text-anchor="middle" x="200" y="389" class="fil3 fnt0">BN=T, HB=F, None</text>
+   <text text-anchor="middle" x="200" y="418" class="fil3 fnt0">RF - 15x15</text>
+   <text text-anchor="middle" x="200" y="447" class="fil3 fnt0">Dims - 16x32x32</text>
+ 
+    <rect class="fil_p str3" x="330" y="351" width="168.55" height="22.7269"/>
+    <rect class="fil_o str3" x="330" y="374" width="2655.5" height="22.7269"/>
+    <rect class="fil_d str3" x="330" y="396" width="2655.5" height="22.7269"/>
+    <text x="335" y="367" class="fil3 fnt0">2.352k</text>
+    <text x="335" y="390" class="fil3 fnt0">4.768M</text>
+    <text x="335" y="412" class="fil3 fnt0">16.38k</text>
+   </g>
+  </g><g transform=" translate (0 , 1662 )" xmlns="http://www.w3.org/2000/svg" id="Layer_x0020_1_0">
+  <path transform=" translate(0,-210)" d="M198 245l0 -35 4 0 0 35 -4 0zm0 3l4 -2 -4 0 10 -16 4 3 -10 15 -4 0zm0 0l4 0 -2 3 -2 -3 0 0zm-8 -17l1 -1 11 16 -4 2 -10 -15 2 -2 0 0z" class="fil10"/>
+
+
+ </g>
+<g transform="translate (0 , 1703 )" xmlns="http://www.w3.org/2000/svg" id="_2188820445584">
+   <g transform="translate(0,-342)">  
+   <path class="Fill_ShortCut str1" d="M103 342l195 0c4,0 7,2 7,6l0 23 -209 0 0 -23c0,-4 3,-6 7,-6l0 0z"/>
+   <polygon class="Fill_Middle str1" points="96,399 305,399 305,370 96,370 "/>
+   <polygon class="Fill_Middle str1" points="96,428 305,428 305,399 96,399 "/>
+   <path class="Fill_Last str1" d="M96 428l209 0 0 23c0,3 -3,6 -7,6l-195 0c-4,0 -7,-3 -7,-6l0 -23 0 0z"/>
+   <text text-anchor="middle" x="200" y="360" class="fil3 fnt0">ShortCut</text>
+   <text text-anchor="middle" x="200" y="389" class="fil3 fnt0">ReLU</text>
+   <text text-anchor="middle" x="200" y="418" class="fil3 fnt0">RF - 15x15</text>
+   <text text-anchor="middle" x="200" y="447" class="fil3 fnt0">Dims - 16x32x32</text>
+ 
+    <rect class="fil_p str3" x="330" y="351" width="0" height="22.7269"/>
+    <rect class="fil_o str3" x="330" y="374" width="9.1254" height="22.7269"/>
+    <rect class="fil_d str3" x="330" y="396" width="2655.5" height="22.7269"/>
+    <text x="335" y="367" class="fil3 fnt0">0</text>
+    <text x="335" y="390" class="fil3 fnt0">16.38k</text>
+    <text x="335" y="412" class="fil3 fnt0">16.38k</text>
+   </g>
+  </g><g transform=" translate (0 , 1817 )" xmlns="http://www.w3.org/2000/svg" id="Layer_x0020_1_0">
+  <path transform=" translate(0,-210)" d="M198 245l0 -35 4 0 0 35 -4 0zm0 3l4 -2 -4 0 10 -16 4 3 -10 15 -4 0zm0 0l4 0 -2 3 -2 -3 0 0zm-8 -17l1 -1 11 16 -4 2 -10 -15 2 -2 0 0z" class="fil10"/>
+
+ 
+<path transform=" translate(20,-40) rotate(-90) " d=" M 60 70 l  0 -30   4 0   0 30  -4 0   m0 3l4 -2 -4 0 10 -16 4 3 -10 15 -4 0 z m 0 0l4 0 -2 3 -2 -3 0 0 z m-8 -17l1 -1 11 16 -4 2 -10 -15 2 -2 0 0z" class="fil10" />
+<path transform=" translate(20, -102)"  d="M 	0 	-2  l 0  -349  4 0 0   349 -4 0   M	 4 -347  l	 174  0 0 -4	  -174	 0 0 4 M  0	2   l	 69	 0 0 -4	  -69 0 0 4  M 178 -347  l0 -14 4 0 0 14 -4"  class="fil10" />
+
+ </g>
+<g transform="translate (0 , 1858 )" xmlns="http://www.w3.org/2000/svg" id="_2188820445584">
+   <g transform="translate(0,-342)">  
+   <path class="Fill_Conv3D str1" d="M103 342l195 0c4,0 7,2 7,6l0 23 -209 0 0 -23c0,-4 3,-6 7,-6l0 0z"/>
+   <polygon class="Fill_Middle str1" points="96,399 305,399 305,370 96,370 "/>
+   <polygon class="Fill_Middle str1" points="96,428 305,428 305,399 96,399 "/>
+   <path class="Fill_Last str1" d="M96 428l209 0 0 23c0,3 -3,6 -7,6l-195 0c-4,0 -7,-3 -7,-6l0 -23 0 0z"/>
+   <text text-anchor="middle" x="200" y="360" class="fil3 fnt0">Conv2D -  c32,k3,s2,p1</text>
+   <text text-anchor="middle" x="200" y="389" class="fil3 fnt0">BN=T, HB=F, ReLU</text>
+   <text text-anchor="middle" x="200" y="418" class="fil3 fnt0">RF - 17x17</text>
+   <text text-anchor="middle" x="200" y="447" class="fil3 fnt0">Dims - 32x16x16</text>
+ 
+    <rect class="fil_p str3" x="330" y="351" width="337.1" height="22.7269"/>
+    <rect class="fil_o str3" x="330" y="374" width="1327.8" height="22.7269"/>
+    <rect class="fil_d str3" x="330" y="396" width="1327.8" height="22.7269"/>
+    <text x="335" y="367" class="fil3 fnt0">4.704k</text>
+    <text x="335" y="390" class="fil3 fnt0">2.384M</text>
+    <text x="335" y="412" class="fil3 fnt0">8.192k</text>
+   </g>
+  </g><g transform=" translate (0 , 1972 )" xmlns="http://www.w3.org/2000/svg" id="Layer_x0020_1_0">
+  <path transform=" translate(0,-210)" d="M198 245l0 -35 4 0 0 35 -4 0zm0 3l4 -2 -4 0 10 -16 4 3 -10 15 -4 0zm0 0l4 0 -2 3 -2 -3 0 0zm-8 -17l1 -1 11 16 -4 2 -10 -15 2 -2 0 0z" class="fil10"/>
+
+
+ </g>
+<g transform="translate (0 , 2013 )" xmlns="http://www.w3.org/2000/svg" id="_2188820445584">
+   <g transform="translate(0,-342)">  
+   <path class="Fill_Conv3D str1" d="M103 342l195 0c4,0 7,2 7,6l0 23 -209 0 0 -23c0,-4 3,-6 7,-6l0 0z"/>
+   <polygon class="Fill_Middle str1" points="96,399 305,399 305,370 96,370 "/>
+   <polygon class="Fill_Middle str1" points="96,428 305,428 305,399 96,399 "/>
+   <path class="Fill_Last str1" d="M96 428l209 0 0 23c0,3 -3,6 -7,6l-195 0c-4,0 -7,-3 -7,-6l0 -23 0 0z"/>
+   <text text-anchor="middle" x="200" y="360" class="fil3 fnt0">Conv2D -  c32,k3,s1,p1</text>
+   <text text-anchor="middle" x="200" y="389" class="fil3 fnt0">BN=T, HB=F, None</text>
+   <text text-anchor="middle" x="200" y="418" class="fil3 fnt0">RF - 21x21</text>
+   <text text-anchor="middle" x="200" y="447" class="fil3 fnt0">Dims - 32x16x16</text>
+ 
+    <rect class="fil_p str3" x="330" y="351" width="667.31" height="22.7269"/>
+    <rect class="fil_o str3" x="330" y="374" width="2641.8" height="22.7269"/>
+    <rect class="fil_d str3" x="330" y="396" width="1327.8" height="22.7269"/>
+    <text x="335" y="367" class="fil3 fnt0">9.312k</text>
+    <text x="335" y="390" class="fil3 fnt0">4.743M</text>
+    <text x="335" y="412" class="fil3 fnt0">8.192k</text>
+   </g>
+  </g><g transform=" translate (0 , 2127 )" xmlns="http://www.w3.org/2000/svg" id="Layer_x0020_1_0">
+  <path transform=" translate(0,-210)" d="M198 245l0 -35 4 0 0 35 -4 0zm0 3l4 -2 -4 0 10 -16 4 3 -10 15 -4 0zm0 0l4 0 -2 3 -2 -3 0 0zm-8 -17l1 -1 11 16 -4 2 -10 -15 2 -2 0 0z" class="fil10"/>
+
+
+ </g>
+<g transform="translate (0 , 2168 )" xmlns="http://www.w3.org/2000/svg" id="_2188820445584">
+   <g transform="translate(0,-342)">  
+   <path class="Fill_Conv3D str1" d="M103 342l195 0c4,0 7,2 7,6l0 23 -209 0 0 -23c0,-4 3,-6 7,-6l0 0z"/>
+   <polygon class="Fill_Middle str1" points="96,399 305,399 305,370 96,370 "/>
+   <polygon class="Fill_Middle str1" points="96,428 305,428 305,399 96,399 "/>
+   <path class="Fill_Last str1" d="M96 428l209 0 0 23c0,3 -3,6 -7,6l-195 0c-4,0 -7,-3 -7,-6l0 -23 0 0z"/>
+   <text text-anchor="middle" x="200" y="360" class="fil3 fnt0">Conv2D -  c32,k1,s2,p0</text>
+   <text text-anchor="middle" x="200" y="389" class="fil3 fnt0">BN=F, HB=T, None</text>
+   <text text-anchor="middle" x="200" y="418" class="fil3 fnt0">RF - 15x15</text>
+   <text text-anchor="middle" x="200" y="447" class="fil3 fnt0">Dims - 32x16x16</text>
+ 
+    <rect class="fil_p str3" x="330" y="351" width="38.984" height="22.7269"/>
+    <rect class="fil_o str3" x="330" y="374" width="150.57" height="22.7269"/>
+    <rect class="fil_d str3" x="330" y="396" width="1327.8" height="22.7269"/>
+    <text x="335" y="367" class="fil3 fnt0">544</text>
+    <text x="335" y="390" class="fil3 fnt0">270.3k</text>
+    <text x="335" y="412" class="fil3 fnt0">8.192k</text>
+   </g>
+  </g><g transform=" translate (0 , 2282 )" xmlns="http://www.w3.org/2000/svg" id="Layer_x0020_1_0">
+  <path transform=" translate(0,-210)" d="M198 245l0 -35 4 0 0 35 -4 0zm0 3l4 -2 -4 0 10 -16 4 3 -10 15 -4 0zm0 0l4 0 -2 3 -2 -3 0 0zm-8 -17l1 -1 11 16 -4 2 -10 -15 2 -2 0 0z" class="fil10"/>
+
+
+ </g>
+<g transform="translate (0 , 2323 )" xmlns="http://www.w3.org/2000/svg" id="_2188820445584">
+   <g transform="translate(0,-342)">  
+   <path class="Fill_ShortCut str1" d="M103 342l195 0c4,0 7,2 7,6l0 23 -209 0 0 -23c0,-4 3,-6 7,-6l0 0z"/>
+   <polygon class="Fill_Middle str1" points="96,399 305,399 305,370 96,370 "/>
+   <polygon class="Fill_Middle str1" points="96,428 305,428 305,399 96,399 "/>
+   <path class="Fill_Last str1" d="M96 428l209 0 0 23c0,3 -3,6 -7,6l-195 0c-4,0 -7,-3 -7,-6l0 -23 0 0z"/>
+   <text text-anchor="middle" x="200" y="360" class="fil3 fnt0">ShortCut</text>
+   <text text-anchor="middle" x="200" y="389" class="fil3 fnt0">ReLU</text>
+   <text text-anchor="middle" x="200" y="418" class="fil3 fnt0">RF - 21x21</text>
+   <text text-anchor="middle" x="200" y="447" class="fil3 fnt0">Dims - 32x16x16</text>
+ 
+    <rect class="fil_p str3" x="330" y="351" width="0" height="22.7269"/>
+    <rect class="fil_o str3" x="330" y="374" width="4.5627" height="22.7269"/>
+    <rect class="fil_d str3" x="330" y="396" width="1327.8" height="22.7269"/>
+    <text x="335" y="367" class="fil3 fnt0">0</text>
+    <text x="335" y="390" class="fil3 fnt0">8.192k</text>
+    <text x="335" y="412" class="fil3 fnt0">8.192k</text>
+   </g>
+  </g><g transform=" translate (0 , 2437 )" xmlns="http://www.w3.org/2000/svg" id="Layer_x0020_1_0">
+  <path transform=" translate(0,-210)" d="M198 245l0 -35 4 0 0 35 -4 0zm0 3l4 -2 -4 0 10 -16 4 3 -10 15 -4 0zm0 0l4 0 -2 3 -2 -3 0 0zm-8 -17l1 -1 11 16 -4 2 -10 -15 2 -2 0 0z" class="fil10"/>
+
+ 
+<path transform=" translate(20,-40) rotate(-90) " d=" M 60 70 l  0 -30   4 0   0 30  -4 0   m0 3l4 -2 -4 0 10 -16 4 3 -10 15 -4 0 z m 0 0l4 0 -2 3 -2 -3 0 0 z m-8 -17l1 -1 11 16 -4 2 -10 -15 2 -2 0 0z" class="fil10" />
+<path transform=" translate(20, -102)"  d="M 	0 	-2  l 0  -194  4 0 0   194 -4 0   M	 4 -192  l	 174  0 0 -4	  -174	 0 0 4 M  0	2   l	 69	 0 0 -4	  -69 0 0 4  M 178 -192  l0 -14 4 0 0 14 -4"  class="fil10" />
+
+ </g>
+<g transform="translate (0 , 2478 )" xmlns="http://www.w3.org/2000/svg" id="_2188820445584">
+   <g transform="translate(0,-342)">  
+   <path class="Fill_Conv3D str1" d="M103 342l195 0c4,0 7,2 7,6l0 23 -209 0 0 -23c0,-4 3,-6 7,-6l0 0z"/>
+   <polygon class="Fill_Middle str1" points="96,399 305,399 305,370 96,370 "/>
+   <polygon class="Fill_Middle str1" points="96,428 305,428 305,399 96,399 "/>
+   <path class="Fill_Last str1" d="M96 428l209 0 0 23c0,3 -3,6 -7,6l-195 0c-4,0 -7,-3 -7,-6l0 -23 0 0z"/>
+   <text text-anchor="middle" x="200" y="360" class="fil3 fnt0">Conv2D -  c32,k3,s1,p1</text>
+   <text text-anchor="middle" x="200" y="389" class="fil3 fnt0">BN=T, HB=F, ReLU</text>
+   <text text-anchor="middle" x="200" y="418" class="fil3 fnt0">RF - 25x25</text>
+   <text text-anchor="middle" x="200" y="447" class="fil3 fnt0">Dims - 32x16x16</text>
+ 
+    <rect class="fil_p str3" x="330" y="351" width="667.31" height="22.7269"/>
+    <rect class="fil_o str3" x="330" y="374" width="2641.8" height="22.7269"/>
+    <rect class="fil_d str3" x="330" y="396" width="1327.8" height="22.7269"/>
+    <text x="335" y="367" class="fil3 fnt0">9.312k</text>
+    <text x="335" y="390" class="fil3 fnt0">4.743M</text>
+    <text x="335" y="412" class="fil3 fnt0">8.192k</text>
+   </g>
+  </g><g transform=" translate (0 , 2592 )" xmlns="http://www.w3.org/2000/svg" id="Layer_x0020_1_0">
+  <path transform=" translate(0,-210)" d="M198 245l0 -35 4 0 0 35 -4 0zm0 3l4 -2 -4 0 10 -16 4 3 -10 15 -4 0zm0 0l4 0 -2 3 -2 -3 0 0zm-8 -17l1 -1 11 16 -4 2 -10 -15 2 -2 0 0z" class="fil10"/>
+
+
+ </g>
+<g transform="translate (0 , 2633 )" xmlns="http://www.w3.org/2000/svg" id="_2188820445584">
+   <g transform="translate(0,-342)">  
+   <path class="Fill_Conv3D str1" d="M103 342l195 0c4,0 7,2 7,6l0 23 -209 0 0 -23c0,-4 3,-6 7,-6l0 0z"/>
+   <polygon class="Fill_Middle str1" points="96,399 305,399 305,370 96,370 "/>
+   <polygon class="Fill_Middle str1" points="96,428 305,428 305,399 96,399 "/>
+   <path class="Fill_Last str1" d="M96 428l209 0 0 23c0,3 -3,6 -7,6l-195 0c-4,0 -7,-3 -7,-6l0 -23 0 0z"/>
+   <text text-anchor="middle" x="200" y="360" class="fil3 fnt0">Conv2D -  c32,k3,s1,p1</text>
+   <text text-anchor="middle" x="200" y="389" class="fil3 fnt0">BN=T, HB=F, None</text>
+   <text text-anchor="middle" x="200" y="418" class="fil3 fnt0">RF - 29x29</text>
+   <text text-anchor="middle" x="200" y="447" class="fil3 fnt0">Dims - 32x16x16</text>
+ 
+    <rect class="fil_p str3" x="330" y="351" width="667.31" height="22.7269"/>
+    <rect class="fil_o str3" x="330" y="374" width="2641.8" height="22.7269"/>
+    <rect class="fil_d str3" x="330" y="396" width="1327.8" height="22.7269"/>
+    <text x="335" y="367" class="fil3 fnt0">9.312k</text>
+    <text x="335" y="390" class="fil3 fnt0">4.743M</text>
+    <text x="335" y="412" class="fil3 fnt0">8.192k</text>
+   </g>
+  </g><g transform=" translate (0 , 2747 )" xmlns="http://www.w3.org/2000/svg" id="Layer_x0020_1_0">
+  <path transform=" translate(0,-210)" d="M198 245l0 -35 4 0 0 35 -4 0zm0 3l4 -2 -4 0 10 -16 4 3 -10 15 -4 0zm0 0l4 0 -2 3 -2 -3 0 0zm-8 -17l1 -1 11 16 -4 2 -10 -15 2 -2 0 0z" class="fil10"/>
+
+
+ </g>
+<g transform="translate (0 , 2788 )" xmlns="http://www.w3.org/2000/svg" id="_2188820445584">
+   <g transform="translate(0,-342)">  
+   <path class="Fill_ShortCut str1" d="M103 342l195 0c4,0 7,2 7,6l0 23 -209 0 0 -23c0,-4 3,-6 7,-6l0 0z"/>
+   <polygon class="Fill_Middle str1" points="96,399 305,399 305,370 96,370 "/>
+   <polygon class="Fill_Middle str1" points="96,428 305,428 305,399 96,399 "/>
+   <path class="Fill_Last str1" d="M96 428l209 0 0 23c0,3 -3,6 -7,6l-195 0c-4,0 -7,-3 -7,-6l0 -23 0 0z"/>
+   <text text-anchor="middle" x="200" y="360" class="fil3 fnt0">ShortCut</text>
+   <text text-anchor="middle" x="200" y="389" class="fil3 fnt0">ReLU</text>
+   <text text-anchor="middle" x="200" y="418" class="fil3 fnt0">RF - 29x29</text>
+   <text text-anchor="middle" x="200" y="447" class="fil3 fnt0">Dims - 32x16x16</text>
+ 
+    <rect class="fil_p str3" x="330" y="351" width="0" height="22.7269"/>
+    <rect class="fil_o str3" x="330" y="374" width="4.5627" height="22.7269"/>
+    <rect class="fil_d str3" x="330" y="396" width="1327.8" height="22.7269"/>
+    <text x="335" y="367" class="fil3 fnt0">0</text>
+    <text x="335" y="390" class="fil3 fnt0">8.192k</text>
+    <text x="335" y="412" class="fil3 fnt0">8.192k</text>
+   </g>
+  </g><g transform=" translate (0 , 2902 )" xmlns="http://www.w3.org/2000/svg" id="Layer_x0020_1_0">
+  <path transform=" translate(0,-210)" d="M198 245l0 -35 4 0 0 35 -4 0zm0 3l4 -2 -4 0 10 -16 4 3 -10 15 -4 0zm0 0l4 0 -2 3 -2 -3 0 0zm-8 -17l1 -1 11 16 -4 2 -10 -15 2 -2 0 0z" class="fil10"/>
+
+ 
+<path transform=" translate(20,-40) rotate(-90) " d=" M 60 70 l  0 -30   4 0   0 30  -4 0   m0 3l4 -2 -4 0 10 -16 4 3 -10 15 -4 0 z m 0 0l4 0 -2 3 -2 -3 0 0 z m-8 -17l1 -1 11 16 -4 2 -10 -15 2 -2 0 0z" class="fil10" />
+<path transform=" translate(20, -102)"  d="M 	0 	-2  l 0  -349  4 0 0   349 -4 0   M	 4 -347  l	 174  0 0 -4	  -174	 0 0 4 M  0	2   l	 69	 0 0 -4	  -69 0 0 4  M 178 -347  l0 -14 4 0 0 14 -4"  class="fil10" />
+
+ </g>
+<g transform="translate (0 , 2943 )" xmlns="http://www.w3.org/2000/svg" id="_2188820445584">
+   <g transform="translate(0,-342)">  
+   <path class="Fill_Conv3D str1" d="M103 342l195 0c4,0 7,2 7,6l0 23 -209 0 0 -23c0,-4 3,-6 7,-6l0 0z"/>
+   <polygon class="Fill_Middle str1" points="96,399 305,399 305,370 96,370 "/>
+   <polygon class="Fill_Middle str1" points="96,428 305,428 305,399 96,399 "/>
+   <path class="Fill_Last str1" d="M96 428l209 0 0 23c0,3 -3,6 -7,6l-195 0c-4,0 -7,-3 -7,-6l0 -23 0 0z"/>
+   <text text-anchor="middle" x="200" y="360" class="fil3 fnt0">Conv2D -  c32,k3,s1,p1</text>
+   <text text-anchor="middle" x="200" y="389" class="fil3 fnt0">BN=T, HB=F, ReLU</text>
+   <text text-anchor="middle" x="200" y="418" class="fil3 fnt0">RF - 33x33</text>
+   <text text-anchor="middle" x="200" y="447" class="fil3 fnt0">Dims - 32x16x16</text>
+ 
+    <rect class="fil_p str3" x="330" y="351" width="667.31" height="22.7269"/>
+    <rect class="fil_o str3" x="330" y="374" width="2641.8" height="22.7269"/>
+    <rect class="fil_d str3" x="330" y="396" width="1327.8" height="22.7269"/>
+    <text x="335" y="367" class="fil3 fnt0">9.312k</text>
+    <text x="335" y="390" class="fil3 fnt0">4.743M</text>
+    <text x="335" y="412" class="fil3 fnt0">8.192k</text>
+   </g>
+  </g><g transform=" translate (0 , 3057 )" xmlns="http://www.w3.org/2000/svg" id="Layer_x0020_1_0">
+  <path transform=" translate(0,-210)" d="M198 245l0 -35 4 0 0 35 -4 0zm0 3l4 -2 -4 0 10 -16 4 3 -10 15 -4 0zm0 0l4 0 -2 3 -2 -3 0 0zm-8 -17l1 -1 11 16 -4 2 -10 -15 2 -2 0 0z" class="fil10"/>
+
+
+ </g>
+<g transform="translate (0 , 3098 )" xmlns="http://www.w3.org/2000/svg" id="_2188820445584">
+   <g transform="translate(0,-342)">  
+   <path class="Fill_Conv3D str1" d="M103 342l195 0c4,0 7,2 7,6l0 23 -209 0 0 -23c0,-4 3,-6 7,-6l0 0z"/>
+   <polygon class="Fill_Middle str1" points="96,399 305,399 305,370 96,370 "/>
+   <polygon class="Fill_Middle str1" points="96,428 305,428 305,399 96,399 "/>
+   <path class="Fill_Last str1" d="M96 428l209 0 0 23c0,3 -3,6 -7,6l-195 0c-4,0 -7,-3 -7,-6l0 -23 0 0z"/>
+   <text text-anchor="middle" x="200" y="360" class="fil3 fnt0">Conv2D -  c32,k3,s1,p1</text>
+   <text text-anchor="middle" x="200" y="389" class="fil3 fnt0">BN=T, HB=F, None</text>
+   <text text-anchor="middle" x="200" y="418" class="fil3 fnt0">RF - 37x37</text>
+   <text text-anchor="middle" x="200" y="447" class="fil3 fnt0">Dims - 32x16x16</text>
+ 
+    <rect class="fil_p str3" x="330" y="351" width="667.31" height="22.7269"/>
+    <rect class="fil_o str3" x="330" y="374" width="2641.8" height="22.7269"/>
+    <rect class="fil_d str3" x="330" y="396" width="1327.8" height="22.7269"/>
+    <text x="335" y="367" class="fil3 fnt0">9.312k</text>
+    <text x="335" y="390" class="fil3 fnt0">4.743M</text>
+    <text x="335" y="412" class="fil3 fnt0">8.192k</text>
+   </g>
+  </g><g transform=" translate (0 , 3212 )" xmlns="http://www.w3.org/2000/svg" id="Layer_x0020_1_0">
+  <path transform=" translate(0,-210)" d="M198 245l0 -35 4 0 0 35 -4 0zm0 3l4 -2 -4 0 10 -16 4 3 -10 15 -4 0zm0 0l4 0 -2 3 -2 -3 0 0zm-8 -17l1 -1 11 16 -4 2 -10 -15 2 -2 0 0z" class="fil10"/>
+
+
+ </g>
+<g transform="translate (0 , 3253 )" xmlns="http://www.w3.org/2000/svg" id="_2188820445584">
+   <g transform="translate(0,-342)">  
+   <path class="Fill_ShortCut str1" d="M103 342l195 0c4,0 7,2 7,6l0 23 -209 0 0 -23c0,-4 3,-6 7,-6l0 0z"/>
+   <polygon class="Fill_Middle str1" points="96,399 305,399 305,370 96,370 "/>
+   <polygon class="Fill_Middle str1" points="96,428 305,428 305,399 96,399 "/>
+   <path class="Fill_Last str1" d="M96 428l209 0 0 23c0,3 -3,6 -7,6l-195 0c-4,0 -7,-3 -7,-6l0 -23 0 0z"/>
+   <text text-anchor="middle" x="200" y="360" class="fil3 fnt0">ShortCut</text>
+   <text text-anchor="middle" x="200" y="389" class="fil3 fnt0">ReLU</text>
+   <text text-anchor="middle" x="200" y="418" class="fil3 fnt0">RF - 37x37</text>
+   <text text-anchor="middle" x="200" y="447" class="fil3 fnt0">Dims - 32x16x16</text>
+ 
+    <rect class="fil_p str3" x="330" y="351" width="0" height="22.7269"/>
+    <rect class="fil_o str3" x="330" y="374" width="4.5627" height="22.7269"/>
+    <rect class="fil_d str3" x="330" y="396" width="1327.8" height="22.7269"/>
+    <text x="335" y="367" class="fil3 fnt0">0</text>
+    <text x="335" y="390" class="fil3 fnt0">8.192k</text>
+    <text x="335" y="412" class="fil3 fnt0">8.192k</text>
+   </g>
+  </g><g transform=" translate (0 , 3367 )" xmlns="http://www.w3.org/2000/svg" id="Layer_x0020_1_0">
+  <path transform=" translate(0,-210)" d="M198 245l0 -35 4 0 0 35 -4 0zm0 3l4 -2 -4 0 10 -16 4 3 -10 15 -4 0zm0 0l4 0 -2 3 -2 -3 0 0zm-8 -17l1 -1 11 16 -4 2 -10 -15 2 -2 0 0z" class="fil10"/>
+
+ 
+<path transform=" translate(20,-40) rotate(-90) " d=" M 60 70 l  0 -30   4 0   0 30  -4 0   m0 3l4 -2 -4 0 10 -16 4 3 -10 15 -4 0 z m 0 0l4 0 -2 3 -2 -3 0 0 z m-8 -17l1 -1 11 16 -4 2 -10 -15 2 -2 0 0z" class="fil10" />
+<path transform=" translate(20, -102)"  d="M 	0 	-2  l 0  -349  4 0 0   349 -4 0   M	 4 -347  l	 174  0 0 -4	  -174	 0 0 4 M  0	2   l	 69	 0 0 -4	  -69 0 0 4  M 178 -347  l0 -14 4 0 0 14 -4"  class="fil10" />
+
+ </g>
+<g transform="translate (0 , 3408 )" xmlns="http://www.w3.org/2000/svg" id="_2188820445584">
+   <g transform="translate(0,-342)">  
+   <path class="Fill_Conv3D str1" d="M103 342l195 0c4,0 7,2 7,6l0 23 -209 0 0 -23c0,-4 3,-6 7,-6l0 0z"/>
+   <polygon class="Fill_Middle str1" points="96,399 305,399 305,370 96,370 "/>
+   <polygon class="Fill_Middle str1" points="96,428 305,428 305,399 96,399 "/>
+   <path class="Fill_Last str1" d="M96 428l209 0 0 23c0,3 -3,6 -7,6l-195 0c-4,0 -7,-3 -7,-6l0 -23 0 0z"/>
+   <text text-anchor="middle" x="200" y="360" class="fil3 fnt0">Conv2D -  c64,k3,s2,p1</text>
+   <text text-anchor="middle" x="200" y="389" class="fil3 fnt0">BN=T, HB=F, ReLU</text>
+   <text text-anchor="middle" x="200" y="418" class="fil3 fnt0">RF - 41x41</text>
+   <text text-anchor="middle" x="200" y="447" class="fil3 fnt0">Dims - 64x8x8</text>
+ 
+    <rect class="fil_p str3" x="330" y="351" width="1334.6" height="22.7269"/>
+    <rect class="fil_o str3" x="330" y="374" width="1320.9" height="22.7269"/>
+    <rect class="fil_d str3" x="330" y="396" width="663.87" height="22.7269"/>
+    <text x="335" y="367" class="fil3 fnt0">18.62k</text>
+    <text x="335" y="390" class="fil3 fnt0">2.372M</text>
+    <text x="335" y="412" class="fil3 fnt0">4.096k</text>
+   </g>
+  </g><g transform=" translate (0 , 3522 )" xmlns="http://www.w3.org/2000/svg" id="Layer_x0020_1_0">
+  <path transform=" translate(0,-210)" d="M198 245l0 -35 4 0 0 35 -4 0zm0 3l4 -2 -4 0 10 -16 4 3 -10 15 -4 0zm0 0l4 0 -2 3 -2 -3 0 0zm-8 -17l1 -1 11 16 -4 2 -10 -15 2 -2 0 0z" class="fil10"/>
+
+
+ </g>
+<g transform="translate (0 , 3563 )" xmlns="http://www.w3.org/2000/svg" id="_2188820445584">
+   <g transform="translate(0,-342)">  
+   <path class="Fill_Conv3D str1" d="M103 342l195 0c4,0 7,2 7,6l0 23 -209 0 0 -23c0,-4 3,-6 7,-6l0 0z"/>
+   <polygon class="Fill_Middle str1" points="96,399 305,399 305,370 96,370 "/>
+   <polygon class="Fill_Middle str1" points="96,428 305,428 305,399 96,399 "/>
+   <path class="Fill_Last str1" d="M96 428l209 0 0 23c0,3 -3,6 -7,6l-195 0c-4,0 -7,-3 -7,-6l0 -23 0 0z"/>
+   <text text-anchor="middle" x="200" y="360" class="fil3 fnt0">Conv2D -  c64,k3,s1,p1</text>
+   <text text-anchor="middle" x="200" y="389" class="fil3 fnt0">BN=T, HB=F, None</text>
+   <text text-anchor="middle" x="200" y="418" class="fil3 fnt0">RF - 49x49</text>
+   <text text-anchor="middle" x="200" y="447" class="fil3 fnt0">Dims - 64x8x8</text>
+ 
+    <rect class="fil_p str3" x="330" y="351" width="2655.5" height="22.7269"/>
+    <rect class="fil_o str3" x="330" y="374" width="2635" height="22.7269"/>
+    <rect class="fil_d str3" x="330" y="396" width="663.87" height="22.7269"/>
+    <text x="335" y="367" class="fil3 fnt0">37.06k</text>
+    <text x="335" y="390" class="fil3 fnt0">4.731M</text>
+    <text x="335" y="412" class="fil3 fnt0">4.096k</text>
+   </g>
+  </g><g transform=" translate (0 , 3677 )" xmlns="http://www.w3.org/2000/svg" id="Layer_x0020_1_0">
+  <path transform=" translate(0,-210)" d="M198 245l0 -35 4 0 0 35 -4 0zm0 3l4 -2 -4 0 10 -16 4 3 -10 15 -4 0zm0 0l4 0 -2 3 -2 -3 0 0zm-8 -17l1 -1 11 16 -4 2 -10 -15 2 -2 0 0z" class="fil10"/>
+
+
+ </g>
+<g transform="translate (0 , 3718 )" xmlns="http://www.w3.org/2000/svg" id="_2188820445584">
+   <g transform="translate(0,-342)">  
+   <path class="Fill_Conv3D str1" d="M103 342l195 0c4,0 7,2 7,6l0 23 -209 0 0 -23c0,-4 3,-6 7,-6l0 0z"/>
+   <polygon class="Fill_Middle str1" points="96,399 305,399 305,370 96,370 "/>
+   <polygon class="Fill_Middle str1" points="96,428 305,428 305,399 96,399 "/>
+   <path class="Fill_Last str1" d="M96 428l209 0 0 23c0,3 -3,6 -7,6l-195 0c-4,0 -7,-3 -7,-6l0 -23 0 0z"/>
+   <text text-anchor="middle" x="200" y="360" class="fil3 fnt0">Conv2D -  c64,k1,s2,p0</text>
+   <text text-anchor="middle" x="200" y="389" class="fil3 fnt0">BN=F, HB=T, None</text>
+   <text text-anchor="middle" x="200" y="418" class="fil3 fnt0">RF - 37x37</text>
+   <text text-anchor="middle" x="200" y="447" class="fil3 fnt0">Dims - 64x8x8</text>
+ 
+    <rect class="fil_p str3" x="330" y="351" width="151.35" height="22.7269"/>
+    <rect class="fil_o str3" x="330" y="374" width="148.29" height="22.7269"/>
+    <rect class="fil_d str3" x="330" y="396" width="663.87" height="22.7269"/>
+    <text x="335" y="367" class="fil3 fnt0">2.112k</text>
+    <text x="335" y="390" class="fil3 fnt0">266.2k</text>
+    <text x="335" y="412" class="fil3 fnt0">4.096k</text>
+   </g>
+  </g><g transform=" translate (0 , 3832 )" xmlns="http://www.w3.org/2000/svg" id="Layer_x0020_1_0">
+  <path transform=" translate(0,-210)" d="M198 245l0 -35 4 0 0 35 -4 0zm0 3l4 -2 -4 0 10 -16 4 3 -10 15 -4 0zm0 0l4 0 -2 3 -2 -3 0 0zm-8 -17l1 -1 11 16 -4 2 -10 -15 2 -2 0 0z" class="fil10"/>
+
+
+ </g>
+<g transform="translate (0 , 3873 )" xmlns="http://www.w3.org/2000/svg" id="_2188820445584">
+   <g transform="translate(0,-342)">  
+   <path class="Fill_ShortCut str1" d="M103 342l195 0c4,0 7,2 7,6l0 23 -209 0 0 -23c0,-4 3,-6 7,-6l0 0z"/>
+   <polygon class="Fill_Middle str1" points="96,399 305,399 305,370 96,370 "/>
+   <polygon class="Fill_Middle str1" points="96,428 305,428 305,399 96,399 "/>
+   <path class="Fill_Last str1" d="M96 428l209 0 0 23c0,3 -3,6 -7,6l-195 0c-4,0 -7,-3 -7,-6l0 -23 0 0z"/>
+   <text text-anchor="middle" x="200" y="360" class="fil3 fnt0">ShortCut</text>
+   <text text-anchor="middle" x="200" y="389" class="fil3 fnt0">ReLU</text>
+   <text text-anchor="middle" x="200" y="418" class="fil3 fnt0">RF - 49x49</text>
+   <text text-anchor="middle" x="200" y="447" class="fil3 fnt0">Dims - 64x8x8</text>
+ 
+    <rect class="fil_p str3" x="330" y="351" width="0" height="22.7269"/>
+    <rect class="fil_o str3" x="330" y="374" width="2.2814" height="22.7269"/>
+    <rect class="fil_d str3" x="330" y="396" width="663.87" height="22.7269"/>
+    <text x="335" y="367" class="fil3 fnt0">0</text>
+    <text x="335" y="390" class="fil3 fnt0">4.096k</text>
+    <text x="335" y="412" class="fil3 fnt0">4.096k</text>
+   </g>
+  </g><g transform=" translate (0 , 3987 )" xmlns="http://www.w3.org/2000/svg" id="Layer_x0020_1_0">
+  <path transform=" translate(0,-210)" d="M198 245l0 -35 4 0 0 35 -4 0zm0 3l4 -2 -4 0 10 -16 4 3 -10 15 -4 0zm0 0l4 0 -2 3 -2 -3 0 0zm-8 -17l1 -1 11 16 -4 2 -10 -15 2 -2 0 0z" class="fil10"/>
+
+ 
+<path transform=" translate(20,-40) rotate(-90) " d=" M 60 70 l  0 -30   4 0   0 30  -4 0   m0 3l4 -2 -4 0 10 -16 4 3 -10 15 -4 0 z m 0 0l4 0 -2 3 -2 -3 0 0 z m-8 -17l1 -1 11 16 -4 2 -10 -15 2 -2 0 0z" class="fil10" />
+<path transform=" translate(20, -102)"  d="M 	0 	-2  l 0  -194  4 0 0   194 -4 0   M	 4 -192  l	 174  0 0 -4	  -174	 0 0 4 M  0	2   l	 69	 0 0 -4	  -69 0 0 4  M 178 -192  l0 -14 4 0 0 14 -4"  class="fil10" />
+
+ </g>
+<g transform="translate (0 , 4028 )" xmlns="http://www.w3.org/2000/svg" id="_2188820445584">
+   <g transform="translate(0,-342)">  
+   <path class="Fill_Conv3D str1" d="M103 342l195 0c4,0 7,2 7,6l0 23 -209 0 0 -23c0,-4 3,-6 7,-6l0 0z"/>
+   <polygon class="Fill_Middle str1" points="96,399 305,399 305,370 96,370 "/>
+   <polygon class="Fill_Middle str1" points="96,428 305,428 305,399 96,399 "/>
+   <path class="Fill_Last str1" d="M96 428l209 0 0 23c0,3 -3,6 -7,6l-195 0c-4,0 -7,-3 -7,-6l0 -23 0 0z"/>
+   <text text-anchor="middle" x="200" y="360" class="fil3 fnt0">Conv2D -  c64,k3,s1,p1</text>
+   <text text-anchor="middle" x="200" y="389" class="fil3 fnt0">BN=T, HB=F, ReLU</text>
+   <text text-anchor="middle" x="200" y="418" class="fil3 fnt0">RF - 57x57</text>
+   <text text-anchor="middle" x="200" y="447" class="fil3 fnt0">Dims - 64x8x8</text>
+ 
+    <rect class="fil_p str3" x="330" y="351" width="2655.5" height="22.7269"/>
+    <rect class="fil_o str3" x="330" y="374" width="2635" height="22.7269"/>
+    <rect class="fil_d str3" x="330" y="396" width="663.87" height="22.7269"/>
+    <text x="335" y="367" class="fil3 fnt0">37.06k</text>
+    <text x="335" y="390" class="fil3 fnt0">4.731M</text>
+    <text x="335" y="412" class="fil3 fnt0">4.096k</text>
+   </g>
+  </g><g transform=" translate (0 , 4142 )" xmlns="http://www.w3.org/2000/svg" id="Layer_x0020_1_0">
+  <path transform=" translate(0,-210)" d="M198 245l0 -35 4 0 0 35 -4 0zm0 3l4 -2 -4 0 10 -16 4 3 -10 15 -4 0zm0 0l4 0 -2 3 -2 -3 0 0zm-8 -17l1 -1 11 16 -4 2 -10 -15 2 -2 0 0z" class="fil10"/>
+
+
+ </g>
+<g transform="translate (0 , 4183 )" xmlns="http://www.w3.org/2000/svg" id="_2188820445584">
+   <g transform="translate(0,-342)">  
+   <path class="Fill_Conv3D str1" d="M103 342l195 0c4,0 7,2 7,6l0 23 -209 0 0 -23c0,-4 3,-6 7,-6l0 0z"/>
+   <polygon class="Fill_Middle str1" points="96,399 305,399 305,370 96,370 "/>
+   <polygon class="Fill_Middle str1" points="96,428 305,428 305,399 96,399 "/>
+   <path class="Fill_Last str1" d="M96 428l209 0 0 23c0,3 -3,6 -7,6l-195 0c-4,0 -7,-3 -7,-6l0 -23 0 0z"/>
+   <text text-anchor="middle" x="200" y="360" class="fil3 fnt0">Conv2D -  c64,k3,s1,p1</text>
+   <text text-anchor="middle" x="200" y="389" class="fil3 fnt0">BN=T, HB=F, None</text>
+   <text text-anchor="middle" x="200" y="418" class="fil3 fnt0">RF - 65x65</text>
+   <text text-anchor="middle" x="200" y="447" class="fil3 fnt0">Dims - 64x8x8</text>
+ 
+    <rect class="fil_p str3" x="330" y="351" width="2655.5" height="22.7269"/>
+    <rect class="fil_o str3" x="330" y="374" width="2635" height="22.7269"/>
+    <rect class="fil_d str3" x="330" y="396" width="663.87" height="22.7269"/>
+    <text x="335" y="367" class="fil3 fnt0">37.06k</text>
+    <text x="335" y="390" class="fil3 fnt0">4.731M</text>
+    <text x="335" y="412" class="fil3 fnt0">4.096k</text>
+   </g>
+  </g><g transform=" translate (0 , 4297 )" xmlns="http://www.w3.org/2000/svg" id="Layer_x0020_1_0">
+  <path transform=" translate(0,-210)" d="M198 245l0 -35 4 0 0 35 -4 0zm0 3l4 -2 -4 0 10 -16 4 3 -10 15 -4 0zm0 0l4 0 -2 3 -2 -3 0 0zm-8 -17l1 -1 11 16 -4 2 -10 -15 2 -2 0 0z" class="fil10"/>
+
+
+ </g>
+<g transform="translate (0 , 4338 )" xmlns="http://www.w3.org/2000/svg" id="_2188820445584">
+   <g transform="translate(0,-342)">  
+   <path class="Fill_ShortCut str1" d="M103 342l195 0c4,0 7,2 7,6l0 23 -209 0 0 -23c0,-4 3,-6 7,-6l0 0z"/>
+   <polygon class="Fill_Middle str1" points="96,399 305,399 305,370 96,370 "/>
+   <polygon class="Fill_Middle str1" points="96,428 305,428 305,399 96,399 "/>
+   <path class="Fill_Last str1" d="M96 428l209 0 0 23c0,3 -3,6 -7,6l-195 0c-4,0 -7,-3 -7,-6l0 -23 0 0z"/>
+   <text text-anchor="middle" x="200" y="360" class="fil3 fnt0">ShortCut</text>
+   <text text-anchor="middle" x="200" y="389" class="fil3 fnt0">ReLU</text>
+   <text text-anchor="middle" x="200" y="418" class="fil3 fnt0">RF - 65x65</text>
+   <text text-anchor="middle" x="200" y="447" class="fil3 fnt0">Dims - 64x8x8</text>
+ 
+    <rect class="fil_p str3" x="330" y="351" width="0" height="22.7269"/>
+    <rect class="fil_o str3" x="330" y="374" width="2.2814" height="22.7269"/>
+    <rect class="fil_d str3" x="330" y="396" width="663.87" height="22.7269"/>
+    <text x="335" y="367" class="fil3 fnt0">0</text>
+    <text x="335" y="390" class="fil3 fnt0">4.096k</text>
+    <text x="335" y="412" class="fil3 fnt0">4.096k</text>
+   </g>
+  </g><g transform=" translate (0 , 4452 )" xmlns="http://www.w3.org/2000/svg" id="Layer_x0020_1_0">
+  <path transform=" translate(0,-210)" d="M198 245l0 -35 4 0 0 35 -4 0zm0 3l4 -2 -4 0 10 -16 4 3 -10 15 -4 0zm0 0l4 0 -2 3 -2 -3 0 0zm-8 -17l1 -1 11 16 -4 2 -10 -15 2 -2 0 0z" class="fil10"/>
+
+ 
+<path transform=" translate(20,-40) rotate(-90) " d=" M 60 70 l  0 -30   4 0   0 30  -4 0   m0 3l4 -2 -4 0 10 -16 4 3 -10 15 -4 0 z m 0 0l4 0 -2 3 -2 -3 0 0 z m-8 -17l1 -1 11 16 -4 2 -10 -15 2 -2 0 0z" class="fil10" />
+<path transform=" translate(20, -102)"  d="M 	0 	-2  l 0  -349  4 0 0   349 -4 0   M	 4 -347  l	 174  0 0 -4	  -174	 0 0 4 M  0	2   l	 69	 0 0 -4	  -69 0 0 4  M 178 -347  l0 -14 4 0 0 14 -4"  class="fil10" />
+
+ </g>
+<g transform="translate (0 , 4493 )" xmlns="http://www.w3.org/2000/svg" id="_2188820445584">
+   <g transform="translate(0,-342)">  
+   <path class="Fill_Conv3D str1" d="M103 342l195 0c4,0 7,2 7,6l0 23 -209 0 0 -23c0,-4 3,-6 7,-6l0 0z"/>
+   <polygon class="Fill_Middle str1" points="96,399 305,399 305,370 96,370 "/>
+   <polygon class="Fill_Middle str1" points="96,428 305,428 305,399 96,399 "/>
+   <path class="Fill_Last str1" d="M96 428l209 0 0 23c0,3 -3,6 -7,6l-195 0c-4,0 -7,-3 -7,-6l0 -23 0 0z"/>
+   <text text-anchor="middle" x="200" y="360" class="fil3 fnt0">Conv2D -  c64,k3,s1,p1</text>
+   <text text-anchor="middle" x="200" y="389" class="fil3 fnt0">BN=T, HB=F, ReLU</text>
+   <text text-anchor="middle" x="200" y="418" class="fil3 fnt0">RF - 73x73</text>
+   <text text-anchor="middle" x="200" y="447" class="fil3 fnt0">Dims - 64x8x8</text>
+ 
+    <rect class="fil_p str3" x="330" y="351" width="2655.5" height="22.7269"/>
+    <rect class="fil_o str3" x="330" y="374" width="2635" height="22.7269"/>
+    <rect class="fil_d str3" x="330" y="396" width="663.87" height="22.7269"/>
+    <text x="335" y="367" class="fil3 fnt0">37.06k</text>
+    <text x="335" y="390" class="fil3 fnt0">4.731M</text>
+    <text x="335" y="412" class="fil3 fnt0">4.096k</text>
+   </g>
+  </g><g transform=" translate (0 , 4607 )" xmlns="http://www.w3.org/2000/svg" id="Layer_x0020_1_0">
+  <path transform=" translate(0,-210)" d="M198 245l0 -35 4 0 0 35 -4 0zm0 3l4 -2 -4 0 10 -16 4 3 -10 15 -4 0zm0 0l4 0 -2 3 -2 -3 0 0zm-8 -17l1 -1 11 16 -4 2 -10 -15 2 -2 0 0z" class="fil10"/>
+
+
+ </g>
+<g transform="translate (0 , 4648 )" xmlns="http://www.w3.org/2000/svg" id="_2188820445584">
+   <g transform="translate(0,-342)">  
+   <path class="Fill_Conv3D str1" d="M103 342l195 0c4,0 7,2 7,6l0 23 -209 0 0 -23c0,-4 3,-6 7,-6l0 0z"/>
+   <polygon class="Fill_Middle str1" points="96,399 305,399 305,370 96,370 "/>
+   <polygon class="Fill_Middle str1" points="96,428 305,428 305,399 96,399 "/>
+   <path class="Fill_Last str1" d="M96 428l209 0 0 23c0,3 -3,6 -7,6l-195 0c-4,0 -7,-3 -7,-6l0 -23 0 0z"/>
+   <text text-anchor="middle" x="200" y="360" class="fil3 fnt0">Conv2D -  c64,k3,s1,p1</text>
+   <text text-anchor="middle" x="200" y="389" class="fil3 fnt0">BN=T, HB=F, None</text>
+   <text text-anchor="middle" x="200" y="418" class="fil3 fnt0">RF - 81x81</text>
+   <text text-anchor="middle" x="200" y="447" class="fil3 fnt0">Dims - 64x8x8</text>
+ 
+    <rect class="fil_p str3" x="330" y="351" width="2655.5" height="22.7269"/>
+    <rect class="fil_o str3" x="330" y="374" width="2635" height="22.7269"/>
+    <rect class="fil_d str3" x="330" y="396" width="663.87" height="22.7269"/>
+    <text x="335" y="367" class="fil3 fnt0">37.06k</text>
+    <text x="335" y="390" class="fil3 fnt0">4.731M</text>
+    <text x="335" y="412" class="fil3 fnt0">4.096k</text>
+   </g>
+  </g><g transform=" translate (0 , 4762 )" xmlns="http://www.w3.org/2000/svg" id="Layer_x0020_1_0">
+  <path transform=" translate(0,-210)" d="M198 245l0 -35 4 0 0 35 -4 0zm0 3l4 -2 -4 0 10 -16 4 3 -10 15 -4 0zm0 0l4 0 -2 3 -2 -3 0 0zm-8 -17l1 -1 11 16 -4 2 -10 -15 2 -2 0 0z" class="fil10"/>
+
+
+ </g>
+<g transform="translate (0 , 4803 )" xmlns="http://www.w3.org/2000/svg" id="_2188820445584">
+   <g transform="translate(0,-342)">  
+   <path class="Fill_ShortCut str1" d="M103 342l195 0c4,0 7,2 7,6l0 23 -209 0 0 -23c0,-4 3,-6 7,-6l0 0z"/>
+   <polygon class="Fill_Middle str1" points="96,399 305,399 305,370 96,370 "/>
+   <polygon class="Fill_Middle str1" points="96,428 305,428 305,399 96,399 "/>
+   <path class="Fill_Last str1" d="M96 428l209 0 0 23c0,3 -3,6 -7,6l-195 0c-4,0 -7,-3 -7,-6l0 -23 0 0z"/>
+   <text text-anchor="middle" x="200" y="360" class="fil3 fnt0">ShortCut</text>
+   <text text-anchor="middle" x="200" y="389" class="fil3 fnt0">ReLU</text>
+   <text text-anchor="middle" x="200" y="418" class="fil3 fnt0">RF - 81x81</text>
+   <text text-anchor="middle" x="200" y="447" class="fil3 fnt0">Dims - 64x8x8</text>
+ 
+    <rect class="fil_p str3" x="330" y="351" width="0" height="22.7269"/>
+    <rect class="fil_o str3" x="330" y="374" width="2.2814" height="22.7269"/>
+    <rect class="fil_d str3" x="330" y="396" width="663.87" height="22.7269"/>
+    <text x="335" y="367" class="fil3 fnt0">0</text>
+    <text x="335" y="390" class="fil3 fnt0">4.096k</text>
+    <text x="335" y="412" class="fil3 fnt0">4.096k</text>
+   </g>
+  </g><g transform=" translate (0 , 4917 )" xmlns="http://www.w3.org/2000/svg" id="Layer_x0020_1_0">
+  <path transform=" translate(0,-210)" d="M198 245l0 -35 4 0 0 35 -4 0zm0 3l4 -2 -4 0 10 -16 4 3 -10 15 -4 0zm0 0l4 0 -2 3 -2 -3 0 0zm-8 -17l1 -1 11 16 -4 2 -10 -15 2 -2 0 0z" class="fil10"/>
+
+ 
+<path transform=" translate(20,-40) rotate(-90) " d=" M 60 70 l  0 -30   4 0   0 30  -4 0   m0 3l4 -2 -4 0 10 -16 4 3 -10 15 -4 0 z m 0 0l4 0 -2 3 -2 -3 0 0 z m-8 -17l1 -1 11 16 -4 2 -10 -15 2 -2 0 0z" class="fil10" />
+<path transform=" translate(20, -102)"  d="M 	0 	-2  l 0  -349  4 0 0   349 -4 0   M	 4 -347  l	 174  0 0 -4	  -174	 0 0 4 M  0	2   l	 69	 0 0 -4	  -69 0 0 4  M 178 -347  l0 -14 4 0 0 14 -4"  class="fil10" />
+
+ </g>
+<g transform="translate (0 , 4958 )" xmlns="http://www.w3.org/2000/svg" id="_2188820419440">
+     <g transform="translate(0,-252)">  
+     <path class="Fill_AvgPool str1" d="M103 252l195 0c4,0 7,2 7,6l0 23 -209 0 0 -23c0,-4 4,-6 7,-6l0 0z"/>
+     <polygon class="Fill_Middle str1" points="96,309 305,309 305,280 96,280 "/>
+     <path class="Fill_Last str1" d="M96 309l209 0 0 22c0,4 -4,7 -7,7l-195 0c-3,0 -7,-3 -7,-7l0 -22 0 0z"/>
+     <text text-anchor="middle" x="200" y="271" class="fil3 fnt0">AvgPool - -1x-1/0x0/0x0</text>
+     <text text-anchor="middle" x="200" y="300" class="fil3 fnt0">RF - 73x73</text>
+     <text text-anchor="middle" x="200" y="329" class="fil3 fnt0">Dims - 64x1x1</text>
+
+    <rect class="fil_p str3" x="330" y="247" width="0" height="22.7269"/>
+    <rect class="fil_o str3" x="330" y="270" width="2.2814" height="22.7269"/>
+    <rect class="fil_d str3" x="330" y="292" width="10.373" height="22.7269"/>
+    <text x="335" y="264" class="fil3 fnt0">0</text>
+    <text x="335" y="286" class="fil3 fnt0">4.096k</text>
+    <text x="335" y="309" class="fil3 fnt0">64</text>
+   </g>
+  </g><g transform=" translate (0 , 5045 )" xmlns="http://www.w3.org/2000/svg" id="Layer_x0020_1_0">
+  <path transform=" translate(0,-210)" d="M198 245l0 -35 4 0 0 35 -4 0zm0 3l4 -2 -4 0 10 -16 4 3 -10 15 -4 0zm0 0l4 0 -2 3 -2 -3 0 0zm-8 -17l1 -1 11 16 -4 2 -10 -15 2 -2 0 0z" class="fil10"/>
+
+
+ </g>
+<g transform="translate (0 , 5086 )" xmlns="http://www.w3.org/2000/svg" id="_2188820445584">
+   <g transform="translate(0,-342)">  
+   <path class="Fill_FC str1" d="M103 342l195 0c4,0 7,2 7,6l0 23 -209 0 0 -23c0,-4 3,-6 7,-6l0 0z"/>
+   <polygon class="Fill_Middle str2" points="96,399 305,399 305,370 96,370 "/>
+   <path class="Fill_Last str1" d="M96 399l209 0 0 23c0,3 -3,6 -7,6l-195 0c-4,0 -7,-3 -7,-6l0 -23 0 0z"/>
+   <text text-anchor="middle" x="200" y="361" class="fil3 fnt0">FC - 10</text>
+   <text text-anchor="middle" x="200" y="390" class="fil3 fnt0">BN=F, HB=T, None</text>
+   <text text-anchor="middle" x="200" y="419" class="fil3 fnt0">Dims - 10</text>
+ 
+    <rect class="fil_p str3" x="330" y="351" width="46.58" height="22.7269"/>
+    <rect class="fil_o str3" x="330" y="374" width="0.71849" height="22.7269"/>
+    <rect class="fil_d str3" x="330" y="396" width="1.6208" height="22.7269"/>
+    <text x="335" y="367" class="fil3 fnt0">650</text>
+    <text x="335" y="390" class="fil3 fnt0">1.29k</text>
+    <text x="335" y="412" class="fil3 fnt0">10</text>
+   </g>
+  </g><g transform=" translate (0 , 5171 )" xmlns="http://www.w3.org/2000/svg" id="Layer_x0020_1_0">
+  <path transform=" translate(0,-210)" d="M198 245l0 -35 4 0 0 35 -4 0zm0 3l4 -2 -4 0 10 -16 4 3 -10 15 -4 0zm0 0l4 0 -2 3 -2 -3 0 0zm-8 -17l1 -1 11 16 -4 2 -10 -15 2 -2 0 0z" class="fil10"/>
+
+
+ </g>
+<g transform="translate (0 , 5212 )" xmlns="http://www.w3.org/2000/svg" id="_2188820419440">
+     <g transform="translate(0,-252)">  
+     <path class="Fill_Softmax str1" d="M103 252l194 0c4,0 7,2 7,6l0 23 -208 0 0 -23c0,-4 4,-6 7,-6l0 0z"/>
+     <path class="Fill_Last str1" d="M96 281l208 0 0 22c0,4 -4,7 -7,7l-194 0c-3,0 -7,-3 -7,-7l0 -22 0 0z"/>
+     <text text-anchor="middle" x="200" y="270" class="fil3 fnt0">Softmax</text>
+     <text text-anchor="middle" x="200" y="301" class="fil3 fnt0">Dims - 10</text>
+
+    <rect class="fil_p str3" x="330" y="247" width="0" height="22.7269"/>
+    <rect class="fil_o str3" x="330" y="270" width="0.027849" height="22.7269"/>
+    <rect class="fil_d str3" x="330" y="292" width="1.6208" height="22.7269"/>
+    <text x="335" y="262" class="fil3 fnt0">0</text>
+    <text x="335" y="285" class="fil3 fnt0">50</text>
+    <text x="335" y="308" class="fil3 fnt0">10</text>
+   </g>
+  </g>
+</g>
+</svg>
