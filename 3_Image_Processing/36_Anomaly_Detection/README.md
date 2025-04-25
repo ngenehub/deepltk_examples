@@ -22,7 +22,7 @@
 
 | Name                                         | Version | Requirement        | Notes        |
 |----------------------------------------------|---------|--------------------|--------------------|
-| [DeepLTK_Anomaly_Detection_Addon](https://www.vipm.io/package/ngene_deepltk_patchcore_anomaly_detection_addon/) | 2.0.1.18   | Required            |  |
+| [DeepLTK_Anomaly_Detection_Addon](https://www.vipm.io/package/ngene_deepltk_patchcore_anomaly_detection_addon/) | 2.1.2.24   | Required            |  |
 | [DeepLTK](https://www.ngene.co/deep-learning-toolkit-for-labview) | 8.0.2.254   | Required            | v8.0.3.258 might be required for systems without GPU (CPU Only). |
 | [CuLab](https://www.ngene.co/gpu-toolkit-for-labview)     | 4.1.1.77   | Optional           | Using CuLab significantly accelerates both training and inference (up to 50x) with GPUs. 
 
@@ -41,7 +41,7 @@
 ## 1_VisualAD_Train_Eval.vi
 Train and evaluate the anomaly detection model.
 
-![1_VisualAD_Train_Eval](https://github.com/user-attachments/assets/3b7ec90a-1047-4b91-9d92-dfd96fd118d1)  
+![1_VisualAD_Train_Eval](https://github.com/user-attachments/assets/8a166a41-fcde-4f10-88d2-7021df2b4b57)  
 <div align="center"><i>Front Panel of Training  VI.</i></div>
 <br/>
 
@@ -55,7 +55,7 @@ Train and evaluate the anomaly detection model.
 
 Inference for a single image.
 
-![2_VisusalAD_Inference(Image)_FP](https://github.com/user-attachments/assets/6706ea65-2604-4091-9485-89fef0e8102d) <br/>
+![2_VisusalAD_Inference(Image)_FP](https://github.com/user-attachments/assets/b04ec7c9-1551-4298-a711-7f0da3450421) <br/>
 <div align="center"><i>Front Panel of Inference VI.</i></div>
 <br/>
 
@@ -66,10 +66,9 @@ Inference for a single image.
 ## 3_VisualAD_Report(Dataset).vi
 Generate and save detection results for the dataset.
 
-![3_VisualAD_Report(Dataset)_FP](https://github.com/user-attachments/assets/ea0c8fa0-2f8b-4792-b99b-18b97b16791e)  <br/>
+![3_VisualAD_Report(Dataset)_FP](https://github.com/user-attachments/assets/a764d250-5e41-4747-9d0e-f8f6c067fa61)  <br/>
 <div align="center"><i>Front Panel of Report Dataset VI.</i></div>
 <br/>
-
 
 ![3_VisualAD_Report(Dataset)_BD](https://github.com/user-attachments/assets/0b0ea904-cb62-4b37-aef3-0204b615dc12)
 <div align="center"><i>Block Diagram of Report Dataset VI.</i></div>
