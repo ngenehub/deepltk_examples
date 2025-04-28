@@ -28,12 +28,16 @@
 ## 0_Dataset_Converter(CIFAR10).vi
 Convert CIFAR10 model.
 
-![0_Dataset_Converter_FP](https://github.com/user-attachments/assets/aa386413-3781-4a16-8af8-fc22feb313ed)  
+<p align="center">
+<img src="https://github.com/user-attachments/assets/aa386413-3781-4a16-8af8-fc22feb313ed" />
+</p>
 <div align="center"><i>Front Panel of Converter  VI.</i></div>
 <br/>
 
 
-![0_Dataset_Converter_BD](https://github.com/user-attachments/assets/bd09852d-14ed-40f3-839d-da08a298467f)
+<p align="center">
+<img src="https://github.com/user-attachments/assets/bd09852d-14ed-40f3-839d-da08a298467f"/>
+</p>
 <div align="center"><i>Block Diagram of Converter VI.</i></div>
 
 <br/>
@@ -51,7 +55,10 @@ Train Image Classification model.
 <div align="center"><i>"Incorrectly Classified Images" Tab of Training  VI.</i></div>
 <br/>
 
-![1_ImClass Train](https://github.com/user-attachments/assets/ff636ff3-18ca-4d2d-848b-e4eb0010c37b)
+
+<p align="center">
+<img src="![1_ImClass Train](https://github.com/user-attachments/assets/ff636ff3-18ca-4d2d-848b-e4eb0010c37b)"
+</p>
 
 <div align="center"><i>"Confusion Matrix" Tab of Training  VI.</i></div>
 <br/>
