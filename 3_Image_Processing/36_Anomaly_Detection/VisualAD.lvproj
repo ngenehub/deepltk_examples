@@ -103,7 +103,7 @@
 				<Item Name="Create Directory Recursive.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Create Directory Recursive.vi"/>
 				<Item Name="CuLab.lvlib" Type="Library" URL="/&lt;vilib&gt;/Ngene/CuLab - GPU Accelerated Toolkit/Toolkit/CuLab.lvlib"/>
 				<Item Name="Deep_Learning_Toolkit_by_Ngene.lvlib" Type="Library" URL="/&lt;vilib&gt;/Ngene/Deep Learning Toolkit/Toolkit/Deep_Learning_Toolkit_by_Ngene.lvlib"/>
-				<Item Name="DeepLTK_Anomaly_Detection_Addon.lvlib" Type="Library" URL="/&lt;vilib&gt;/Ngene/DeepLTK Anomaly Detection Addon/DeepLTK_Anomaly_Detection_Addon/DeepLTK_Anomaly_Detection_Addon.lvlib"/>
+				<Item Name="DeepLTK_Anomaly_Detection_Addon.lvlib" Type="Library" URL="/&lt;vilib&gt;/Ngene/DeepLTK Anomaly Detection Addon/Toolkit/DeepLTK_Anomaly_Detection_Addon.lvlib"/>
 				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
