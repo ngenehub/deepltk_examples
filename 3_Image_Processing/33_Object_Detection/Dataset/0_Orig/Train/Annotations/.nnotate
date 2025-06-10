@@ -1,0 +1,9 @@
+[UI]
+Font_Size = "0.8000"
+Overlay_Thickness = "1"
+ROI_Color = "FF000F"
+
+[Label Properties]
+Nut = "FF64FF, TRUE, TRUE"
+Screw = "64CBFF, TRUE, TRUE"
+Washer = "98FF64, TRUE, TRUE"
