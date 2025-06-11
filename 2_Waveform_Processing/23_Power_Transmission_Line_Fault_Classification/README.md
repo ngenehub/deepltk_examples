@@ -15,21 +15,22 @@ This example demonstrates power transmission line fault classification with the 
 
 <p align="center">
   <i>Front Panel</i> <br/>
-  <img src="https://github.com/ngenehub/deepltk_examples/assets/131282716/49ab53bf-584c-41ea-819b-8f6082c84ec7" alt="image">
+  <img src="https://github.com/user-attachments/assets/471c823f-351e-4678-beea-b6c75fee47d1" alt="image">
 </p>
 
 <br/>
 
 <p align="center">
   <i>Block Diagram</i> <br/>
-  <img src="https://github.com/ngenehub/deepltk_examples/assets/131282716/1061c4b2-f887-4e49-bd70-3933a4d3426b" alt="image">
+  <img src="https://github.com/user-attachments/assets/b3cc8695-32fa-4e6c-a5fb-618511a42c02" alt="image">
 </p>
+
 
 <br/>
 
 <p align="center">
   <i>Block Diagram</i> <br/>
-  <img src="https://github.com/ngenehub/deepltk_examples/assets/131282716/6c615d80-5f60-476c-a10c-7e2b85f1aa2f" alt="image">
+  <img src="https://github.com/user-attachments/assets/5200bc7d-78a5-4bc7-96bf-1701686ba3a1" alt="image">
 </p>
 
 <br/>
@@ -38,14 +39,14 @@ This example demonstrates power transmission line fault classification with the 
 
 <p align="center">
   <i>Front Panel</i> <br/>
-  <img src="https://github.com/ngenehub/deepltk_examples/assets/131282716/809b38d7-b0ee-4d6c-bb67-dc692fc4b753" alt="image">
+  <img src="https://github.com/user-attachments/assets/f68697bc-c136-42f1-b43a-263692948920" alt="image">
 </p>
 
 <br/>
 
 <p align="center">
   <i>Block Diagram</i> <br/>
-  <img src="https://github.com/ngenehub/deepltk_examples/assets/131282716/9567f253-72b3-44b2-b678-1bc0d3e9be52" alt="image">
+  <img src="https://github.com/user-attachments/assets/6f50a617-cd8a-4992-9f63-e7244540ae8f" alt="image">
 </p>
 
 <br/>
@@ -54,14 +55,14 @@ This example demonstrates power transmission line fault classification with the 
 
 <p align="center">
   <i>Front Panel</i> <br/>
-  <img src="https://github.com/ngenehub/deepltk_examples/assets/131282716/1b289ff2-b225-41ab-b2d6-3c9a1cbc52b8" alt="image">
+  <img src="https://github.com/user-attachments/assets/b5b2aa0e-4878-41ad-b5d7-30962cff8649" alt="image">
 </p>
 
 <br/>
 
 <p align="center">
   <i>Block Diagram</i> <br/>
-  <img src="https://github.com/ngenehub/deepltk_examples/assets/131282716/3baebb63-6c43-4ab4-bbb0-232fb9872dbc" alt="image">
+  <img src="https://github.com/user-attachments/assets/a45af720-c7bf-4190-b929-5b3a6fc74e83" alt="image">
 </p>
 
 <br/>
