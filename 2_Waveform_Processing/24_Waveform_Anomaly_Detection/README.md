@@ -31,14 +31,14 @@ This example demonstrates an autoencoder based waveform anomaly detection implem
 
 <p align="center">
   <i>Front Panel</i> <br/>
-  <img src="https://github.com/ngenehub/deepltk_examples/assets/131282716/8ebdfbb0-2315-4d4e-90b6-2866feea18af" alt="image">
+  <img src="https://github.com/user-attachments/assets/b4bc5fdf-039a-40f7-9845-a83c5b4fff2d" alt="image">
 </p>
 
 <br/>
 
 <p align="center">
   <i>Block Diagram</i> <br/>
-  <img src="https://github.com/ngenehub/deepltk_examples/assets/131282716/f33aa70d-b4f9-4b48-8efe-2abb6b0b934c" alt="image">
+  <img src="https://github.com/user-attachments/assets/a3d45d44-754c-4aba-80d3-cfb37042ff87" alt="image">
 </p>
 
 <br/>
@@ -47,14 +47,14 @@ This example demonstrates an autoencoder based waveform anomaly detection implem
 
 <p align="center">
   <i>Front Panel</i> <br/>
-  <img src="https://github.com/ngenehub/deepltk_examples/assets/131282716/b328b546-0113-4d44-8c60-c02deaaebb63" alt="image">
+  <img src="https://github.com/user-attachments/assets/a53e3bca-532a-42c2-8e8f-95c1d62a652c" alt="image">
 </p>
 
 <br/>
 
 <p align="center">
   <i>Block Diagram</i> <br/>
-  <img src="https://github.com/ngenehub/deepltk_examples/assets/131282716/d276ce18-9f69-4d36-865f-8a294f2b66e4" alt="image">
+  <img src="https://github.com/user-attachments/assets/e766304b-9990-4041-9866-a3a7417a577a" alt="image">
 </p>
 
 <br/>
@@ -63,14 +63,14 @@ This example demonstrates an autoencoder based waveform anomaly detection implem
 
 <p align="center">
   <i>Front Panel</i> <br/>
-  <img src="https://github.com/ngenehub/deepltk_examples/assets/131282716/54646154-2d9d-4bc0-a3c0-240a133ccc06" alt="image">
+  <img src="https://github.com/user-attachments/assets/2a807d84-74f4-4d01-84fa-756dfae7d369" alt="image">
 </p>
 
 <br/>
 
 <p align="center">
   <i>Block Diagram</i> <br/>
-  <img src="https://github.com/ngenehub/deepltk_examples/assets/131282716/b973501c-947a-4177-8aa4-8429c8654e0c" alt="image">
+  <img src="https://github.com/user-attachments/assets/7faf148c-1319-4475-b717-0bf565e4458b" alt="image">
 </p>
 
 <br/>
@@ -79,14 +79,14 @@ This example demonstrates an autoencoder based waveform anomaly detection implem
 
 <p align="center">
   <i>Front Panel</i> <br/>
-  <img src="https://github.com/ngenehub/deepltk_examples/assets/131282716/ce834c64-d624-4d3c-9971-9e631353d7c1" alt="image">
+  <img src="https://github.com/user-attachments/assets/d931eb9b-25be-4fd6-bbaf-cf750533288c" alt="image">
 </p>
 
 <br/>
 
 <p align="center">
   <i>Block Diagram</i> <br/>
-  <img src="https://github.com/ngenehub/deepltk_examples/assets/131282716/4cbb8e7f-4032-41a6-a9e9-3e26d56b4e4d" alt="image">
+  <img src="https://github.com/user-attachments/assets/69849ed8-d804-44d2-b12b-4075d203e968" alt="image">
 </p>
 
 <br/>
