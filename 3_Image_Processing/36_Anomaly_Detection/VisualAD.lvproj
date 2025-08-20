@@ -83,6 +83,7 @@
 		<Item Name="2_1_VisualAD_Inference(Image).vi" Type="VI" URL="../2_1_VisualAD_Inference(Image).vi"/>
 		<Item Name="2_2_VisualAD_Inference(Camera).vi" Type="VI" URL="../2_2_VisualAD_Inference(Camera).vi"/>
 		<Item Name="3_VisualAD_Report(Dataset).vi" Type="VI" URL="../3_VisualAD_Report(Dataset).vi"/>
+		<Item Name="5_VisualAD_HyperParam_Search.vi" Type="VI" URL="../5_VisualAD_HyperParam_Search.vi"/>
 		<Item Name="Enabling_GPU_Acceleration_v1.1.pdf" Type="Document" URL="../Enabling_GPU_Acceleration_v1.1.pdf"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -130,7 +131,6 @@
 				<Item Name="High Resolution Relative Seconds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/High Resolution Relative Seconds.vi"/>
 				<Item Name="Image Type" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Type"/>
 				<Item Name="Image Unit" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Unit"/>
-				<Item Name="Image_Stats_RGB.ctl" Type="VI" URL="/&lt;vilib&gt;/Ngene/DeepLTK Anomaly Detection Addon/DeepLTK_Anomaly_Detection_Addon/API/Controls/Image_Stats_RGB.ctl"/>
 				<Item Name="imagedata.ctl" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/imagedata.ctl"/>
 				<Item Name="IMAQ ArrayToColorImage" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ ArrayToColorImage"/>
 				<Item Name="IMAQ ArrayToImage" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ ArrayToImage"/>
@@ -166,7 +166,6 @@
 				<Item Name="LVPointTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPointTypeDef.ctl"/>
 				<Item Name="LVPositionTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPositionTypeDef.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
-				<Item Name="MinMax.ctl" Type="VI" URL="/&lt;vilib&gt;/Ngene/DeepLTK Anomaly Detection Addon/DeepLTK_Anomaly_Detection_Addon/API/Controls/MinMax.ctl"/>
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 				<Item Name="NI_AALBLAS.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBLAS.lvlib"/>
 				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
@@ -179,9 +178,6 @@
 				<Item Name="NI_Vision_Acquisition_Software.lvlib" Type="Library" URL="/&lt;vilib&gt;/vision/driver/NI_Vision_Acquisition_Software.lvlib"/>
 				<Item Name="NI_Vision_Development_Module.lvlib" Type="Library" URL="/&lt;vilib&gt;/vision/NI_Vision_Development_Module.lvlib"/>
 				<Item Name="nisyscfg.lvlib" Type="Library" URL="/&lt;vilib&gt;/nisyscfg/nisyscfg.lvlib"/>
-				<Item Name="NNPC_DS_Stats.ctl" Type="VI" URL="/&lt;vilib&gt;/Ngene/DeepLTK Anomaly Detection Addon/DeepLTK_Anomaly_Detection_Addon/API/Controls/NNPC_DS_Stats.ctl"/>
-				<Item Name="NNPC_Evaluation_Results.ctl" Type="VI" URL="/&lt;vilib&gt;/Ngene/DeepLTK Anomaly Detection Addon/DeepLTK_Anomaly_Detection_Addon/API/Controls/NNPC_Evaluation_Results.ctl"/>
-				<Item Name="NNPC_PreProcessing_Options.ctl" Type="VI" URL="/&lt;vilib&gt;/Ngene/DeepLTK Anomaly Detection Addon/DeepLTK_Anomaly_Detection_Addon/API/Controls/NNPC_PreProcessing_Options.ctl"/>
 				<Item Name="Not A Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Not A Semaphore.vi"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Obtain Semaphore Reference.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Obtain Semaphore Reference.vi"/>
