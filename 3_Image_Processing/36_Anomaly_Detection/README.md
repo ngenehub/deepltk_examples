@@ -74,6 +74,16 @@ Generate and save detection results for the dataset.
 <div align="center"><i>Block Diagram of Report Dataset VI.</i></div>
 <br/>
 
+## 5_VisualAD_HyperParam_Search.vi
+Automates hyperparameter tuning and identifies the best performing model.
+
+<img width="1465" height="925" alt="image" src="https://github.com/user-attachments/assets/06450308-3f74-4c9d-84f7-f9693923d0a1" />
+<div align="center"><i>Front Panel (Tab 1) of Hyperparameter Search VI.</i></div>
+<br/>
+
+<img width="1465" height="925" alt="image" src="https://github.com/user-attachments/assets/8d1ec654-7375-4cdf-9c53-d21a2ce9bbe8" />
+<div align="center"><i>Front Panel (Tab 2) of Hyperparameter Search VI.</i></div>
+<br/>
 <br/>
 
 <div align="center">
