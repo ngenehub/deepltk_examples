@@ -126,7 +126,7 @@ viewBox="0 0 viewboxx viewboxy"
      <polygon class="Fill_Middle str1" points="96,309 305,309 305,280 96,280 "/>
      <path class="Fill_Last str1" d="M96 309l209 0 0 22c0,4 -4,7 -7,7l-195 0c-3,0 -7,-3 -7,-7l0 -22 0 0z"/>
      <text text-anchor="middle" x="200" y="271" class="fil3 fnt0">MaxPool - 3x3/2x2/1x1</text>
-     <text text-anchor="middle" x="200" y="300" class="fil3 fnt0">RF - 9x9</text>
+     <text text-anchor="middle" x="200" y="300" class="fil3 fnt0">RF - 11x11</text>
      <text text-anchor="middle" x="200" y="329" class="fil3 fnt0">Dims - 64x80x80</text>
 
     <rect class="fil_p str3" x="330" y="247" width="0" height="22.7269"/>
@@ -149,7 +149,7 @@ viewBox="0 0 viewboxx viewboxy"
    <path class="Fill_Last str1" d="M96 428l209 0 0 23c0,3 -3,6 -7,6l-195 0c-4,0 -7,-3 -7,-6l0 -23 0 0z"/>
    <text text-anchor="middle" x="200" y="360" class="fil3 fnt0">Conv2D -  c128,k1,s1,p0</text>
    <text text-anchor="middle" x="200" y="389" class="fil3 fnt0">BN=F, HB=T, ReLU</text>
-   <text text-anchor="middle" x="200" y="418" class="fil3 fnt0">RF - 9x9</text>
+   <text text-anchor="middle" x="200" y="418" class="fil3 fnt0">RF - 11x11</text>
    <text text-anchor="middle" x="200" y="447" class="fil3 fnt0">Dims - 128x80x80</text>
  
     <rect class="fil_p str3" x="330" y="351" width="22.398" height="22.7269"/>
@@ -172,7 +172,7 @@ viewBox="0 0 viewboxx viewboxy"
    <path class="Fill_Last str1" d="M96 428l209 0 0 23c0,3 -3,6 -7,6l-195 0c-4,0 -7,-3 -7,-6l0 -23 0 0z"/>
    <text text-anchor="middle" x="200" y="360" class="fil3 fnt0">Conv2D -  c128,k3,s1,p1</text>
    <text text-anchor="middle" x="200" y="389" class="fil3 fnt0">BN=F, HB=T, ReLU</text>
-   <text text-anchor="middle" x="200" y="418" class="fil3 fnt0">RF - 21x21</text>
+   <text text-anchor="middle" x="200" y="418" class="fil3 fnt0">RF - 19x19</text>
    <text text-anchor="middle" x="200" y="447" class="fil3 fnt0">Dims - 128x80x80</text>
  
     <rect class="fil_p str3" x="330" y="351" width="397.3" height="22.7269"/>
@@ -195,7 +195,7 @@ viewBox="0 0 viewboxx viewboxy"
    <path class="Fill_Last str1" d="M96 428l209 0 0 23c0,3 -3,6 -7,6l-195 0c-4,0 -7,-3 -7,-6l0 -23 0 0z"/>
    <text text-anchor="middle" x="200" y="360" class="fil3 fnt0">Conv2D -  c256,k1,s1,p0</text>
    <text text-anchor="middle" x="200" y="389" class="fil3 fnt0">BN=F, HB=T, None</text>
-   <text text-anchor="middle" x="200" y="418" class="fil3 fnt0">RF - 21x21</text>
+   <text text-anchor="middle" x="200" y="418" class="fil3 fnt0">RF - 19x19</text>
    <text text-anchor="middle" x="200" y="447" class="fil3 fnt0">Dims - 256x80x80</text>
  
     <rect class="fil_p str3" x="330" y="351" width="88.901" height="22.7269"/>
@@ -218,7 +218,7 @@ viewBox="0 0 viewboxx viewboxy"
    <path class="Fill_Last str1" d="M96 428l209 0 0 23c0,3 -3,6 -7,6l-195 0c-4,0 -7,-3 -7,-6l0 -23 0 0z"/>
    <text text-anchor="middle" x="200" y="360" class="fil3 fnt0">Conv2D -  c256,k1,s1,p0</text>
    <text text-anchor="middle" x="200" y="389" class="fil3 fnt0">BN=F, HB=T, None</text>
-   <text text-anchor="middle" x="200" y="418" class="fil3 fnt0">RF - 9x9</text>
+   <text text-anchor="middle" x="200" y="418" class="fil3 fnt0">RF - 11x11</text>
    <text text-anchor="middle" x="200" y="447" class="fil3 fnt0">Dims - 256x80x80</text>
  
     <rect class="fil_p str3" x="330" y="351" width="44.795" height="22.7269"/>
@@ -241,7 +241,7 @@ viewBox="0 0 viewboxx viewboxy"
    <path class="Fill_Last str1" d="M96 428l209 0 0 23c0,3 -3,6 -7,6l-195 0c-4,0 -7,-3 -7,-6l0 -23 0 0z"/>
    <text text-anchor="middle" x="200" y="360" class="fil3 fnt0">ShortCut</text>
    <text text-anchor="middle" x="200" y="389" class="fil3 fnt0">ReLU</text>
-   <text text-anchor="middle" x="200" y="418" class="fil3 fnt0">RF - 21x21</text>
+   <text text-anchor="middle" x="200" y="418" class="fil3 fnt0">RF - 19x19</text>
    <text text-anchor="middle" x="200" y="447" class="fil3 fnt0">Dims - 256x80x80</text>
  
     <rect class="fil_p str3" x="330" y="351" width="0" height="22.7269"/>
@@ -267,7 +267,7 @@ viewBox="0 0 viewboxx viewboxy"
    <path class="Fill_Last str1" d="M96 428l209 0 0 23c0,3 -3,6 -7,6l-195 0c-4,0 -7,-3 -7,-6l0 -23 0 0z"/>
    <text text-anchor="middle" x="200" y="360" class="fil3 fnt0">Conv2D -  c128,k1,s1,p0</text>
    <text text-anchor="middle" x="200" y="389" class="fil3 fnt0">BN=F, HB=T, ReLU</text>
-   <text text-anchor="middle" x="200" y="418" class="fil3 fnt0">RF - 21x21</text>
+   <text text-anchor="middle" x="200" y="418" class="fil3 fnt0">RF - 19x19</text>
    <text text-anchor="middle" x="200" y="447" class="fil3 fnt0">Dims - 128x80x80</text>
  
     <rect class="fil_p str3" x="330" y="351" width="88.556" height="22.7269"/>
@@ -290,7 +290,7 @@ viewBox="0 0 viewboxx viewboxy"
    <path class="Fill_Last str1" d="M96 428l209 0 0 23c0,3 -3,6 -7,6l-195 0c-4,0 -7,-3 -7,-6l0 -23 0 0z"/>
    <text text-anchor="middle" x="200" y="360" class="fil3 fnt0">Conv2D -  c128,k3,s1,p1</text>
    <text text-anchor="middle" x="200" y="389" class="fil3 fnt0">BN=F, HB=T, ReLU</text>
-   <text text-anchor="middle" x="200" y="418" class="fil3 fnt0">RF - 33x33</text>
+   <text text-anchor="middle" x="200" y="418" class="fil3 fnt0">RF - 27x27</text>
    <text text-anchor="middle" x="200" y="447" class="fil3 fnt0">Dims - 128x80x80</text>
  
     <rect class="fil_p str3" x="330" y="351" width="397.3" height="22.7269"/>
@@ -313,7 +313,7 @@ viewBox="0 0 viewboxx viewboxy"
    <path class="Fill_Last str1" d="M96 428l209 0 0 23c0,3 -3,6 -7,6l-195 0c-4,0 -7,-3 -7,-6l0 -23 0 0z"/>
    <text text-anchor="middle" x="200" y="360" class="fil3 fnt0">Conv2D -  c256,k1,s1,p0</text>
    <text text-anchor="middle" x="200" y="389" class="fil3 fnt0">BN=F, HB=T, None</text>
-   <text text-anchor="middle" x="200" y="418" class="fil3 fnt0">RF - 33x33</text>
+   <text text-anchor="middle" x="200" y="418" class="fil3 fnt0">RF - 27x27</text>
    <text text-anchor="middle" x="200" y="447" class="fil3 fnt0">Dims - 256x80x80</text>
  
     <rect class="fil_p str3" x="330" y="351" width="88.901" height="22.7269"/>
@@ -336,7 +336,7 @@ viewBox="0 0 viewboxx viewboxy"
    <path class="Fill_Last str1" d="M96 428l209 0 0 23c0,3 -3,6 -7,6l-195 0c-4,0 -7,-3 -7,-6l0 -23 0 0z"/>
    <text text-anchor="middle" x="200" y="360" class="fil3 fnt0">ShortCut</text>
    <text text-anchor="middle" x="200" y="389" class="fil3 fnt0">ReLU</text>
-   <text text-anchor="middle" x="200" y="418" class="fil3 fnt0">RF - 33x33</text>
+   <text text-anchor="middle" x="200" y="418" class="fil3 fnt0">RF - 27x27</text>
    <text text-anchor="middle" x="200" y="447" class="fil3 fnt0">Dims - 256x80x80</text>
  
     <rect class="fil_p str3" x="330" y="351" width="0" height="22.7269"/>
@@ -362,7 +362,7 @@ viewBox="0 0 viewboxx viewboxy"
    <path class="Fill_Last str1" d="M96 428l209 0 0 23c0,3 -3,6 -7,6l-195 0c-4,0 -7,-3 -7,-6l0 -23 0 0z"/>
    <text text-anchor="middle" x="200" y="360" class="fil3 fnt0">Conv2D -  c128,k1,s1,p0</text>
    <text text-anchor="middle" x="200" y="389" class="fil3 fnt0">BN=F, HB=T, ReLU</text>
-   <text text-anchor="middle" x="200" y="418" class="fil3 fnt0">RF - 33x33</text>
+   <text text-anchor="middle" x="200" y="418" class="fil3 fnt0">RF - 27x27</text>
    <text text-anchor="middle" x="200" y="447" class="fil3 fnt0">Dims - 128x80x80</text>
  
     <rect class="fil_p str3" x="330" y="351" width="88.556" height="22.7269"/>
@@ -385,7 +385,7 @@ viewBox="0 0 viewboxx viewboxy"
    <path class="Fill_Last str1" d="M96 428l209 0 0 23c0,3 -3,6 -7,6l-195 0c-4,0 -7,-3 -7,-6l0 -23 0 0z"/>
    <text text-anchor="middle" x="200" y="360" class="fil3 fnt0">Conv2D -  c128,k3,s1,p1</text>
    <text text-anchor="middle" x="200" y="389" class="fil3 fnt0">BN=F, HB=T, ReLU</text>
-   <text text-anchor="middle" x="200" y="418" class="fil3 fnt0">RF - 45x45</text>
+   <text text-anchor="middle" x="200" y="418" class="fil3 fnt0">RF - 35x35</text>
    <text text-anchor="middle" x="200" y="447" class="fil3 fnt0">Dims - 128x80x80</text>
  
     <rect class="fil_p str3" x="330" y="351" width="397.3" height="22.7269"/>
@@ -408,7 +408,7 @@ viewBox="0 0 viewboxx viewboxy"
    <path class="Fill_Last str1" d="M96 428l209 0 0 23c0,3 -3,6 -7,6l-195 0c-4,0 -7,-3 -7,-6l0 -23 0 0z"/>
    <text text-anchor="middle" x="200" y="360" class="fil3 fnt0">Conv2D -  c256,k1,s1,p0</text>
    <text text-anchor="middle" x="200" y="389" class="fil3 fnt0">BN=F, HB=T, None</text>
-   <text text-anchor="middle" x="200" y="418" class="fil3 fnt0">RF - 45x45</text>
+   <text text-anchor="middle" x="200" y="418" class="fil3 fnt0">RF - 35x35</text>
    <text text-anchor="middle" x="200" y="447" class="fil3 fnt0">Dims - 256x80x80</text>
  
     <rect class="fil_p str3" x="330" y="351" width="88.901" height="22.7269"/>
@@ -431,7 +431,7 @@ viewBox="0 0 viewboxx viewboxy"
    <path class="Fill_Last str1" d="M96 428l209 0 0 23c0,3 -3,6 -7,6l-195 0c-4,0 -7,-3 -7,-6l0 -23 0 0z"/>
    <text text-anchor="middle" x="200" y="360" class="fil3 fnt0">ShortCut</text>
    <text text-anchor="middle" x="200" y="389" class="fil3 fnt0">ReLU</text>
-   <text text-anchor="middle" x="200" y="418" class="fil3 fnt0">RF - 45x45</text>
+   <text text-anchor="middle" x="200" y="418" class="fil3 fnt0">RF - 35x35</text>
    <text text-anchor="middle" x="200" y="447" class="fil3 fnt0">Dims - 256x80x80</text>
  
     <rect class="fil_p str3" x="330" y="351" width="0" height="22.7269"/>
@@ -457,7 +457,7 @@ viewBox="0 0 viewboxx viewboxy"
    <path class="Fill_Last str1" d="M96 428l209 0 0 23c0,3 -3,6 -7,6l-195 0c-4,0 -7,-3 -7,-6l0 -23 0 0z"/>
    <text text-anchor="middle" x="200" y="360" class="fil3 fnt0">Conv2D -  c256,k1,s1,p0</text>
    <text text-anchor="middle" x="200" y="389" class="fil3 fnt0">BN=F, HB=T, ReLU</text>
-   <text text-anchor="middle" x="200" y="418" class="fil3 fnt0">RF - 45x45</text>
+   <text text-anchor="middle" x="200" y="418" class="fil3 fnt0">RF - 35x35</text>
    <text text-anchor="middle" x="200" y="447" class="fil3 fnt0">Dims - 256x80x80</text>
  
     <rect class="fil_p str3" x="330" y="351" width="177.11" height="22.7269"/>
@@ -480,7 +480,7 @@ viewBox="0 0 viewboxx viewboxy"
    <path class="Fill_Last str1" d="M96 428l209 0 0 23c0,3 -3,6 -7,6l-195 0c-4,0 -7,-3 -7,-6l0 -23 0 0z"/>
    <text text-anchor="middle" x="200" y="360" class="fil3 fnt0">Conv2D -  c256,k3,s2,p1</text>
    <text text-anchor="middle" x="200" y="389" class="fil3 fnt0">BN=F, HB=T, ReLU</text>
-   <text text-anchor="middle" x="200" y="418" class="fil3 fnt0">RF - 57x57</text>
+   <text text-anchor="middle" x="200" y="418" class="fil3 fnt0">RF - 43x43</text>
    <text text-anchor="middle" x="200" y="447" class="fil3 fnt0">Dims - 256x40x40</text>
  
     <rect class="fil_p str3" x="330" y="351" width="1588.5" height="22.7269"/>
@@ -503,7 +503,7 @@ viewBox="0 0 viewboxx viewboxy"
    <path class="Fill_Last str1" d="M96 428l209 0 0 23c0,3 -3,6 -7,6l-195 0c-4,0 -7,-3 -7,-6l0 -23 0 0z"/>
    <text text-anchor="middle" x="200" y="360" class="fil3 fnt0">Conv2D -  c512,k1,s1,p0</text>
    <text text-anchor="middle" x="200" y="389" class="fil3 fnt0">BN=F, HB=T, None</text>
-   <text text-anchor="middle" x="200" y="418" class="fil3 fnt0">RF - 57x57</text>
+   <text text-anchor="middle" x="200" y="418" class="fil3 fnt0">RF - 43x43</text>
    <text text-anchor="middle" x="200" y="447" class="fil3 fnt0">Dims - 512x40x40</text>
  
     <rect class="fil_p str3" x="330" y="351" width="354.23" height="22.7269"/>
@@ -526,7 +526,7 @@ viewBox="0 0 viewboxx viewboxy"
    <path class="Fill_Last str1" d="M96 428l209 0 0 23c0,3 -3,6 -7,6l-195 0c-4,0 -7,-3 -7,-6l0 -23 0 0z"/>
    <text text-anchor="middle" x="200" y="360" class="fil3 fnt0">Conv2D -  c512,k1,s2,p0</text>
    <text text-anchor="middle" x="200" y="389" class="fil3 fnt0">BN=F, HB=T, None</text>
-   <text text-anchor="middle" x="200" y="418" class="fil3 fnt0">RF - 45x45</text>
+   <text text-anchor="middle" x="200" y="418" class="fil3 fnt0">RF - 35x35</text>
    <text text-anchor="middle" x="200" y="447" class="fil3 fnt0">Dims - 512x40x40</text>
  
     <rect class="fil_p str3" x="330" y="351" width="354.23" height="22.7269"/>
@@ -549,7 +549,7 @@ viewBox="0 0 viewboxx viewboxy"
    <path class="Fill_Last str1" d="M96 428l209 0 0 23c0,3 -3,6 -7,6l-195 0c-4,0 -7,-3 -7,-6l0 -23 0 0z"/>
    <text text-anchor="middle" x="200" y="360" class="fil3 fnt0">ShortCut</text>
    <text text-anchor="middle" x="200" y="389" class="fil3 fnt0">ReLU</text>
-   <text text-anchor="middle" x="200" y="418" class="fil3 fnt0">RF - 57x57</text>
+   <text text-anchor="middle" x="200" y="418" class="fil3 fnt0">RF - 43x43</text>
    <text text-anchor="middle" x="200" y="447" class="fil3 fnt0">Dims - 512x40x40</text>
  
     <rect class="fil_p str3" x="330" y="351" width="0" height="22.7269"/>
@@ -575,7 +575,7 @@ viewBox="0 0 viewboxx viewboxy"
    <path class="Fill_Last str1" d="M96 428l209 0 0 23c0,3 -3,6 -7,6l-195 0c-4,0 -7,-3 -7,-6l0 -23 0 0z"/>
    <text text-anchor="middle" x="200" y="360" class="fil3 fnt0">Conv2D -  c256,k1,s1,p0</text>
    <text text-anchor="middle" x="200" y="389" class="fil3 fnt0">BN=F, HB=T, ReLU</text>
-   <text text-anchor="middle" x="200" y="418" class="fil3 fnt0">RF - 57x57</text>
+   <text text-anchor="middle" x="200" y="418" class="fil3 fnt0">RF - 43x43</text>
    <text text-anchor="middle" x="200" y="447" class="fil3 fnt0">Dims - 256x40x40</text>
  
     <rect class="fil_p str3" x="330" y="351" width="353.54" height="22.7269"/>
@@ -598,7 +598,7 @@ viewBox="0 0 viewboxx viewboxy"
    <path class="Fill_Last str1" d="M96 428l209 0 0 23c0,3 -3,6 -7,6l-195 0c-4,0 -7,-3 -7,-6l0 -23 0 0z"/>
    <text text-anchor="middle" x="200" y="360" class="fil3 fnt0">Conv2D -  c256,k3,s1,p1</text>
    <text text-anchor="middle" x="200" y="389" class="fil3 fnt0">BN=F, HB=T, ReLU</text>
-   <text text-anchor="middle" x="200" y="418" class="fil3 fnt0">RF - 81x81</text>
+   <text text-anchor="middle" x="200" y="418" class="fil3 fnt0">RF - 59x59</text>
    <text text-anchor="middle" x="200" y="447" class="fil3 fnt0">Dims - 256x40x40</text>
  
     <rect class="fil_p str3" x="330" y="351" width="1588.5" height="22.7269"/>
@@ -621,7 +621,7 @@ viewBox="0 0 viewboxx viewboxy"
    <path class="Fill_Last str1" d="M96 428l209 0 0 23c0,3 -3,6 -7,6l-195 0c-4,0 -7,-3 -7,-6l0 -23 0 0z"/>
    <text text-anchor="middle" x="200" y="360" class="fil3 fnt0">Conv2D -  c512,k1,s1,p0</text>
    <text text-anchor="middle" x="200" y="389" class="fil3 fnt0">BN=F, HB=T, None</text>
-   <text text-anchor="middle" x="200" y="418" class="fil3 fnt0">RF - 81x81</text>
+   <text text-anchor="middle" x="200" y="418" class="fil3 fnt0">RF - 59x59</text>
    <text text-anchor="middle" x="200" y="447" class="fil3 fnt0">Dims - 512x40x40</text>
  
     <rect class="fil_p str3" x="330" y="351" width="354.23" height="22.7269"/>
@@ -644,7 +644,7 @@ viewBox="0 0 viewboxx viewboxy"
    <path class="Fill_Last str1" d="M96 428l209 0 0 23c0,3 -3,6 -7,6l-195 0c-4,0 -7,-3 -7,-6l0 -23 0 0z"/>
    <text text-anchor="middle" x="200" y="360" class="fil3 fnt0">ShortCut</text>
    <text text-anchor="middle" x="200" y="389" class="fil3 fnt0">ReLU</text>
-   <text text-anchor="middle" x="200" y="418" class="fil3 fnt0">RF - 81x81</text>
+   <text text-anchor="middle" x="200" y="418" class="fil3 fnt0">RF - 59x59</text>
    <text text-anchor="middle" x="200" y="447" class="fil3 fnt0">Dims - 512x40x40</text>
  
     <rect class="fil_p str3" x="330" y="351" width="0" height="22.7269"/>
@@ -670,7 +670,7 @@ viewBox="0 0 viewboxx viewboxy"
    <path class="Fill_Last str1" d="M96 428l209 0 0 23c0,3 -3,6 -7,6l-195 0c-4,0 -7,-3 -7,-6l0 -23 0 0z"/>
    <text text-anchor="middle" x="200" y="360" class="fil3 fnt0">Conv2D -  c256,k1,s1,p0</text>
    <text text-anchor="middle" x="200" y="389" class="fil3 fnt0">BN=F, HB=T, ReLU</text>
-   <text text-anchor="middle" x="200" y="418" class="fil3 fnt0">RF - 81x81</text>
+   <text text-anchor="middle" x="200" y="418" class="fil3 fnt0">RF - 59x59</text>
    <text text-anchor="middle" x="200" y="447" class="fil3 fnt0">Dims - 256x40x40</text>
  
     <rect class="fil_p str3" x="330" y="351" width="353.54" height="22.7269"/>
@@ -693,7 +693,7 @@ viewBox="0 0 viewboxx viewboxy"
    <path class="Fill_Last str1" d="M96 428l209 0 0 23c0,3 -3,6 -7,6l-195 0c-4,0 -7,-3 -7,-6l0 -23 0 0z"/>
    <text text-anchor="middle" x="200" y="360" class="fil3 fnt0">Conv2D -  c256,k3,s1,p1</text>
    <text text-anchor="middle" x="200" y="389" class="fil3 fnt0">BN=F, HB=T, ReLU</text>
-   <text text-anchor="middle" x="200" y="418" class="fil3 fnt0">RF - 105x105</text>
+   <text text-anchor="middle" x="200" y="418" class="fil3 fnt0">RF - 75x75</text>
    <text text-anchor="middle" x="200" y="447" class="fil3 fnt0">Dims - 256x40x40</text>
  
     <rect class="fil_p str3" x="330" y="351" width="1588.5" height="22.7269"/>
@@ -716,7 +716,7 @@ viewBox="0 0 viewboxx viewboxy"
    <path class="Fill_Last str1" d="M96 428l209 0 0 23c0,3 -3,6 -7,6l-195 0c-4,0 -7,-3 -7,-6l0 -23 0 0z"/>
    <text text-anchor="middle" x="200" y="360" class="fil3 fnt0">Conv2D -  c512,k1,s1,p0</text>
    <text text-anchor="middle" x="200" y="389" class="fil3 fnt0">BN=F, HB=T, None</text>
-   <text text-anchor="middle" x="200" y="418" class="fil3 fnt0">RF - 105x105</text>
+   <text text-anchor="middle" x="200" y="418" class="fil3 fnt0">RF - 75x75</text>
    <text text-anchor="middle" x="200" y="447" class="fil3 fnt0">Dims - 512x40x40</text>
  
     <rect class="fil_p str3" x="330" y="351" width="354.23" height="22.7269"/>
@@ -739,7 +739,7 @@ viewBox="0 0 viewboxx viewboxy"
    <path class="Fill_Last str1" d="M96 428l209 0 0 23c0,3 -3,6 -7,6l-195 0c-4,0 -7,-3 -7,-6l0 -23 0 0z"/>
    <text text-anchor="middle" x="200" y="360" class="fil3 fnt0">ShortCut</text>
    <text text-anchor="middle" x="200" y="389" class="fil3 fnt0">ReLU</text>
-   <text text-anchor="middle" x="200" y="418" class="fil3 fnt0">RF - 105x105</text>
+   <text text-anchor="middle" x="200" y="418" class="fil3 fnt0">RF - 75x75</text>
    <text text-anchor="middle" x="200" y="447" class="fil3 fnt0">Dims - 512x40x40</text>
  
     <rect class="fil_p str3" x="330" y="351" width="0" height="22.7269"/>
@@ -765,7 +765,7 @@ viewBox="0 0 viewboxx viewboxy"
    <path class="Fill_Last str1" d="M96 428l209 0 0 23c0,3 -3,6 -7,6l-195 0c-4,0 -7,-3 -7,-6l0 -23 0 0z"/>
    <text text-anchor="middle" x="200" y="360" class="fil3 fnt0">Conv2D -  c256,k1,s1,p0</text>
    <text text-anchor="middle" x="200" y="389" class="fil3 fnt0">BN=F, HB=T, ReLU</text>
-   <text text-anchor="middle" x="200" y="418" class="fil3 fnt0">RF - 105x105</text>
+   <text text-anchor="middle" x="200" y="418" class="fil3 fnt0">RF - 75x75</text>
    <text text-anchor="middle" x="200" y="447" class="fil3 fnt0">Dims - 256x40x40</text>
  
     <rect class="fil_p str3" x="330" y="351" width="353.54" height="22.7269"/>
@@ -788,7 +788,7 @@ viewBox="0 0 viewboxx viewboxy"
    <path class="Fill_Last str1" d="M96 428l209 0 0 23c0,3 -3,6 -7,6l-195 0c-4,0 -7,-3 -7,-6l0 -23 0 0z"/>
    <text text-anchor="middle" x="200" y="360" class="fil3 fnt0">Conv2D -  c256,k3,s1,p1</text>
    <text text-anchor="middle" x="200" y="389" class="fil3 fnt0">BN=F, HB=T, ReLU</text>
-   <text text-anchor="middle" x="200" y="418" class="fil3 fnt0">RF - 129x129</text>
+   <text text-anchor="middle" x="200" y="418" class="fil3 fnt0">RF - 91x91</text>
    <text text-anchor="middle" x="200" y="447" class="fil3 fnt0">Dims - 256x40x40</text>
  
     <rect class="fil_p str3" x="330" y="351" width="1588.5" height="22.7269"/>
@@ -811,7 +811,7 @@ viewBox="0 0 viewboxx viewboxy"
    <path class="Fill_Last str1" d="M96 428l209 0 0 23c0,3 -3,6 -7,6l-195 0c-4,0 -7,-3 -7,-6l0 -23 0 0z"/>
    <text text-anchor="middle" x="200" y="360" class="fil3 fnt0">Conv2D -  c512,k1,s1,p0</text>
    <text text-anchor="middle" x="200" y="389" class="fil3 fnt0">BN=F, HB=T, None</text>
-   <text text-anchor="middle" x="200" y="418" class="fil3 fnt0">RF - 129x129</text>
+   <text text-anchor="middle" x="200" y="418" class="fil3 fnt0">RF - 91x91</text>
    <text text-anchor="middle" x="200" y="447" class="fil3 fnt0">Dims - 512x40x40</text>
  
     <rect class="fil_p str3" x="330" y="351" width="354.23" height="22.7269"/>
@@ -834,7 +834,7 @@ viewBox="0 0 viewboxx viewboxy"
    <path class="Fill_Last str1" d="M96 428l209 0 0 23c0,3 -3,6 -7,6l-195 0c-4,0 -7,-3 -7,-6l0 -23 0 0z"/>
    <text text-anchor="middle" x="200" y="360" class="fil3 fnt0">ShortCut</text>
    <text text-anchor="middle" x="200" y="389" class="fil3 fnt0">ReLU</text>
-   <text text-anchor="middle" x="200" y="418" class="fil3 fnt0">RF - 129x129</text>
+   <text text-anchor="middle" x="200" y="418" class="fil3 fnt0">RF - 91x91</text>
    <text text-anchor="middle" x="200" y="447" class="fil3 fnt0">Dims - 512x40x40</text>
  
     <rect class="fil_p str3" x="330" y="351" width="0" height="22.7269"/>
@@ -858,7 +858,7 @@ viewBox="0 0 viewboxx viewboxy"
      <polygon class="Fill_Middle str1" points="96,309 305,309 305,280 96,280 "/>
      <path class="Fill_Last str1" d="M96 309l209 0 0 22c0,4 -4,7 -7,7l-195 0c-3,0 -7,-3 -7,-7l0 -22 0 0z"/>
      <text text-anchor="middle" x="200" y="271" class="fil3 fnt0">AvgPool - 3x3/1x1/1x1</text>
-     <text text-anchor="middle" x="200" y="300" class="fil3 fnt0">RF - 153x153</text>
+     <text text-anchor="middle" x="200" y="300" class="fil3 fnt0">RF - 107x107</text>
      <text text-anchor="middle" x="200" y="329" class="fil3 fnt0">Dims - 512x40x40</text>
 
     <rect class="fil_p str3" x="330" y="247" width="0" height="22.7269"/>
@@ -881,7 +881,7 @@ viewBox="0 0 viewboxx viewboxy"
    <path class="Fill_Last str1" d="M96 428l209 0 0 23c0,3 -3,6 -7,6l-195 0c-4,0 -7,-3 -7,-6l0 -23 0 0z"/>
    <text text-anchor="middle" x="200" y="360" class="fil3 fnt0">Conv2D -  c2000,k1,s1,p0</text>
    <text text-anchor="middle" x="200" y="389" class="fil3 fnt0">BN=F, HB=F, None</text>
-   <text text-anchor="middle" x="200" y="418" class="fil3 fnt0">RF - 153x153</text>
+   <text text-anchor="middle" x="200" y="418" class="fil3 fnt0">RF - 107x107</text>
    <text text-anchor="middle" x="200" y="447" class="fil3 fnt0">Dims - 2000x40x40</text>
  
     <rect class="fil_p str3" x="330" y="351" width="2762" height="22.7269"/>
