@@ -21,8 +21,8 @@
 
 | Name                                         | Version | Requirement        | Notes        |
 |----------------------------------------------|---------|--------------------|--------------------|
-| [DeepLTK_Anomaly_Detection_Addon](https://www.vipm.io/package/ngene_deepltk_patchcore_anomaly_detection_addon/) | 2.1.3.27   | Required            |  |
-| [DeepLTK](https://www.ngene.co/deep-learning-toolkit-for-labview) | 9.0.1.280   | Required            | v9.0.1.280 or later. |
+| [DeepLTK_Anomaly_Detection_Addon](https://www.vipm.io/package/ngene_deepltk_patchcore_anomaly_detection_addon/) | 3.0.1.30   | Required            |  |
+| [DeepLTK](https://www.ngene.co/deep-learning-toolkit-for-labview) | 9.0.2.281   | Required            | v9.0.2.281 or later. |
 | [CuLab](https://www.ngene.co/gpu-toolkit-for-labview)     | 4.1.2.80   | Optional           | Using CuLab significantly accelerates both training and inference (up to 50x) with GPUs. 
 
 
