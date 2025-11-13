@@ -1,9 +1,8 @@
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/c572f8ba-135c-4546-b6d8-277716fc830e" width="50%" />
+  <img src="https://github.com/user-attachments/assets/c572f8ba-135c-4546-b6d8-277716fc830e" width="40%" />
 </p>
 
 ---
-
 # Unsupervised Visual Anomaly Detection
 <div align="center">
 
@@ -14,16 +13,16 @@
 
 
 
-#### This example demonstrates the use of [DeepLTK](https://www.ngene.co/deep-learning-toolkit-for-labview) for solving visual anomaly detection problems. <br> Detailed instructions can be found in the [blog post](https://www.ngene.co/post/deepltk-tutorial-3-6-visual-anomaly-detection).  
+#### This example demonstrates the use of [UVAD: Unsupervised Visual Anomly Detetction Addon]([https://www.ngene.co/deep-learning-toolkit-for-labview](https://www.ngene.co/uvad-add-on-for-deepltk)) and  [DeepLTK](https://www.ngene.co/deep-learning-toolkit-for-labview) for solving visual anomaly detection problems. <br> Detailed instructions can be found in the [blog post](https://www.ngene.co/post/deepltk-tutorial-3-6-visual-anomaly-detection).  
 
 
 ## Dependencies
 
 | Name                                         | Version | Requirement        | Notes        |
 |----------------------------------------------|---------|--------------------|--------------------|
-| [DeepLTK_Anomaly_Detection_Addon](https://www.vipm.io/package/ngene_deepltk_patchcore_anomaly_detection_addon/) | 3.0.1.30   | Required            |  |
-| [DeepLTK](https://www.ngene.co/deep-learning-toolkit-for-labview) | 9.0.2.281   | Required            | v9.0.2.281 or later. |
-| [CuLab](https://www.ngene.co/gpu-toolkit-for-labview)     | 4.1.2.80   | Optional           | Using CuLab significantly accelerates both training and inference (up to 50x) with GPUs. 
+| [DeepLTK_Anomaly_Detection_Addon](https://www.vipm.io/package/ngene_deepltk_patchcore_anomaly_detection_addon/) | 3.0.1.32   | Required            |  |
+| [DeepLTK](https://www.ngene.co/deep-learning-toolkit-for-labview) | 9.0.2.281   | Required            |  |
+| [CuLab](https://www.ngene.co/gpu-toolkit-for-labview)     | 4.1.2.80   | Optional           | To speed up training and infrence by 50x with help of GPUs 
 
 
 
