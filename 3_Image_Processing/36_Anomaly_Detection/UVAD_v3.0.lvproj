@@ -83,8 +83,8 @@
 		<Item Name="2_1_VisualAD_Inference(Image).vi" Type="VI" URL="../2_1_VisualAD_Inference(Image).vi"/>
 		<Item Name="2_2_VisualAD_Inference(Camera).vi" Type="VI" URL="../2_2_VisualAD_Inference(Camera).vi"/>
 		<Item Name="3_VisualAD_Report(Dataset).vi" Type="VI" URL="../3_VisualAD_Report(Dataset).vi"/>
-		<Item Name="5_VisualAD_HyperParam_Search.vi" Type="VI" URL="../5_VisualAD_HyperParam_Search.vi"/>
-		<Item Name="Enabling_GPU_Acceleration_v3.0.pdf" Type="Document" URL="../../../../../Projects_SVN/AD/Projects/Reference/VAD_(Ref_v3.0)/TOP_VIs/Enabling_GPU_Acceleration_v3.0.pdf"/>
+		<Item Name="4_VisualAD_HyperParam_Search.vi" Type="VI" URL="../4_VisualAD_HyperParam_Search.vi"/>
+		<Item Name="Enabling_GPU_Acceleration_v3.0.1.pdf" Type="Document" URL="../Enabling_GPU_Acceleration_v3.0.1.pdf"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
@@ -234,7 +234,6 @@
 			<Item Name="curand64_10.dll" Type="Document" URL="/&lt;resource&gt;/curand64_10.dll"/>
 			<Item Name="DEEPLTK_KEYLIB64.dll" Type="Document" URL="/&lt;resource&gt;/DEEPLTK_KEYLIB64.dll"/>
 			<Item Name="DEEPLTK_SKCA64.dll" Type="Document" URL="/&lt;resource&gt;/DEEPLTK_SKCA64.dll"/>
-			<Item Name="Image_Stats_RGB.ctl" Type="VI" URL="../../DeepLTK_Anomaly_Detection_Addon/API/Controls/Image_Stats_RGB.ctl"/>
 			<Item Name="libiomp5md.dll" Type="Document" URL="/&lt;resource&gt;/libiomp5md.dll"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="lvblas.dll" Type="Document" URL="/&lt;resource&gt;/lvblas.dll"/>
@@ -252,8 +251,6 @@
 			</Item>
 			<Item Name="nnb_mkl64.dll" Type="Document" URL="/&lt;resource&gt;/nnb_mkl64.dll"/>
 			<Item Name="nng64_7_1.dll" Type="Document" URL="/&lt;resource&gt;/nng64_7_1.dll"/>
-			<Item Name="NNPC_DS_Stats.ctl" Type="VI" URL="../../DeepLTK_Anomaly_Detection_Addon/API/Controls/NNPC_DS_Stats.ctl"/>
-			<Item Name="NNPC_PreProcessing_Options.ctl" Type="VI" URL="../../DeepLTK_Anomaly_Detection_Addon/API/Controls/NNPC_PreProcessing_Options.ctl"/>
 			<Item Name="nppc64_11.dll" Type="Document" URL="/&lt;resource&gt;/nppc64_11.dll"/>
 			<Item Name="nppc64_12.dll" Type="Document" URL="/&lt;resource&gt;/nppc64_12.dll"/>
 			<Item Name="nppidei64_11.dll" Type="Document" URL="/&lt;resource&gt;/nppidei64_11.dll"/>
