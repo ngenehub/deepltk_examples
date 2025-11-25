@@ -31,10 +31,11 @@
 # Project Contents
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/308a7ae6-8330-4930-963a-71c114dca41d" />
+  <img src="https://github.com/user-attachments/assets/97d69a2b-bc7f-4194-85eb-27bb88087474" />
 </p>
 
 <br/>
+
 
 ## 1_VisualAD_Train_Eval_Investigate.vi
 Train, evaluate and investigate the anomaly detection model.
@@ -84,14 +85,14 @@ Generate and save detection results for the dataset.
 <div align="center"><i>Block Diagram of Report Dataset VI.</i></div>
 <br/>
 
-## 5_VisualAD_HyperParam_Search.vi
+## 4_VisualAD_HyperParam_Search.vi
 Automates hyperparameter tuning and identifies the best performing model.
 
-<img width="1465" height="925" alt="image" src="https://github.com/user-attachments/assets/f62a4e65-37e0-439d-a8d9-93986bf6237d" />
+<img width="1465" height="925" alt="image" src="https://github.com/user-attachments/assets/ea1da0e9-7af4-4b5d-bf65-0db2418ea02f" />
 <div align="center"><i>Front Panel (Tab 1) of Hyperparameter Search VI.</i></div>
 <br/>
 
-<img width="1465" height="925" alt="image" src="https://github.com/user-attachments/assets/28de1e4b-e432-406a-805e-7f50823b0f3e" />
+<img width="1465" height="925" alt="image" src="https://github.com/user-attachments/assets/f30a7477-7fc0-483c-bee7-a9c60e214ba1" />
 <div align="center"><i>Front Panel (Tab 2) of Hyperparameter Search VI.</i></div>
 <br/>
 <br/>
