@@ -25,27 +25,26 @@
 | [CuLab](https://www.ngene.co/gpu-toolkit-for-labview)     | 4.1.2.80   | Optional           | To speed up training and infrence by 50x with help of GPUs 
 
 
-
 ----
 
 # Project Contents
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/97d69a2b-bc7f-4194-85eb-27bb88087474" />
+  <img src="https://github.com/user-attachments/assets/1bdd056f-3649-429d-a5fa-f70d80023393" />
 </p>
 
 <br/>
 
 
-## 1_VisualAD_Train_Eval_Investigate.vi
-Train, evaluate and investigate the anomaly detection model.
+## 1_1_VisualAD_Train_Eval_Test.vi
+Train, evaluate and test the anomaly detection model.
 
-![1_VisualAD_Train_Eval_Investigate (1)](https://github.com/user-attachments/assets/4b007459-1322-49c1-b0ea-359d5d8610e1)  
-<div align="center"><i>Front Panel (Tab 1) of Train, Eval, Investigate VI.</i></div>
+![1_1_VisualAD_Train_Eval_Test (1)](https://github.com/user-attachments/assets/aa346cf8-dde0-4d97-8406-c83b4bc9f70a)  
+<div align="center"><i>Front Panel (Tab 1) of Train, Eval, Test VI.</i></div>
 <br/>
 
-![1_VisualAD_Train_Eval_Investigate (2)](https://github.com/user-attachments/assets/8857b862-9659-4311-b779-234eacf09451)  
-<div align="center"><i>Front Panel (Tab 2) of Train, Eval, Investigate VI.</i></div>
+![1_VisualAD_Train_Eval_Investigate (2)](https://github.com/user-attachments/assets/9dc7df72-b3dd-4efb-b641-ef9e27ffe9be)  
+<div align="center"><i>Front Panel (Tab 2) of Train, Eval, Test VI.</i></div>
 <br/>
 
 <br/>
@@ -58,7 +57,7 @@ Inference for a single image.
 <div align="center"><i>Front Panel of Inference(Image) VI.</i></div>
 <br/>
 
-![2_VisualAD_Inference(Image)_BD](https://github.com/user-attachments/assets/f3b216cd-3c10-45af-9678-a3e7859f4298)
+![2_VisualAD_Inference(Image)_BD](https://github.com/user-attachments/assets/9feeab15-831b-40a8-ac0a-064dcc8129a7)
 <div align="center"><i>Block Diagram of Inference(Image) VI.</i></div>
 <br/>
 
@@ -66,36 +65,27 @@ Inference for a single image.
 
 Inference for a single image.
 
-![2_2_VisusalAD_Inference(Caamera)_FP](https://github.com/user-attachments/assets/b8730255-abb1-416a-96dc-324de533360f) <br/>
+![2_2_VisusalAD_Inference(Caamera)_FP](https://github.com/user-attachments/assets/143e0d3c-39a5-4cda-a9d7-53e1c5581c7f) <br/>
 <div align="center"><i>Front Panel of Inference(Camera) VI.</i></div>
 <br/>
 
-![2_2_VisualAD_Inference(Camera)_BD](https://github.com/user-attachments/assets/b88fa52b-b0d8-4e21-a6de-ad34eeeb7523)
+![2_2_VisualAD_Inference(Camera)_BD](https://github.com/user-attachments/assets/2cd110a2-9320-4260-b11c-446d7330af14)
 <div align="center"><i>Block Diagram of Inference(Camera) VI.</i></div>
 <br/>
+
 
 ## 3_VisualAD_Report(Dataset).vi
 Generate and save detection results for the dataset.
 
-![3_VisualAD_Report(Dataset)_FP](https://github.com/user-attachments/assets/6b667325-df85-4a99-be57-c450ce226e07)  <br/>
+![3_VisualAD_Report(Dataset)_FP](https://github.com/user-attachments/assets/4a9d33f4-616a-4c2b-bb26-069d01ca2057)  <br/>
 <div align="center"><i>Front Panel of Report Dataset VI.</i></div>
 <br/>
 
-![3_VisualAD_Report(Dataset)_BD](https://github.com/user-attachments/assets/b62f6cca-d525-4e3c-9cf7-1a25454ee249)
+![3_VisualAD_Report(Dataset)_BD](https://github.com/user-attachments/assets/2961a954-6997-4f2e-afc0-3ff647efd56a)
 <div align="center"><i>Block Diagram of Report Dataset VI.</i></div>
 <br/>
 
-## 4_VisualAD_HyperParam_Search.vi
-Automates hyperparameter tuning and identifies the best performing model.
 
-<img width="1465" height="925" alt="image" src="https://github.com/user-attachments/assets/ea1da0e9-7af4-4b5d-bf65-0db2418ea02f" />
-<div align="center"><i>Front Panel (Tab 1) of Hyperparameter Search VI.</i></div>
-<br/>
-
-<img width="1465" height="925" alt="image" src="https://github.com/user-attachments/assets/f30a7477-7fc0-483c-bee7-a9c60e214ba1" />
-<div align="center"><i>Front Panel (Tab 2) of Hyperparameter Search VI.</i></div>
-<br/>
-<br/>
 
 <div align="center">
 
