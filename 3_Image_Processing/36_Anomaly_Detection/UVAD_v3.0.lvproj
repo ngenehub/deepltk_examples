@@ -67,6 +67,9 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Advanced" Type="Folder" URL="../Advanced">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="Dataset" Type="Folder" URL="../Dataset">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
@@ -79,11 +82,10 @@
 		<Item Name="subVIs" Type="Folder" URL="../subVIs">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="1_VisualAD_Train_Eval_Investigate.vi" Type="VI" URL="../1_VisualAD_Train_Eval_Investigate.vi"/>
+		<Item Name="1_1_VisualAD_Train_Eval_Test.vi" Type="VI" URL="../1_1_VisualAD_Train_Eval_Test.vi"/>
 		<Item Name="2_1_VisualAD_Inference(Image).vi" Type="VI" URL="../2_1_VisualAD_Inference(Image).vi"/>
 		<Item Name="2_2_VisualAD_Inference(Camera).vi" Type="VI" URL="../2_2_VisualAD_Inference(Camera).vi"/>
 		<Item Name="3_VisualAD_Report(Dataset).vi" Type="VI" URL="../3_VisualAD_Report(Dataset).vi"/>
-		<Item Name="4_VisualAD_HyperParam_Search.vi" Type="VI" URL="../4_VisualAD_HyperParam_Search.vi"/>
 		<Item Name="Enabling_GPU_Acceleration_v3.0.1.pdf" Type="Document" URL="../Enabling_GPU_Acceleration_v3.0.1.pdf"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
