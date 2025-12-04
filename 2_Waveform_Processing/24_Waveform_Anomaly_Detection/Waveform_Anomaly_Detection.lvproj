@@ -138,6 +138,8 @@
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="NI_PtbyPt.lvlib" Type="Library" URL="/&lt;vilib&gt;/ptbypt/NI_PtbyPt.lvlib"/>
 				<Item Name="nisyscfg.lvlib" Type="Library" URL="/&lt;vilib&gt;/nisyscfg/nisyscfg.lvlib"/>
+				<Item Name="NN_Data_ref(2D_SGL).ctl" Type="VI" URL="/&lt;vilib&gt;/Ngene/DeepLTK/Toolkit/NN_Data/API/DataRef_Types/NN_Data_ref(2D_SGL).ctl"/>
+				<Item Name="NN_DataSet(In1D_Out1D).ctl" Type="VI" URL="/&lt;vilib&gt;/Ngene/DeepLTK/Toolkit/NN_Data/API/DataSet_Types/NN_DataSet(In1D_Out1D).ctl"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Open File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Open File+.vi"/>
 				<Item Name="Open URL in Default Browser (path).vi" Type="VI" URL="/&lt;vilib&gt;/Platform/browser.llb/Open URL in Default Browser (path).vi"/>

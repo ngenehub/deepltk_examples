@@ -17,9 +17,6 @@
 		<Item Name="SubVI" Type="Folder" URL="../SubVI">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="working" Type="Folder" URL="../working">
-			<Property Name="NI.DISK" Type="Bool">true</Property>
-		</Item>
 		<Item Name="0_Analog_Meter_Reader(Dataset_Generation).vi" Type="VI" URL="../0_Analog_Meter_Reader(Dataset_Generation).vi"/>
 		<Item Name="1_Analog_Meter_Reader(Training).vi" Type="VI" URL="../1_Analog_Meter_Reader(Training).vi"/>
 		<Item Name="2_Analog_Meter_Reader(Evaluation).vi" Type="VI" URL="../2_Analog_Meter_Reader(Evaluation).vi"/>
@@ -41,13 +38,7 @@
 				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
-				<Item Name="Draw 1-Bit Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw 1-Bit Pixmap.vi"/>
-				<Item Name="Draw 4-Bit Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw 4-Bit Pixmap.vi"/>
-				<Item Name="Draw 8-Bit Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw 8-Bit Pixmap.vi"/>
 				<Item Name="Draw Flattened Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Flattened Pixmap.vi"/>
-				<Item Name="Draw True-Color Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw True-Color Pixmap.vi"/>
-				<Item Name="Draw Unflattened Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Unflattened Pixmap.vi"/>
-				<Item Name="Empty Picture" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Empty Picture"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
 				<Item Name="ErrWarn.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/ErrWarn.ctl"/>
@@ -58,7 +49,6 @@
 				<Item Name="Find First Error.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find First Error.vi"/>
 				<Item Name="Find Tag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find Tag.vi"/>
 				<Item Name="FixBadRect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/FixBadRect.vi"/>
-				<Item Name="Flatten Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pixmap.llb/Flatten Pixmap.vi"/>
 				<Item Name="Format Message String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Format Message String.vi"/>
 				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler Core CORE.vi"/>
 				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
@@ -106,19 +96,11 @@
 				<Item Name="NI_PtbyPt.lvlib" Type="Library" URL="/&lt;vilib&gt;/ptbypt/NI_PtbyPt.lvlib"/>
 				<Item Name="NI_Vision_Development_Module.lvlib" Type="Library" URL="/&lt;vilib&gt;/vision/NI_Vision_Development_Module.lvlib"/>
 				<Item Name="nisyscfg.lvlib" Type="Library" URL="/&lt;vilib&gt;/nisyscfg/nisyscfg.lvlib"/>
-				<Item Name="NN_Data_Get_ValByRef(2D_SGL).vi" Type="VI" URL="/&lt;vilib&gt;/Ngene/DeepLTK/Toolkit/NN_Data/subVIs/Get_Data_Vals/NN_Data_Get_ValByRef(2D_SGL).vi"/>
-				<Item Name="NN_Data_Get_ValByRef.vi" Type="VI" URL="/&lt;vilib&gt;/Ngene/DeepLTK/Toolkit/NN_Data/API/NN_Data_Get_ValByRef.vi"/>
-				<Item Name="NN_Data_ref(1D_I32).ctl" Type="VI" URL="/&lt;vilib&gt;/Ngene/Deep Learning Toolkit/Toolkit/NN_Data/API/DataRef_Types/NN_Data_ref(1D_I32).ctl"/>
-				<Item Name="NN_Data_ref(1D_I32).ctl" Type="VI" URL="/&lt;vilib&gt;/Ngene/DeepLTK/Toolkit/NN_Data/API/DataRef_Types/NN_Data_ref(1D_I32).ctl"/>
-				<Item Name="NN_Data_ref(2D_SGL).ctl" Type="VI" URL="/&lt;vilib&gt;/Ngene/Deep Learning Toolkit/Toolkit/NN_Data/API/DataRef_Types/NN_Data_ref(2D_SGL).ctl"/>
 				<Item Name="NN_Data_ref(2D_SGL).ctl" Type="VI" URL="/&lt;vilib&gt;/Ngene/DeepLTK/Toolkit/NN_Data/API/DataRef_Types/NN_Data_ref(2D_SGL).ctl"/>
-				<Item Name="NN_Data_ref(4D_SGL).ctl" Type="VI" URL="/&lt;vilib&gt;/Ngene/Deep Learning Toolkit/Toolkit/NN_Data/API/DataRef_Types/NN_Data_ref(4D_SGL).ctl"/>
 				<Item Name="NN_Data_ref(4D_SGL).ctl" Type="VI" URL="/&lt;vilib&gt;/Ngene/DeepLTK/Toolkit/NN_Data/API/DataRef_Types/NN_Data_ref(4D_SGL).ctl"/>
-				<Item Name="NN_DataSet(In3D_Out1D).ctl" Type="VI" URL="/&lt;vilib&gt;/Ngene/Deep Learning Toolkit/Toolkit/NN_Data/API/DataSet_Types/NN_DataSet(In3D_Out1D).ctl"/>
 				<Item Name="NN_DataSet(In3D_Out1D).ctl" Type="VI" URL="/&lt;vilib&gt;/Ngene/DeepLTK/Toolkit/NN_Data/API/DataSet_Types/NN_DataSet(In3D_Out1D).ctl"/>
 				<Item Name="NN_DataSets_All(In3D_Out1D).ctl" Type="VI" URL="/&lt;vilib&gt;/Ngene/DeepLTK/Toolkit/NN_Data/API/DataSet_Types/NN_DataSets_All(In3D_Out1D).ctl"/>
-				<Item Name="NN_Dims(C,H,W).ctl" Type="VI" URL="/&lt;vilib&gt;/Ngene/Deep Learning Toolkit/Toolkit/NN_Data/Controls/NN_Dims(C,H,W).ctl"/>
-				<Item Name="NN_Dims(C,H,W).ctl" Type="VI" URL="/&lt;vilib&gt;/Ngene/DeepLTK/Toolkit/NN_Data/controls/NN_Dims(C,H,W).ctl"/>
+				<Item Name="NN_Dims(C,H,W).ctl" Type="VI" URL="/&lt;vilib&gt;/Ngene/DeepLTK/Toolkit/NN_Data/Controls/NN_Dims(C,H,W).ctl"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Open File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Open File+.vi"/>
 				<Item Name="Open URL in Default Browser (path).vi" Type="VI" URL="/&lt;vilib&gt;/Platform/browser.llb/Open URL in Default Browser (path).vi"/>

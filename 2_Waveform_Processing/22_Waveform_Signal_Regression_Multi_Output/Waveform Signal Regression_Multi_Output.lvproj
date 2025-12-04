@@ -13,9 +13,6 @@
 		<Item Name="SubVIs" Type="Folder" URL="../SubVIs">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="working" Type="Folder" URL="../working">
-			<Property Name="NI.DISK" Type="Bool">true</Property>
-		</Item>
 		<Item Name="1_Waveform_Signal_Regression_Multi_Output(Training).vi" Type="VI" URL="../1_Waveform_Signal_Regression_Multi_Output(Training).vi"/>
 		<Item Name="2_Waveform_Signal_Regression_Multi_Output(Inference).vi" Type="VI" URL="../2_Waveform_Signal_Regression_Multi_Output(Inference).vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
