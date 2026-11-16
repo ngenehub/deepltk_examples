@@ -171,6 +171,7 @@
 				<Item Name="LVPointTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPointTypeDef.ctl"/>
 				<Item Name="LVPositionTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPositionTypeDef.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
+				<Item Name="NI_AAL_MathFunc.lvlib" Type="Library" URL="/&lt;vilib&gt;/gmath/NI_AAL_MathFunc.lvlib"/>
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 				<Item Name="NI_AALBLAS.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBLAS.lvlib"/>
 				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
@@ -214,31 +215,31 @@
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 				<Item Name="Write PNG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/png.llb/Write PNG File.vi"/>
 			</Item>
-			<Item Name="cublas64_11.dll" Type="Document" URL="/&lt;resource&gt;/cublas64_11.dll"/>
-			<Item Name="cublas64_12.dll" Type="Document" URL="/&lt;resource&gt;/cublas64_12.dll"/>
-			<Item Name="cublasLt64_11.dll" Type="Document" URL="/&lt;resource&gt;/cublasLt64_11.dll"/>
-			<Item Name="cublasLt64_12.dll" Type="Document" URL="/&lt;resource&gt;/cublasLt64_12.dll"/>
-			<Item Name="cudart64_12.dll" Type="Document" URL="/&lt;resource&gt;/cudart64_12.dll"/>
-			<Item Name="cudart64_110.dll" Type="Document" URL="/&lt;resource&gt;/cudart64_110.dll"/>
-			<Item Name="cudnn64_8.dll" Type="Document" URL="/&lt;resource&gt;/cudnn64_8.dll"/>
-			<Item Name="cudnn_adv_infer64_8.dll" Type="Document" URL="/&lt;resource&gt;/cudnn_adv_infer64_8.dll"/>
-			<Item Name="cudnn_adv_train64_8.dll" Type="Document" URL="/&lt;resource&gt;/cudnn_adv_train64_8.dll"/>
-			<Item Name="cudnn_cnn_infer64_8.dll" Type="Document" URL="/&lt;resource&gt;/cudnn_cnn_infer64_8.dll"/>
-			<Item Name="cudnn_cnn_train64_8.dll" Type="Document" URL="/&lt;resource&gt;/cudnn_cnn_train64_8.dll"/>
-			<Item Name="cudnn_ops_infer64_8.dll" Type="Document" URL="/&lt;resource&gt;/cudnn_ops_infer64_8.dll"/>
-			<Item Name="cudnn_ops_train64_8.dll" Type="Document" URL="/&lt;resource&gt;/cudnn_ops_train64_8.dll"/>
-			<Item Name="cufft64_10.dll" Type="Document" URL="/&lt;resource&gt;/cufft64_10.dll"/>
+			<Item Name="cublas64_13.dll" Type="Document" URL="/&lt;resource&gt;/cublas64_13.dll"/>
+			<Item Name="cublasLt64_13.dll" Type="Document" URL="/&lt;resource&gt;/cublasLt64_13.dll"/>
+			<Item Name="cudart64_13.dll" Type="Document" URL="/&lt;resource&gt;/cudart64_13.dll"/>
+			<Item Name="cudnn64_9.dll" Type="Document" URL="/&lt;resource&gt;/cudnn64_9.dll"/>
+			<Item Name="cudnn_cnn64_9.dll" Type="Document" URL="/&lt;resource&gt;/cudnn_cnn64_9.dll"/>
+			<Item Name="cudnn_graph64_9.dll" Type="Document" URL="/&lt;resource&gt;/cudnn_graph64_9.dll"/>
+			<Item Name="cudnn_ops64_9.dll" Type="Document" URL="/&lt;resource&gt;/cudnn_ops64_9.dll"/>
+			<Item Name="cufft64_12.dll" Type="Document" URL="/&lt;resource&gt;/cufft64_12.dll"/>
 			<Item Name="culab64_1_1.dll" Type="Document" URL="/&lt;resource&gt;/culab64_1_1.dll"/>
-			<Item Name="culab_compare64_1_1.dll" Type="Document" URL="/&lt;resource&gt;/culab_compare64_1_1.dll"/>
-			<Item Name="culab_cv64_1_1.dll" Type="Document" URL="/&lt;resource&gt;/culab_cv64_1_1.dll"/>
 			<Item Name="CULAB_KEYLIB64.dll" Type="Document" URL="/&lt;resource&gt;/CULAB_KEYLIB64.dll"/>
 			<Item Name="CULAB_SKCA64.dll" Type="Document" URL="/&lt;resource&gt;/CULAB_SKCA64.dll"/>
 			<Item Name="curand64_10.dll" Type="Document" URL="/&lt;resource&gt;/curand64_10.dll"/>
 			<Item Name="DEEPLTK_KEYLIB64.dll" Type="Document" URL="/&lt;resource&gt;/DEEPLTK_KEYLIB64.dll"/>
 			<Item Name="DEEPLTK_SKCA64.dll" Type="Document" URL="/&lt;resource&gt;/DEEPLTK_SKCA64.dll"/>
+			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 			<Item Name="libiomp5md.dll" Type="Document" URL="/&lt;resource&gt;/libiomp5md.dll"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="lvblas.dll" Type="Document" URL="/&lt;resource&gt;/lvblas.dll"/>
+			<Item Name="ngwrp_nppidei64_13.dll" Type="Document" URL="/&lt;resource&gt;/ngwrp_nppidei64_13.dll"/>
+			<Item Name="ngwrp_nppif64_13.dll" Type="Document" URL="/&lt;resource&gt;/ngwrp_nppif64_13.dll"/>
+			<Item Name="ngwrp_nppig64_13.dll" Type="Document" URL="/&lt;resource&gt;/ngwrp_nppig64_13.dll"/>
+			<Item Name="ngwrp_nppitc64_13.dll" Type="Document" URL="/&lt;resource&gt;/ngwrp_nppitc64_13.dll"/>
+			<Item Name="ngwrp_npps64_13.dll" Type="Document" URL="/&lt;resource&gt;/ngwrp_npps64_13.dll"/>
 			<Item Name="niimaqdx.dll" Type="Document" URL="niimaqdx.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -252,15 +253,14 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="nnb_mkl64.dll" Type="Document" URL="/&lt;resource&gt;/nnb_mkl64.dll"/>
-			<Item Name="nng64_7_1.dll" Type="Document" URL="/&lt;resource&gt;/nng64_7_1.dll"/>
-			<Item Name="nppc64_11.dll" Type="Document" URL="/&lt;resource&gt;/nppc64_11.dll"/>
-			<Item Name="nppc64_12.dll" Type="Document" URL="/&lt;resource&gt;/nppc64_12.dll"/>
-			<Item Name="nppidei64_11.dll" Type="Document" URL="/&lt;resource&gt;/nppidei64_11.dll"/>
-			<Item Name="nppif64_12.dll" Type="Document" URL="/&lt;resource&gt;/nppif64_12.dll"/>
-			<Item Name="nppig64_12.dll" Type="Document" URL="/&lt;resource&gt;/nppig64_12.dll"/>
-			<Item Name="nppitc64_12.dll" Type="Document" URL="/&lt;resource&gt;/nppitc64_12.dll"/>
-			<Item Name="npps64_11.dll" Type="Document" URL="/&lt;resource&gt;/npps64_11.dll"/>
-			<Item Name="npps64_12.dll" Type="Document" URL="/&lt;resource&gt;/npps64_12.dll"/>
+			<Item Name="nng64_10_1.dll" Type="Document" URL="/&lt;resource&gt;/nng64_10_1.dll"/>
+			<Item Name="nppc64_13.dll" Type="Document" URL="/&lt;resource&gt;/nppc64_13.dll"/>
+			<Item Name="nppidei64_13.dll" Type="Document" URL="/&lt;resource&gt;/nppidei64_13.dll"/>
+			<Item Name="nppif64_13.dll" Type="Document" URL="/&lt;resource&gt;/nppif64_13.dll"/>
+			<Item Name="nppig64_13.dll" Type="Document" URL="/&lt;resource&gt;/nppig64_13.dll"/>
+			<Item Name="nppim64_13.dll" Type="Document" URL="/&lt;resource&gt;/nppim64_13.dll"/>
+			<Item Name="nppitc64_13.dll" Type="Document" URL="/&lt;resource&gt;/nppitc64_13.dll"/>
+			<Item Name="npps64_13.dll" Type="Document" URL="/&lt;resource&gt;/npps64_13.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
